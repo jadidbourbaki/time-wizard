@@ -1,0 +1,11186 @@
+{
+ "coco_000000000064": {
+  "hours": 6,
+  "minutes": 9
+ },
+ "coco_000000000078": {
+  "hours": 8,
+  "minutes": 0
+ },
+ "coco_000000000338": {
+  "hours": 11,
+  "minutes": 10
+ },
+ "coco_000000000626": {
+  "hours": 2,
+  "minutes": 29
+ },
+ "coco_000000000801": {
+  "hours": 12,
+  "minutes": 50
+ },
+ "coco_000000001497": {
+  "hours": 7,
+  "minutes": 22
+ },
+ "coco_000000001505": {
+  "hours": 9,
+  "minutes": 30
+ },
+ "coco_000000002083": {
+  "hours": 9,
+  "minutes": 17
+ },
+ "coco_000000002276": {
+  "hours": 5,
+  "minutes": 50
+ },
+ "coco_000000002309": {
+  "hours": 10,
+  "minutes": 29
+ },
+ "coco_000000002448": {
+  "hours": 9,
+  "minutes": 27
+ },
+ "coco_000000002529": {
+  "hours": 4,
+  "minutes": 39
+ },
+ "coco_000000002591": {
+  "hours": 8,
+  "minutes": 19
+ },
+ "coco_000000003084": {
+  "hours": 12,
+  "minutes": 32
+ },
+ "coco_000000003149": {
+  "hours": 2,
+  "minutes": 36
+ },
+ "coco_000000003293": {
+  "hours": 9,
+  "minutes": 24
+ },
+ "coco_000000003314": {
+  "hours": 2,
+  "minutes": 4
+ },
+ "coco_000000004157": {
+  "hours": 2,
+  "minutes": 12
+ },
+ "coco_000000004415": {
+  "hours": 12,
+  "minutes": 35
+ },
+ "coco_000000004555": {
+  "hours": 1,
+  "minutes": 31
+ },
+ "coco_000000004714": {
+  "hours": 9,
+  "minutes": 6
+ },
+ "coco_000000004880": {
+  "hours": 4,
+  "minutes": 40
+ },
+ "coco_000000005046": {
+  "hours": 11,
+  "minutes": 58
+ },
+ "coco_000000005505": {
+  "hours": 3,
+  "minutes": 3
+ },
+ "coco_000000005758": {
+  "hours": 5,
+  "minutes": 51
+ },
+ "coco_000000005769": {
+  "hours": 1,
+  "minutes": 48
+ },
+ "coco_000000005809": {
+  "hours": 3,
+  "minutes": 50
+ },
+ "coco_000000006066": {
+  "hours": 3,
+  "minutes": 1
+ },
+ "coco_000000006075": {
+  "hours": 9,
+  "minutes": 15
+ },
+ "coco_000000006160": {
+  "hours": 2,
+  "minutes": 25
+ },
+ "coco_000000006451": {
+  "hours": 7,
+  "minutes": 39
+ },
+ "coco_000000006518": {
+  "hours": 4,
+  "minutes": 17
+ },
+ "coco_000000006527": {
+  "hours": 11,
+  "minutes": 43
+ },
+ "coco_000000006810": {
+  "hours": 3,
+  "minutes": 22
+ },
+ "coco_000000007361": {
+  "hours": 10,
+  "minutes": 59
+ },
+ "coco_000000007753": {
+  "hours": 5,
+  "minutes": 37
+ },
+ "coco_000000007888": {
+  "hours": 6,
+  "minutes": 55
+ },
+ "coco_000000007954": {
+  "hours": 1,
+  "minutes": 51
+ },
+ "coco_000000008218": {
+  "hours": 2,
+  "minutes": 29
+ },
+ "coco_000000008433": {
+  "hours": 5,
+  "minutes": 45
+ },
+ "coco_000000008498": {
+  "hours": 6,
+  "minutes": 19
+ },
+ "coco_000000008686": {
+  "hours": 11,
+  "minutes": 18
+ },
+ "coco_000000008791": {
+  "hours": 11,
+  "minutes": 15
+ },
+ "coco_000000008892": {
+  "hours": 1,
+  "minutes": 28
+ },
+ "coco_000000008998": {
+  "hours": 5,
+  "minutes": 10
+ },
+ "coco_000000009217": {
+  "hours": 11,
+  "minutes": 4
+ },
+ "coco_000000009274": {
+  "hours": 6,
+  "minutes": 9
+ },
+ "coco_000000009509": {
+  "hours": 2,
+  "minutes": 31
+ },
+ "coco_000000009620": {
+  "hours": 10,
+  "minutes": 41
+ },
+ "coco_000000009791": {
+  "hours": 2,
+  "minutes": 11
+ },
+ "coco_000000009833": {
+  "hours": 5,
+  "minutes": 16
+ },
+ "coco_000000010039": {
+  "hours": 11,
+  "minutes": 6
+ },
+ "coco_000000010125": {
+  "hours": 11,
+  "minutes": 19
+ },
+ "coco_000000010136": {
+  "hours": 8,
+  "minutes": 57
+ },
+ "coco_000000010400": {
+  "hours": 2,
+  "minutes": 1
+ },
+ "coco_000000010793": {
+  "hours": 3,
+  "minutes": 7
+ },
+ "coco_000000010964": {
+  "hours": 3,
+  "minutes": 45
+ },
+ "coco_000000011182": {
+  "hours": 2,
+  "minutes": 35
+ },
+ "coco_000000011264": {
+  "hours": 12,
+  "minutes": 59
+ },
+ "coco_000000011265": {
+  "hours": 3,
+  "minutes": 9
+ },
+ "coco_000000011712": {
+  "hours": 9,
+  "minutes": 12
+ },
+ "coco_000000011721": {
+  "hours": 10,
+  "minutes": 17
+ },
+ "coco_000000012107": {
+  "hours": 10,
+  "minutes": 45
+ },
+ "coco_000000012484": {
+  "hours": 8,
+  "minutes": 49
+ },
+ "coco_000000012959": {
+  "hours": 1,
+  "minutes": 15
+ },
+ "coco_000000013473": {
+  "hours": 3,
+  "minutes": 30
+ },
+ "coco_000000013603": {
+  "hours": 6,
+  "minutes": 9
+ },
+ "coco_000000014557": {
+  "hours": 6,
+  "minutes": 4
+ },
+ "coco_000000014736": {
+  "hours": 4,
+  "minutes": 28
+ },
+ "coco_000000014819": {
+  "hours": 5,
+  "minutes": 4
+ },
+ "coco_000000014974": {
+  "hours": 5,
+  "minutes": 9
+ },
+ "coco_000000015073": {
+  "hours": 6,
+  "minutes": 0
+ },
+ "coco_000000015514": {
+  "hours": 12,
+  "minutes": 50
+ },
+ "coco_000000015906": {
+  "hours": 2,
+  "minutes": 34
+ },
+ "coco_000000016038": {
+  "hours": 7,
+  "minutes": 0
+ },
+ "coco_000000016295": {
+  "hours": 4,
+  "minutes": 28
+ },
+ "coco_000000016525": {
+  "hours": 9,
+  "minutes": 2
+ },
+ "coco_000000016599": {
+  "hours": 4,
+  "minutes": 13
+ },
+ "coco_000000016720": {
+  "hours": 1,
+  "minutes": 19
+ },
+ "coco_000000016955": {
+  "hours": 7,
+  "minutes": 57
+ },
+ "coco_000000017203": {
+  "hours": 8,
+  "minutes": 34
+ },
+ "coco_000000017399": {
+  "hours": 10,
+  "minutes": 18
+ },
+ "coco_000000017429": {
+  "hours": 9,
+  "minutes": 17
+ },
+ "coco_000000017600": {
+  "hours": 10,
+  "minutes": 31
+ },
+ "coco_000000017870": {
+  "hours": 3,
+  "minutes": 32
+ },
+ "coco_000000017892": {
+  "hours": 2,
+  "minutes": 53
+ },
+ "coco_000000017896": {
+  "hours": 11,
+  "minutes": 47
+ },
+ "coco_000000017944": {
+  "hours": 3,
+  "minutes": 23
+ },
+ "coco_000000017946": {
+  "hours": 7,
+  "minutes": 10
+ },
+ "coco_000000018078": {
+  "hours": 10,
+  "minutes": 5
+ },
+ "coco_000000018350": {
+  "hours": 8,
+  "minutes": 24
+ },
+ "coco_000000018584": {
+  "hours": 11,
+  "minutes": 49
+ },
+ "coco_000000018802": {
+  "hours": 3,
+  "minutes": 45
+ },
+ "coco_000000019899": {
+  "hours": 6,
+  "minutes": 40
+ },
+ "coco_000000019927": {
+  "hours": 2,
+  "minutes": 36
+ },
+ "coco_000000019941": {
+  "hours": 10,
+  "minutes": 16
+ },
+ "coco_000000020145": {
+  "hours": 7,
+  "minutes": 0
+ },
+ "coco_000000020281": {
+  "hours": 6,
+  "minutes": 59
+ },
+ "coco_000000020517": {
+  "hours": 7,
+  "minutes": 11
+ },
+ "coco_000000020563": {
+  "hours": 10,
+  "minutes": 1
+ },
+ "coco_000000020839": {
+  "hours": 1,
+  "minutes": 15
+ },
+ "coco_000000021384": {
+  "hours": 2,
+  "minutes": 36
+ },
+ "coco_000000021969": {
+  "hours": 12,
+  "minutes": 55
+ },
+ "coco_000000022164": {
+  "hours": 4,
+  "minutes": 28
+ },
+ "coco_000000022256": {
+  "hours": 12,
+  "minutes": 59
+ },
+ "coco_000000022880": {
+  "hours": 12,
+  "minutes": 6
+ },
+ "coco_000000023718": {
+  "hours": 11,
+  "minutes": 45
+ },
+ "coco_000000023759": {
+  "hours": 2,
+  "minutes": 0
+ },
+ "coco_000000023929": {
+  "hours": 11,
+  "minutes": 34
+ },
+ "coco_000000024019": {
+  "hours": 8,
+  "minutes": 20
+ },
+ "coco_000000024765": {
+  "hours": 1,
+  "minutes": 41
+ },
+ "coco_000000025195": {
+  "hours": 12,
+  "minutes": 0
+ },
+ "coco_000000025252": {
+  "hours": 3,
+  "minutes": 19
+ },
+ "coco_000000025457": {
+  "hours": 12,
+  "minutes": 49
+ },
+ "coco_000000026227": {
+  "hours": 12,
+  "minutes": 24
+ },
+ "coco_000000026924": {
+  "hours": 10,
+  "minutes": 25
+ },
+ "coco_000000027151": {
+  "hours": 1,
+  "minutes": 16
+ },
+ "coco_000000027585": {
+  "hours": 4,
+  "minutes": 38
+ },
+ "coco_000000027840": {
+  "hours": 2,
+  "minutes": 0
+ },
+ "coco_000000028385": {
+  "hours": 1,
+  "minutes": 44
+ },
+ "coco_000000028655": {
+  "hours": 4,
+  "minutes": 32
+ },
+ "coco_000000028876": {
+  "hours": 10,
+  "minutes": 28
+ },
+ "coco_000000029125": {
+  "hours": 8,
+  "minutes": 50
+ },
+ "coco_000000029586": {
+  "hours": 5,
+  "minutes": 14
+ },
+ "coco_000000030353": {
+  "hours": 8,
+  "minutes": 36
+ },
+ "coco_000000030431": {
+  "hours": 5,
+  "minutes": 5
+ },
+ "coco_000000030470": {
+  "hours": 4,
+  "minutes": 26
+ },
+ "coco_000000031749": {
+  "hours": 10,
+  "minutes": 24
+ },
+ "coco_000000032328": {
+  "hours": 11,
+  "minutes": 47
+ },
+ "coco_000000032413": {
+  "hours": 3,
+  "minutes": 40
+ },
+ "coco_000000032812": {
+  "hours": 11,
+  "minutes": 14
+ },
+ "coco_000000033499": {
+  "hours": 3,
+  "minutes": 2
+ },
+ "coco_000000034826": {
+  "hours": 12,
+  "minutes": 21
+ },
+ "coco_000000035303": {
+  "hours": 4,
+  "minutes": 54
+ },
+ "coco_000000035760": {
+  "hours": 4,
+  "minutes": 30
+ },
+ "coco_000000035964": {
+  "hours": 11,
+  "minutes": 34
+ },
+ "coco_000000036110": {
+  "hours": 1,
+  "minutes": 44
+ },
+ "coco_000000036149": {
+  "hours": 9,
+  "minutes": 44
+ },
+ "coco_000000036939": {
+  "hours": 12,
+  "minutes": 41
+ },
+ "coco_000000037125": {
+  "hours": 3,
+  "minutes": 7
+ },
+ "coco_000000037389": {
+  "hours": 10,
+  "minutes": 26
+ },
+ "coco_000000038488": {
+  "hours": 5,
+  "minutes": 20
+ },
+ "coco_000000038540": {
+  "hours": 1,
+  "minutes": 19
+ },
+ "coco_000000038722": {
+  "hours": 6,
+  "minutes": 14
+ },
+ "coco_000000039359": {
+  "hours": 8,
+  "minutes": 11
+ },
+ "coco_000000040259": {
+  "hours": 3,
+  "minutes": 31
+ },
+ "coco_000000040711": {
+  "hours": 12,
+  "minutes": 1
+ },
+ "coco_000000041246": {
+  "hours": 1,
+  "minutes": 35
+ },
+ "coco_000000041322": {
+  "hours": 5,
+  "minutes": 47
+ },
+ "coco_000000041995": {
+  "hours": 9,
+  "minutes": 25
+ },
+ "coco_000000042371": {
+  "hours": 10,
+  "minutes": 20
+ },
+ "coco_000000042471": {
+  "hours": 5,
+  "minutes": 10
+ },
+ "coco_000000042529": {
+  "hours": 5,
+  "minutes": 5
+ },
+ "coco_000000042551": {
+  "hours": 12,
+  "minutes": 7
+ },
+ "coco_000000042711": {
+  "hours": 6,
+  "minutes": 36
+ },
+ "coco_000000042751": {
+  "hours": 7,
+  "minutes": 38
+ },
+ "coco_000000043150": {
+  "hours": 2,
+  "minutes": 17
+ },
+ "coco_000000043218": {
+  "hours": 8,
+  "minutes": 55
+ },
+ "coco_000000043286": {
+  "hours": 7,
+  "minutes": 12
+ },
+ "coco_000000043635": {
+  "hours": 6,
+  "minutes": 12
+ },
+ "coco_000000043737": {
+  "hours": 4,
+  "minutes": 25
+ },
+ "coco_000000043971": {
+  "hours": 10,
+  "minutes": 1
+ },
+ "coco_000000044352": {
+  "hours": 3,
+  "minutes": 50
+ },
+ "coco_000000044723": {
+  "hours": 3,
+  "minutes": 12
+ },
+ "coco_000000044792": {
+  "hours": 11,
+  "minutes": 17
+ },
+ "coco_000000045419": {
+  "hours": 4,
+  "minutes": 0
+ },
+ "coco_000000045478": {
+  "hours": 7,
+  "minutes": 56
+ },
+ "coco_000000046359": {
+  "hours": 4,
+  "minutes": 49
+ },
+ "coco_000000046603": {
+  "hours": 5,
+  "minutes": 35
+ },
+ "coco_000000047597": {
+  "hours": 3,
+  "minutes": 16
+ },
+ "coco_000000047611": {
+  "hours": 6,
+  "minutes": 9
+ },
+ "coco_000000048181": {
+  "hours": 3,
+  "minutes": 9
+ },
+ "coco_000000048972": {
+  "hours": 8,
+  "minutes": 51
+ },
+ "coco_000000049554": {
+  "hours": 10,
+  "minutes": 9
+ },
+ "coco_000000049667": {
+  "hours": 6,
+  "minutes": 4
+ },
+ "coco_000000049957": {
+  "hours": 4,
+  "minutes": 40
+ },
+ "coco_000000050232": {
+  "hours": 5,
+  "minutes": 43
+ },
+ "coco_000000050242": {
+  "hours": 7,
+  "minutes": 57
+ },
+ "coco_000000050602": {
+  "hours": 1,
+  "minutes": 48
+ },
+ "coco_000000050965": {
+  "hours": 11,
+  "minutes": 16
+ },
+ "coco_000000051198": {
+  "hours": 12,
+  "minutes": 40
+ },
+ "coco_000000051898": {
+  "hours": 10,
+  "minutes": 24
+ },
+ "coco_000000051941": {
+  "hours": 4,
+  "minutes": 56
+ },
+ "coco_000000052151": {
+  "hours": 8,
+  "minutes": 16
+ },
+ "coco_000000052761": {
+  "hours": 3,
+  "minutes": 44
+ },
+ "coco_000000053514": {
+  "hours": 12,
+  "minutes": 40
+ },
+ "coco_000000053542": {
+  "hours": 1,
+  "minutes": 1
+ },
+ "coco_000000053573": {
+  "hours": 9,
+  "minutes": 26
+ },
+ "coco_000000053952": {
+  "hours": 8,
+  "minutes": 42
+ },
+ "coco_000000054335": {
+  "hours": 4,
+  "minutes": 55
+ },
+ "coco_000000054336": {
+  "hours": 2,
+  "minutes": 26
+ },
+ "coco_000000054389": {
+  "hours": 1,
+  "minutes": 36
+ },
+ "coco_000000055460": {
+  "hours": 2,
+  "minutes": 46
+ },
+ "coco_000000055493": {
+  "hours": 8,
+  "minutes": 8
+ },
+ "coco_000000055524": {
+  "hours": 11,
+  "minutes": 2
+ },
+ "coco_000000056036": {
+  "hours": 6,
+  "minutes": 39
+ },
+ "coco_000000056849": {
+  "hours": 12,
+  "minutes": 50
+ },
+ "coco_000000057340": {
+  "hours": 10,
+  "minutes": 11
+ },
+ "coco_000000057731": {
+  "hours": 10,
+  "minutes": 32
+ },
+ "coco_000000057945": {
+  "hours": 5,
+  "minutes": 0
+ },
+ "coco_000000057965": {
+  "hours": 7,
+  "minutes": 26
+ },
+ "coco_000000058241": {
+  "hours": 6,
+  "minutes": 54
+ },
+ "coco_000000058597": {
+  "hours": 12,
+  "minutes": 16
+ },
+ "coco_000000058632": {
+  "hours": 1,
+  "minutes": 6
+ },
+ "coco_000000058655": {
+  "hours": 7,
+  "minutes": 34
+ },
+ "coco_000000058915": {
+  "hours": 11,
+  "minutes": 12
+ },
+ "coco_000000059399": {
+  "hours": 1,
+  "minutes": 31
+ },
+ "coco_000000059463": {
+  "hours": 11,
+  "minutes": 58
+ },
+ "coco_000000059718": {
+  "hours": 12,
+  "minutes": 5
+ },
+ "coco_000000060363": {
+  "hours": 4,
+  "minutes": 1
+ },
+ "coco_000000060409": {
+  "hours": 2,
+  "minutes": 4
+ },
+ "coco_000000060483": {
+  "hours": 8,
+  "minutes": 59
+ },
+ "coco_000000060600": {
+  "hours": 12,
+  "minutes": 2
+ },
+ "coco_000000060737": {
+  "hours": 11,
+  "minutes": 40
+ },
+ "coco_000000060993": {
+  "hours": 11,
+  "minutes": 41
+ },
+ "coco_000000061147": {
+  "hours": 12,
+  "minutes": 15
+ },
+ "coco_000000061642": {
+  "hours": 8,
+  "minutes": 53
+ },
+ "coco_000000061972": {
+  "hours": 3,
+  "minutes": 10
+ },
+ "coco_000000062041": {
+  "hours": 1,
+  "minutes": 48
+ },
+ "coco_000000062350": {
+  "hours": 6,
+  "minutes": 40
+ },
+ "coco_000000062662": {
+  "hours": 1,
+  "minutes": 19
+ },
+ "coco_000000063797": {
+  "hours": 3,
+  "minutes": 33
+ },
+ "coco_000000063886": {
+  "hours": 9,
+  "minutes": 2
+ },
+ "coco_000000064150": {
+  "hours": 10,
+  "minutes": 53
+ },
+ "coco_000000064626": {
+  "hours": 1,
+  "minutes": 4
+ },
+ "coco_000000064693": {
+  "hours": 2,
+  "minutes": 54
+ },
+ "coco_000000064822": {
+  "hours": 2,
+  "minutes": 27
+ },
+ "coco_000000065231": {
+  "hours": 12,
+  "minutes": 54
+ },
+ "coco_000000065986": {
+  "hours": 2,
+  "minutes": 16
+ },
+ "coco_000000066394": {
+  "hours": 12,
+  "minutes": 32
+ },
+ "coco_000000066493": {
+  "hours": 2,
+  "minutes": 51
+ },
+ "coco_000000067415": {
+  "hours": 1,
+  "minutes": 41
+ },
+ "coco_000000067896": {
+  "hours": 7,
+  "minutes": 21
+ },
+ "coco_000000067994": {
+  "hours": 10,
+  "minutes": 50
+ },
+ "coco_000000068956": {
+  "hours": 8,
+  "minutes": 56
+ },
+ "coco_000000069873": {
+  "hours": 3,
+  "minutes": 58
+ },
+ "coco_000000070190": {
+  "hours": 5,
+  "minutes": 40
+ },
+ "coco_000000070236": {
+  "hours": 6,
+  "minutes": 37
+ },
+ "coco_000000070285": {
+  "hours": 11,
+  "minutes": 12
+ },
+ "coco_000000070557": {
+  "hours": 12,
+  "minutes": 49
+ },
+ "coco_000000071503": {
+  "hours": 10,
+  "minutes": 55
+ },
+ "coco_000000071749": {
+  "hours": 4,
+  "minutes": 7
+ },
+ "coco_000000071970": {
+  "hours": 1,
+  "minutes": 20
+ },
+ "coco_000000072026": {
+  "hours": 8,
+  "minutes": 0
+ },
+ "coco_000000072342": {
+  "hours": 10,
+  "minutes": 45
+ },
+ "coco_000000072752": {
+  "hours": 2,
+  "minutes": 49
+ },
+ "coco_000000072989": {
+  "hours": 8,
+  "minutes": 15
+ },
+ "coco_000000073014": {
+  "hours": 9,
+  "minutes": 0
+ },
+ "coco_000000073139": {
+  "hours": 12,
+  "minutes": 7
+ },
+ "coco_000000073342": {
+  "hours": 12,
+  "minutes": 15
+ },
+ "coco_000000073696": {
+  "hours": 3,
+  "minutes": 24
+ },
+ "coco_000000073697": {
+  "hours": 11,
+  "minutes": 9
+ },
+ "coco_000000073720": {
+  "hours": 10,
+  "minutes": 1
+ },
+ "coco_000000074000": {
+  "hours": 12,
+  "minutes": 15
+ },
+ "coco_000000074059": {
+  "hours": 5,
+  "minutes": 6
+ },
+ "coco_000000074137": {
+  "hours": 1,
+  "minutes": 33
+ },
+ "coco_000000074343": {
+  "hours": 12,
+  "minutes": 57
+ },
+ "coco_000000074739": {
+  "hours": 5,
+  "minutes": 16
+ },
+ "coco_000000075212": {
+  "hours": 3,
+  "minutes": 2
+ },
+ "coco_000000075258": {
+  "hours": 3,
+  "minutes": 41
+ },
+ "coco_000000075266": {
+  "hours": 12,
+  "minutes": 55
+ },
+ "coco_000000076149": {
+  "hours": 12,
+  "minutes": 41
+ },
+ "coco_000000076329": {
+  "hours": 2,
+  "minutes": 25
+ },
+ "coco_000000076804": {
+  "hours": 7,
+  "minutes": 51
+ },
+ "coco_000000076910": {
+  "hours": 6,
+  "minutes": 0
+ },
+ "coco_000000077346": {
+  "hours": 10,
+  "minutes": 9
+ },
+ "coco_000000078176": {
+  "hours": 2,
+  "minutes": 45
+ },
+ "coco_000000078457": {
+  "hours": 3,
+  "minutes": 37
+ },
+ "coco_000000079528": {
+  "hours": 5,
+  "minutes": 9
+ },
+ "coco_000000079611": {
+  "hours": 12,
+  "minutes": 24
+ },
+ "coco_000000080471": {
+  "hours": 2,
+  "minutes": 5
+ },
+ "coco_000000081654": {
+  "hours": 5,
+  "minutes": 10
+ },
+ "coco_000000082327": {
+  "hours": 2,
+  "minutes": 45
+ },
+ "coco_000000082367": {
+  "hours": 12,
+  "minutes": 57
+ },
+ "coco_000000082697": {
+  "hours": 7,
+  "minutes": 49
+ },
+ "coco_000000082735": {
+  "hours": 1,
+  "minutes": 10
+ },
+ "coco_000000083086": {
+  "hours": 6,
+  "minutes": 37
+ },
+ "coco_000000083393": {
+  "hours": 8,
+  "minutes": 20
+ },
+ "coco_000000083986": {
+  "hours": 4,
+  "minutes": 50
+ },
+ "coco_000000084295": {
+  "hours": 2,
+  "minutes": 0
+ },
+ "coco_000000085004": {
+  "hours": 8,
+  "minutes": 41
+ },
+ "coco_000000085155": {
+  "hours": 4,
+  "minutes": 8
+ },
+ "coco_000000085302": {
+  "hours": 12,
+  "minutes": 0
+ },
+ "coco_000000085721": {
+  "hours": 6,
+  "minutes": 28
+ },
+ "coco_000000085750": {
+  "hours": 11,
+  "minutes": 37
+ },
+ "coco_000000086336": {
+  "hours": 5,
+  "minutes": 50
+ },
+ "coco_000000086552": {
+  "hours": 6,
+  "minutes": 18
+ },
+ "coco_000000086596": {
+  "hours": 2,
+  "minutes": 59
+ },
+ "coco_000000086845": {
+  "hours": 4,
+  "minutes": 5
+ },
+ "coco_000000087387": {
+  "hours": 10,
+  "minutes": 31
+ },
+ "coco_000000087399": {
+  "hours": 1,
+  "minutes": 14
+ },
+ "coco_000000088345": {
+  "hours": 9,
+  "minutes": 29
+ },
+ "coco_000000088759": {
+  "hours": 7,
+  "minutes": 54
+ },
+ "coco_000000089223": {
+  "hours": 7,
+  "minutes": 28
+ },
+ "coco_000000089259": {
+  "hours": 4,
+  "minutes": 49
+ },
+ "coco_000000089745": {
+  "hours": 12,
+  "minutes": 16
+ },
+ "coco_000000089770": {
+  "hours": 6,
+  "minutes": 37
+ },
+ "coco_000000089849": {
+  "hours": 11,
+  "minutes": 10
+ },
+ "coco_000000091104": {
+  "hours": 5,
+  "minutes": 0
+ },
+ "coco_000000091280": {
+  "hours": 11,
+  "minutes": 24
+ },
+ "coco_000000091810": {
+  "hours": 11,
+  "minutes": 16
+ },
+ "coco_000000092050": {
+  "hours": 8,
+  "minutes": 19
+ },
+ "coco_000000092488": {
+  "hours": 12,
+  "minutes": 44
+ },
+ "coco_000000092988": {
+  "hours": 7,
+  "minutes": 58
+ },
+ "coco_000000093476": {
+  "hours": 8,
+  "minutes": 1
+ },
+ "coco_000000093570": {
+  "hours": 4,
+  "minutes": 6
+ },
+ "coco_000000094011": {
+  "hours": 11,
+  "minutes": 4
+ },
+ "coco_000000094863": {
+  "hours": 12,
+  "minutes": 53
+ },
+ "coco_000000095161": {
+  "hours": 7,
+  "minutes": 6
+ },
+ "coco_000000095308": {
+  "hours": 8,
+  "minutes": 20
+ },
+ "coco_000000095482": {
+  "hours": 8,
+  "minutes": 6
+ },
+ "coco_000000095494": {
+  "hours": 5,
+  "minutes": 1
+ },
+ "coco_000000097191": {
+  "hours": 5,
+  "minutes": 5
+ },
+ "coco_000000097243": {
+  "hours": 12,
+  "minutes": 10
+ },
+ "coco_000000098008": {
+  "hours": 1,
+  "minutes": 57
+ },
+ "coco_000000098854": {
+  "hours": 1,
+  "minutes": 58
+ },
+ "coco_000000099321": {
+  "hours": 2,
+  "minutes": 4
+ },
+ "coco_000000099443": {
+  "hours": 3,
+  "minutes": 37
+ },
+ "coco_000000099927": {
+  "hours": 5,
+  "minutes": 14
+ },
+ "coco_000000099942": {
+  "hours": 9,
+  "minutes": 15
+ },
+ "coco_000000100781": {
+  "hours": 9,
+  "minutes": 30
+ },
+ "coco_000000101588": {
+  "hours": 1,
+  "minutes": 38
+ },
+ "coco_000000101703": {
+  "hours": 5,
+  "minutes": 46
+ },
+ "coco_000000101951": {
+  "hours": 1,
+  "minutes": 49
+ },
+ "coco_000000102004": {
+  "hours": 7,
+  "minutes": 51
+ },
+ "coco_000000102793": {
+  "hours": 5,
+  "minutes": 55
+ },
+ "coco_000000103017": {
+  "hours": 12,
+  "minutes": 26
+ },
+ "coco_000000103086": {
+  "hours": 9,
+  "minutes": 6
+ },
+ "coco_000000103465": {
+  "hours": 11,
+  "minutes": 0
+ },
+ "coco_000000103513": {
+  "hours": 6,
+  "minutes": 20
+ },
+ "coco_000000104326": {
+  "hours": 1,
+  "minutes": 44
+ },
+ "coco_000000104393": {
+  "hours": 2,
+  "minutes": 19
+ },
+ "coco_000000104397": {
+  "hours": 8,
+  "minutes": 26
+ },
+ "coco_000000104696": {
+  "hours": 12,
+  "minutes": 39
+ },
+ "coco_000000104809": {
+  "hours": 4,
+  "minutes": 26
+ },
+ "coco_000000105344": {
+  "hours": 2,
+  "minutes": 1
+ },
+ "coco_000000105626": {
+  "hours": 12,
+  "minutes": 17
+ },
+ "coco_000000105685": {
+  "hours": 10,
+  "minutes": 40
+ },
+ "coco_000000105751": {
+  "hours": 11,
+  "minutes": 16
+ },
+ "coco_000000105784": {
+  "hours": 6,
+  "minutes": 35
+ },
+ "coco_000000106073": {
+  "hours": 5,
+  "minutes": 5
+ },
+ "coco_000000106145": {
+  "hours": 1,
+  "minutes": 25
+ },
+ "coco_000000106498": {
+  "hours": 11,
+  "minutes": 46
+ },
+ "coco_000000106563": {
+  "hours": 12,
+  "minutes": 11
+ },
+ "coco_000000106875": {
+  "hours": 12,
+  "minutes": 59
+ },
+ "coco_000000107394": {
+  "hours": 9,
+  "minutes": 21
+ },
+ "coco_000000107705": {
+  "hours": 6,
+  "minutes": 58
+ },
+ "coco_000000107747": {
+  "hours": 2,
+  "minutes": 15
+ },
+ "coco_000000108217": {
+  "hours": 12,
+  "minutes": 56
+ },
+ "coco_000000108365": {
+  "hours": 5,
+  "minutes": 29
+ },
+ "coco_000000108876": {
+  "hours": 5,
+  "minutes": 38
+ },
+ "coco_000000108898": {
+  "hours": 4,
+  "minutes": 34
+ },
+ "coco_000000109060": {
+  "hours": 9,
+  "minutes": 12
+ },
+ "coco_000000109169": {
+  "hours": 12,
+  "minutes": 51
+ },
+ "coco_000000109753": {
+  "hours": 12,
+  "minutes": 1
+ },
+ "coco_000000109783": {
+  "hours": 7,
+  "minutes": 11
+ },
+ "coco_000000109837": {
+  "hours": 3,
+  "minutes": 13
+ },
+ "coco_000000109894": {
+  "hours": 1,
+  "minutes": 22
+ },
+ "coco_000000110004": {
+  "hours": 3,
+  "minutes": 29
+ },
+ "coco_000000110308": {
+  "hours": 12,
+  "minutes": 25
+ },
+ "coco_000000111179": {
+  "hours": 3,
+  "minutes": 27
+ },
+ "coco_000000111318": {
+  "hours": 12,
+  "minutes": 16
+ },
+ "coco_000000111435": {
+  "hours": 6,
+  "minutes": 56
+ },
+ "coco_000000111489": {
+  "hours": 12,
+  "minutes": 28
+ },
+ "coco_000000111671": {
+  "hours": 5,
+  "minutes": 40
+ },
+ "coco_000000112359": {
+  "hours": 10,
+  "minutes": 40
+ },
+ "coco_000000112882": {
+  "hours": 7,
+  "minutes": 36
+ },
+ "coco_000000112897": {
+  "hours": 1,
+  "minutes": 25
+ },
+ "coco_000000113282": {
+  "hours": 1,
+  "minutes": 59
+ },
+ "coco_000000113338": {
+  "hours": 3,
+  "minutes": 18
+ },
+ "coco_000000113839": {
+  "hours": 2,
+  "minutes": 21
+ },
+ "coco_000000114077": {
+  "hours": 12,
+  "minutes": 15
+ },
+ "coco_000000114119": {
+  "hours": 8,
+  "minutes": 49
+ },
+ "coco_000000115060": {
+  "hours": 10,
+  "minutes": 15
+ },
+ "coco_000000115856": {
+  "hours": 6,
+  "minutes": 28
+ },
+ "coco_000000115893": {
+  "hours": 3,
+  "minutes": 44
+ },
+ "coco_000000115942": {
+  "hours": 9,
+  "minutes": 35
+ },
+ "coco_000000116370": {
+  "hours": 9,
+  "minutes": 17
+ },
+ "coco_000000116789": {
+  "hours": 4,
+  "minutes": 29
+ },
+ "coco_000000116819": {
+  "hours": 5,
+  "minutes": 14
+ },
+ "coco_000000116851": {
+  "hours": 3,
+  "minutes": 46
+ },
+ "coco_000000117684": {
+  "hours": 9,
+  "minutes": 42
+ },
+ "coco_000000117725": {
+  "hours": 6,
+  "minutes": 58
+ },
+ "coco_000000119034": {
+  "hours": 10,
+  "minutes": 45
+ },
+ "coco_000000119113": {
+  "hours": 1,
+  "minutes": 14
+ },
+ "coco_000000119194": {
+  "hours": 1,
+  "minutes": 21
+ },
+ "coco_000000119290": {
+  "hours": 12,
+  "minutes": 9
+ },
+ "coco_000000119505": {
+  "hours": 8,
+  "minutes": 31
+ },
+ "coco_000000119993": {
+  "hours": 12,
+  "minutes": 4
+ },
+ "coco_000000120473": {
+  "hours": 1,
+  "minutes": 9
+ },
+ "coco_000000120584": {
+  "hours": 7,
+  "minutes": 23
+ },
+ "coco_000000120986": {
+  "hours": 11,
+  "minutes": 17
+ },
+ "coco_000000121143": {
+  "hours": 4,
+  "minutes": 41
+ },
+ "coco_000000121393": {
+  "hours": 11,
+  "minutes": 30
+ },
+ "coco_000000121559": {
+  "hours": 7,
+  "minutes": 0
+ },
+ "coco_000000121612": {
+  "hours": 9,
+  "minutes": 25
+ },
+ "coco_000000122118": {
+  "hours": 7,
+  "minutes": 11
+ },
+ "coco_000000122839": {
+  "hours": 4,
+  "minutes": 50
+ },
+ "coco_000000123351": {
+  "hours": 4,
+  "minutes": 22
+ },
+ "coco_000000123412": {
+  "hours": 4,
+  "minutes": 59
+ },
+ "coco_000000124018": {
+  "hours": 7,
+  "minutes": 50
+ },
+ "coco_000000124627": {
+  "hours": 5,
+  "minutes": 46
+ },
+ "coco_000000125017": {
+  "hours": 1,
+  "minutes": 54
+ },
+ "coco_000000125070": {
+  "hours": 11,
+  "minutes": 21
+ },
+ "coco_000000125910": {
+  "hours": 9,
+  "minutes": 15
+ },
+ "coco_000000126065": {
+  "hours": 1,
+  "minutes": 31
+ },
+ "coco_000000126090": {
+  "hours": 9,
+  "minutes": 31
+ },
+ "coco_000000126489": {
+  "hours": 6,
+  "minutes": 1
+ },
+ "coco_000000126642": {
+  "hours": 11,
+  "minutes": 55
+ },
+ "coco_000000126894": {
+  "hours": 8,
+  "minutes": 32
+ },
+ "coco_000000126925": {
+  "hours": 3,
+  "minutes": 5
+ },
+ "coco_000000126958": {
+  "hours": 5,
+  "minutes": 41
+ },
+ "coco_000000126992": {
+  "hours": 2,
+  "minutes": 6
+ },
+ "coco_000000127309": {
+  "hours": 6,
+  "minutes": 7
+ },
+ "coco_000000127832": {
+  "hours": 1,
+  "minutes": 29
+ },
+ "coco_000000128903": {
+  "hours": 10,
+  "minutes": 2
+ },
+ "coco_000000129154": {
+  "hours": 2,
+  "minutes": 1
+ },
+ "coco_000000129159": {
+  "hours": 4,
+  "minutes": 35
+ },
+ "coco_000000129485": {
+  "hours": 12,
+  "minutes": 34
+ },
+ "coco_000000129544": {
+  "hours": 7,
+  "minutes": 10
+ },
+ "coco_000000129546": {
+  "hours": 5,
+  "minutes": 21
+ },
+ "coco_000000129566": {
+  "hours": 3,
+  "minutes": 20
+ },
+ "coco_000000129568": {
+  "hours": 11,
+  "minutes": 7
+ },
+ "coco_000000129712": {
+  "hours": 6,
+  "minutes": 5
+ },
+ "coco_000000129888": {
+  "hours": 1,
+  "minutes": 21
+ },
+ "coco_000000129897": {
+  "hours": 8,
+  "minutes": 56
+ },
+ "coco_000000130163": {
+  "hours": 1,
+  "minutes": 31
+ },
+ "coco_000000130292": {
+  "hours": 1,
+  "minutes": 30
+ },
+ "coco_000000130465": {
+  "hours": 11,
+  "minutes": 19
+ },
+ "coco_000000131431": {
+  "hours": 6,
+  "minutes": 58
+ },
+ "coco_000000131504": {
+  "hours": 1,
+  "minutes": 0
+ },
+ "coco_000000131524": {
+  "hours": 4,
+  "minutes": 46
+ },
+ "coco_000000131961": {
+  "hours": 6,
+  "minutes": 19
+ },
+ "coco_000000132037": {
+  "hours": 1,
+  "minutes": 5
+ },
+ "coco_000000132193": {
+  "hours": 9,
+  "minutes": 10
+ },
+ "coco_000000132373": {
+  "hours": 1,
+  "minutes": 8
+ },
+ "coco_000000132497": {
+  "hours": 12,
+  "minutes": 55
+ },
+ "coco_000000132861": {
+  "hours": 1,
+  "minutes": 7
+ },
+ "coco_000000133034": {
+  "hours": 6,
+  "minutes": 51
+ },
+ "coco_000000133051": {
+  "hours": 9,
+  "minutes": 51
+ },
+ "coco_000000133114": {
+  "hours": 3,
+  "minutes": 20
+ },
+ "coco_000000133183": {
+  "hours": 8,
+  "minutes": 30
+ },
+ "coco_000000133195": {
+  "hours": 2,
+  "minutes": 31
+ },
+ "coco_000000134268": {
+  "hours": 4,
+  "minutes": 6
+ },
+ "coco_000000134320": {
+  "hours": 3,
+  "minutes": 22
+ },
+ "coco_000000134779": {
+  "hours": 12,
+  "minutes": 49
+ },
+ "coco_000000135822": {
+  "hours": 9,
+  "minutes": 5
+ },
+ "coco_000000136721": {
+  "hours": 4,
+  "minutes": 43
+ },
+ "coco_000000137181": {
+  "hours": 10,
+  "minutes": 38
+ },
+ "coco_000000137475": {
+  "hours": 3,
+  "minutes": 13
+ },
+ "coco_000000137678": {
+  "hours": 3,
+  "minutes": 11
+ },
+ "coco_000000137699": {
+  "hours": 4,
+  "minutes": 45
+ },
+ "coco_000000137777": {
+  "hours": 2,
+  "minutes": 22
+ },
+ "coco_000000137779": {
+  "hours": 4,
+  "minutes": 46
+ },
+ "coco_000000138151": {
+  "hours": 9,
+  "minutes": 22
+ },
+ "coco_000000138648": {
+  "hours": 6,
+  "minutes": 53
+ },
+ "coco_000000138659": {
+  "hours": 11,
+  "minutes": 1
+ },
+ "coco_000000139124": {
+  "hours": 10,
+  "minutes": 42
+ },
+ "coco_000000139400": {
+  "hours": 11,
+  "minutes": 20
+ },
+ "coco_000000139843": {
+  "hours": 7,
+  "minutes": 35
+ },
+ "coco_000000140020": {
+  "hours": 2,
+  "minutes": 59
+ },
+ "coco_000000140340": {
+  "hours": 1,
+  "minutes": 7
+ },
+ "coco_000000140817": {
+  "hours": 6,
+  "minutes": 26
+ },
+ "coco_000000140929": {
+  "hours": 12,
+  "minutes": 43
+ },
+ "coco_000000141372": {
+  "hours": 10,
+  "minutes": 19
+ },
+ "coco_000000141510": {
+  "hours": 10,
+  "minutes": 20
+ },
+ "coco_000000141993": {
+  "hours": 5,
+  "minutes": 34
+ },
+ "coco_000000142393": {
+  "hours": 6,
+  "minutes": 0
+ },
+ "coco_000000142592": {
+  "hours": 12,
+  "minutes": 21
+ },
+ "coco_000000143167": {
+  "hours": 1,
+  "minutes": 35
+ },
+ "coco_000000143217": {
+  "hours": 11,
+  "minutes": 10
+ },
+ "coco_000000143764": {
+  "hours": 12,
+  "minutes": 56
+ },
+ "coco_000000144182": {
+  "hours": 11,
+  "minutes": 11
+ },
+ "coco_000000145032": {
+  "hours": 12,
+  "minutes": 21
+ },
+ "coco_000000145093": {
+  "hours": 12,
+  "minutes": 11
+ },
+ "coco_000000145591": {
+  "hours": 4,
+  "minutes": 13
+ },
+ "coco_000000145956": {
+  "hours": 1,
+  "minutes": 4
+ },
+ "coco_000000146738": {
+  "hours": 7,
+  "minutes": 31
+ },
+ "coco_000000147211": {
+  "hours": 11,
+  "minutes": 15
+ },
+ "coco_000000147506": {
+  "hours": 3,
+  "minutes": 7
+ },
+ "coco_000000148246": {
+  "hours": 10,
+  "minutes": 12
+ },
+ "coco_000000148403": {
+  "hours": 12,
+  "minutes": 49
+ },
+ "coco_000000148629": {
+  "hours": 1,
+  "minutes": 29
+ },
+ "coco_000000149398": {
+  "hours": 11,
+  "minutes": 21
+ },
+ "coco_000000149668": {
+  "hours": 11,
+  "minutes": 15
+ },
+ "coco_000000149895": {
+  "hours": 11,
+  "minutes": 24
+ },
+ "coco_000000150024": {
+  "hours": 11,
+  "minutes": 19
+ },
+ "coco_000000150370": {
+  "hours": 6,
+  "minutes": 8
+ },
+ "coco_000000150675": {
+  "hours": 2,
+  "minutes": 25
+ },
+ "coco_000000150888": {
+  "hours": 2,
+  "minutes": 54
+ },
+ "coco_000000150930": {
+  "hours": 1,
+  "minutes": 14
+ },
+ "coco_000000150999": {
+  "hours": 12,
+  "minutes": 5
+ },
+ "coco_000000151092": {
+  "hours": 5,
+  "minutes": 16
+ },
+ "coco_000000151307": {
+  "hours": 7,
+  "minutes": 5
+ },
+ "coco_000000152041": {
+  "hours": 2,
+  "minutes": 56
+ },
+ "coco_000000152277": {
+  "hours": 10,
+  "minutes": 22
+ },
+ "coco_000000152815": {
+  "hours": 10,
+  "minutes": 40
+ },
+ "coco_000000153094": {
+  "hours": 9,
+  "minutes": 12
+ },
+ "coco_000000153219": {
+  "hours": 3,
+  "minutes": 10
+ },
+ "coco_000000153283": {
+  "hours": 3,
+  "minutes": 32
+ },
+ "coco_000000153466": {
+  "hours": 10,
+  "minutes": 48
+ },
+ "coco_000000153697": {
+  "hours": 6,
+  "minutes": 38
+ },
+ "coco_000000153723": {
+  "hours": 11,
+  "minutes": 40
+ },
+ "coco_000000154659": {
+  "hours": 8,
+  "minutes": 36
+ },
+ "coco_000000154711": {
+  "hours": 9,
+  "minutes": 32
+ },
+ "coco_000000155051": {
+  "hours": 7,
+  "minutes": 45
+ },
+ "coco_000000155076": {
+  "hours": 8,
+  "minutes": 35
+ },
+ "coco_000000155108": {
+  "hours": 11,
+  "minutes": 35
+ },
+ "coco_000000155126": {
+  "hours": 11,
+  "minutes": 10
+ },
+ "coco_000000155344": {
+  "hours": 2,
+  "minutes": 12
+ },
+ "coco_000000155709": {
+  "hours": 3,
+  "minutes": 54
+ },
+ "coco_000000156410": {
+  "hours": 2,
+  "minutes": 36
+ },
+ "coco_000000156885": {
+  "hours": 1,
+  "minutes": 53
+ },
+ "coco_000000157176": {
+  "hours": 12,
+  "minutes": 41
+ },
+ "coco_000000157205": {
+  "hours": 10,
+  "minutes": 38
+ },
+ "coco_000000157593": {
+  "hours": 2,
+  "minutes": 50
+ },
+ "coco_000000157748": {
+  "hours": 5,
+  "minutes": 0
+ },
+ "coco_000000158208": {
+  "hours": 2,
+  "minutes": 28
+ },
+ "coco_000000158211": {
+  "hours": 1,
+  "minutes": 58
+ },
+ "coco_000000158456": {
+  "hours": 9,
+  "minutes": 26
+ },
+ "coco_000000158923": {
+  "hours": 11,
+  "minutes": 29
+ },
+ "coco_000000158993": {
+  "hours": 11,
+  "minutes": 55
+ },
+ "coco_000000159028": {
+  "hours": 10,
+  "minutes": 50
+ },
+ "coco_000000159456": {
+  "hours": 5,
+  "minutes": 25
+ },
+ "coco_000000159537": {
+  "hours": 7,
+  "minutes": 44
+ },
+ "coco_000000159680": {
+  "hours": 11,
+  "minutes": 9
+ },
+ "coco_000000159777": {
+  "hours": 5,
+  "minutes": 59
+ },
+ "coco_000000159887": {
+  "hours": 3,
+  "minutes": 27
+ },
+ "coco_000000160004": {
+  "hours": 4,
+  "minutes": 55
+ },
+ "coco_000000160103": {
+  "hours": 9,
+  "minutes": 0
+ },
+ "coco_000000160308": {
+  "hours": 3,
+  "minutes": 0
+ },
+ "coco_000000160415": {
+  "hours": 5,
+  "minutes": 12
+ },
+ "coco_000000160661": {
+  "hours": 4,
+  "minutes": 1
+ },
+ "coco_000000161308": {
+  "hours": 12,
+  "minutes": 45
+ },
+ "coco_000000161539": {
+  "hours": 9,
+  "minutes": 7
+ },
+ "coco_000000161642": {
+  "hours": 2,
+  "minutes": 55
+ },
+ "coco_000000161917": {
+  "hours": 8,
+  "minutes": 9
+ },
+ "coco_000000162055": {
+  "hours": 12,
+  "minutes": 1
+ },
+ "coco_000000162495": {
+  "hours": 3,
+  "minutes": 26
+ },
+ "coco_000000162561": {
+  "hours": 7,
+  "minutes": 4
+ },
+ "coco_000000162770": {
+  "hours": 9,
+  "minutes": 5
+ },
+ "coco_000000162914": {
+  "hours": 11,
+  "minutes": 54
+ },
+ "coco_000000163601": {
+  "hours": 10,
+  "minutes": 15
+ },
+ "coco_000000163798": {
+  "hours": 2,
+  "minutes": 10
+ },
+ "coco_000000164189": {
+  "hours": 12,
+  "minutes": 24
+ },
+ "coco_000000164363": {
+  "hours": 8,
+  "minutes": 53
+ },
+ "coco_000000164672": {
+  "hours": 11,
+  "minutes": 15
+ },
+ "coco_000000165422": {
+  "hours": 12,
+  "minutes": 25
+ },
+ "coco_000000165771": {
+  "hours": 9,
+  "minutes": 4
+ },
+ "coco_000000166096": {
+  "hours": 7,
+  "minutes": 4
+ },
+ "coco_000000166273": {
+  "hours": 4,
+  "minutes": 49
+ },
+ "coco_000000166370": {
+  "hours": 9,
+  "minutes": 18
+ },
+ "coco_000000166467": {
+  "hours": 6,
+  "minutes": 49
+ },
+ "coco_000000166527": {
+  "hours": 12,
+  "minutes": 0
+ },
+ "coco_000000166589": {
+  "hours": 12,
+  "minutes": 20
+ },
+ "coco_000000166702": {
+  "hours": 12,
+  "minutes": 54
+ },
+ "coco_000000166865": {
+  "hours": 3,
+  "minutes": 58
+ },
+ "coco_000000167353": {
+  "hours": 4,
+  "minutes": 54
+ },
+ "coco_000000167668": {
+  "hours": 2,
+  "minutes": 18
+ },
+ "coco_000000167910": {
+  "hours": 2,
+  "minutes": 54
+ },
+ "coco_000000168061": {
+  "hours": 9,
+  "minutes": 39
+ },
+ "coco_000000169395": {
+  "hours": 6,
+  "minutes": 24
+ },
+ "coco_000000169468": {
+  "hours": 2,
+  "minutes": 22
+ },
+ "coco_000000169700": {
+  "hours": 10,
+  "minutes": 8
+ },
+ "coco_000000169845": {
+  "hours": 3,
+  "minutes": 3
+ },
+ "coco_000000170012": {
+  "hours": 12,
+  "minutes": 16
+ },
+ "coco_000000170311": {
+  "hours": 5,
+  "minutes": 16
+ },
+ "coco_000000170588": {
+  "hours": 6,
+  "minutes": 40
+ },
+ "coco_000000170914": {
+  "hours": 1,
+  "minutes": 5
+ },
+ "coco_000000171335": {
+  "hours": 1,
+  "minutes": 39
+ },
+ "coco_000000172248": {
+  "hours": 12,
+  "minutes": 17
+ },
+ "coco_000000172340": {
+  "hours": 2,
+  "minutes": 50
+ },
+ "coco_000000172970": {
+  "hours": 5,
+  "minutes": 48
+ },
+ "coco_000000173644": {
+  "hours": 7,
+  "minutes": 1
+ },
+ "coco_000000174690": {
+  "hours": 12,
+  "minutes": 34
+ },
+ "coco_000000174806": {
+  "hours": 3,
+  "minutes": 13
+ },
+ "coco_000000174934": {
+  "hours": 4,
+  "minutes": 19
+ },
+ "coco_000000175000": {
+  "hours": 5,
+  "minutes": 6
+ },
+ "coco_000000175530": {
+  "hours": 2,
+  "minutes": 37
+ },
+ "coco_000000175600": {
+  "hours": 1,
+  "minutes": 12
+ },
+ "coco_000000175991": {
+  "hours": 10,
+  "minutes": 11
+ },
+ "coco_000000176034": {
+  "hours": 10,
+  "minutes": 19
+ },
+ "coco_000000176470": {
+  "hours": 4,
+  "minutes": 52
+ },
+ "coco_000000176811": {
+  "hours": 3,
+  "minutes": 32
+ },
+ "coco_000000177166": {
+  "hours": 10,
+  "minutes": 17
+ },
+ "coco_000000178248": {
+  "hours": 7,
+  "minutes": 59
+ },
+ "coco_000000178835": {
+  "hours": 11,
+  "minutes": 44
+ },
+ "coco_000000178838": {
+  "hours": 11,
+  "minutes": 23
+ },
+ "coco_000000179124": {
+  "hours": 11,
+  "minutes": 3
+ },
+ "coco_000000179408": {
+  "hours": 10,
+  "minutes": 43
+ },
+ "coco_000000179653": {
+  "hours": 12,
+  "minutes": 13
+ },
+ "coco_000000179656": {
+  "hours": 10,
+  "minutes": 18
+ },
+ "coco_000000180079": {
+  "hours": 9,
+  "minutes": 20
+ },
+ "coco_000000180623": {
+  "hours": 12,
+  "minutes": 55
+ },
+ "coco_000000181938": {
+  "hours": 6,
+  "minutes": 44
+ },
+ "coco_000000182029": {
+  "hours": 3,
+  "minutes": 44
+ },
+ "coco_000000182483": {
+  "hours": 12,
+  "minutes": 14
+ },
+ "coco_000000182736": {
+  "hours": 12,
+  "minutes": 38
+ },
+ "coco_000000183276": {
+  "hours": 5,
+  "minutes": 16
+ },
+ "coco_000000183409": {
+  "hours": 1,
+  "minutes": 3
+ },
+ "coco_000000183693": {
+  "hours": 2,
+  "minutes": 21
+ },
+ "coco_000000184148": {
+  "hours": 5,
+  "minutes": 55
+ },
+ "coco_000000184416": {
+  "hours": 3,
+  "minutes": 31
+ },
+ "coco_000000184762": {
+  "hours": 7,
+  "minutes": 12
+ },
+ "coco_000000185993": {
+  "hours": 1,
+  "minutes": 41
+ },
+ "coco_000000186550": {
+  "hours": 3,
+  "minutes": 35
+ },
+ "coco_000000187199": {
+  "hours": 6,
+  "minutes": 44
+ },
+ "coco_000000187728": {
+  "hours": 8,
+  "minutes": 16
+ },
+ "coco_000000187846": {
+  "hours": 3,
+  "minutes": 45
+ },
+ "coco_000000187901": {
+  "hours": 4,
+  "minutes": 48
+ },
+ "coco_000000188026": {
+  "hours": 11,
+  "minutes": 17
+ },
+ "coco_000000188183": {
+  "hours": 3,
+  "minutes": 54
+ },
+ "coco_000000188192": {
+  "hours": 9,
+  "minutes": 27
+ },
+ "coco_000000188612": {
+  "hours": 4,
+  "minutes": 15
+ },
+ "coco_000000188795": {
+  "hours": 10,
+  "minutes": 14
+ },
+ "coco_000000188992": {
+  "hours": 1,
+  "minutes": 51
+ },
+ "coco_000000190035": {
+  "hours": 3,
+  "minutes": 12
+ },
+ "coco_000000190861": {
+  "hours": 9,
+  "minutes": 43
+ },
+ "coco_000000190898": {
+  "hours": 11,
+  "minutes": 11
+ },
+ "coco_000000190945": {
+  "hours": 5,
+  "minutes": 13
+ },
+ "coco_000000191013": {
+  "hours": 5,
+  "minutes": 54
+ },
+ "coco_000000191102": {
+  "hours": 4,
+  "minutes": 36
+ },
+ "coco_000000191149": {
+  "hours": 12,
+  "minutes": 0
+ },
+ "coco_000000191304": {
+  "hours": 12,
+  "minutes": 55
+ },
+ "coco_000000192369": {
+  "hours": 7,
+  "minutes": 57
+ },
+ "coco_000000192636": {
+  "hours": 7,
+  "minutes": 2
+ },
+ "coco_000000193074": {
+  "hours": 4,
+  "minutes": 15
+ },
+ "coco_000000193398": {
+  "hours": 5,
+  "minutes": 24
+ },
+ "coco_000000194108": {
+  "hours": 1,
+  "minutes": 22
+ },
+ "coco_000000194262": {
+  "hours": 11,
+  "minutes": 56
+ },
+ "coco_000000194419": {
+  "hours": 1,
+  "minutes": 39
+ },
+ "coco_000000195058": {
+  "hours": 5,
+  "minutes": 42
+ },
+ "coco_000000195203": {
+  "hours": 10,
+  "minutes": 25
+ },
+ "coco_000000195271": {
+  "hours": 6,
+  "minutes": 34
+ },
+ "coco_000000195343": {
+  "hours": 2,
+  "minutes": 25
+ },
+ "coco_000000195456": {
+  "hours": 4,
+  "minutes": 59
+ },
+ "coco_000000195650": {
+  "hours": 1,
+  "minutes": 33
+ },
+ "coco_000000196118": {
+  "hours": 1,
+  "minutes": 9
+ },
+ "coco_000000196311": {
+  "hours": 3,
+  "minutes": 59
+ },
+ "coco_000000196998": {
+  "hours": 4,
+  "minutes": 23
+ },
+ "coco_000000197279": {
+  "hours": 12,
+  "minutes": 28
+ },
+ "coco_000000197408": {
+  "hours": 9,
+  "minutes": 20
+ },
+ "coco_000000197853": {
+  "hours": 2,
+  "minutes": 33
+ },
+ "coco_000000198271": {
+  "hours": 9,
+  "minutes": 4
+ },
+ "coco_000000198405": {
+  "hours": 3,
+  "minutes": 15
+ },
+ "coco_000000198451": {
+  "hours": 5,
+  "minutes": 50
+ },
+ "coco_000000198661": {
+  "hours": 11,
+  "minutes": 9
+ },
+ "coco_000000199318": {
+  "hours": 10,
+  "minutes": 47
+ },
+ "coco_000000199960": {
+  "hours": 11,
+  "minutes": 25
+ },
+ "coco_000000200280": {
+  "hours": 2,
+  "minutes": 24
+ },
+ "coco_000000200315": {
+  "hours": 6,
+  "minutes": 1
+ },
+ "coco_000000200489": {
+  "hours": 2,
+  "minutes": 25
+ },
+ "coco_000000200615": {
+  "hours": 2,
+  "minutes": 41
+ },
+ "coco_000000200759": {
+  "hours": 2,
+  "minutes": 21
+ },
+ "coco_000000200882": {
+  "hours": 2,
+  "minutes": 7
+ },
+ "coco_000000200938": {
+  "hours": 7,
+  "minutes": 52
+ },
+ "coco_000000200941": {
+  "hours": 5,
+  "minutes": 41
+ },
+ "coco_000000200986": {
+  "hours": 7,
+  "minutes": 26
+ },
+ "coco_000000200988": {
+  "hours": 11,
+  "minutes": 50
+ },
+ "coco_000000201271": {
+  "hours": 3,
+  "minutes": 20
+ },
+ "coco_000000201460": {
+  "hours": 8,
+  "minutes": 2
+ },
+ "coco_000000202777": {
+  "hours": 11,
+  "minutes": 34
+ },
+ "coco_000000202797": {
+  "hours": 12,
+  "minutes": 25
+ },
+ "coco_000000203438": {
+  "hours": 3,
+  "minutes": 17
+ },
+ "coco_000000203452": {
+  "hours": 10,
+  "minutes": 41
+ },
+ "coco_000000203564": {
+  "hours": 10,
+  "minutes": 10
+ },
+ "coco_000000203667": {
+  "hours": 5,
+  "minutes": 48
+ },
+ "coco_000000203827": {
+  "hours": 7,
+  "minutes": 25
+ },
+ "coco_000000203845": {
+  "hours": 2,
+  "minutes": 35
+ },
+ "coco_000000203858": {
+  "hours": 10,
+  "minutes": 19
+ },
+ "coco_000000204542": {
+  "hours": 7,
+  "minutes": 59
+ },
+ "coco_000000205116": {
+  "hours": 12,
+  "minutes": 41
+ },
+ "coco_000000205239": {
+  "hours": 12,
+  "minutes": 55
+ },
+ "coco_000000205590": {
+  "hours": 3,
+  "minutes": 47
+ },
+ "coco_000000205850": {
+  "hours": 3,
+  "minutes": 18
+ },
+ "coco_000000205916": {
+  "hours": 12,
+  "minutes": 20
+ },
+ "coco_000000206066": {
+  "hours": 10,
+  "minutes": 54
+ },
+ "coco_000000206550": {
+  "hours": 1,
+  "minutes": 11
+ },
+ "coco_000000206757": {
+  "hours": 5,
+  "minutes": 7
+ },
+ "coco_000000207180": {
+  "hours": 10,
+  "minutes": 50
+ },
+ "coco_000000207620": {
+  "hours": 5,
+  "minutes": 15
+ },
+ "coco_000000207625": {
+  "hours": 2,
+  "minutes": 5
+ },
+ "coco_000000207668": {
+  "hours": 12,
+  "minutes": 40
+ },
+ "coco_000000207675": {
+  "hours": 12,
+  "minutes": 22
+ },
+ "coco_000000207717": {
+  "hours": 9,
+  "minutes": 54
+ },
+ "coco_000000208043": {
+  "hours": 8,
+  "minutes": 34
+ },
+ "coco_000000208585": {
+  "hours": 9,
+  "minutes": 22
+ },
+ "coco_000000208718": {
+  "hours": 10,
+  "minutes": 30
+ },
+ "coco_000000208830": {
+  "hours": 5,
+  "minutes": 29
+ },
+ "coco_000000208940": {
+  "hours": 11,
+  "minutes": 20
+ },
+ "coco_000000209335": {
+  "hours": 12,
+  "minutes": 30
+ },
+ "coco_000000209574": {
+  "hours": 9,
+  "minutes": 39
+ },
+ "coco_000000210071": {
+  "hours": 1,
+  "minutes": 19
+ },
+ "coco_000000210728": {
+  "hours": 11,
+  "minutes": 25
+ },
+ "coco_000000210899": {
+  "hours": 5,
+  "minutes": 34
+ },
+ "coco_000000210983": {
+  "hours": 12,
+  "minutes": 34
+ },
+ "coco_000000211201": {
+  "hours": 7,
+  "minutes": 44
+ },
+ "coco_000000211436": {
+  "hours": 11,
+  "minutes": 30
+ },
+ "coco_000000212326": {
+  "hours": 6,
+  "minutes": 0
+ },
+ "coco_000000212741": {
+  "hours": 6,
+  "minutes": 55
+ },
+ "coco_000000213060": {
+  "hours": 6,
+  "minutes": 8
+ },
+ "coco_000000213988": {
+  "hours": 4,
+  "minutes": 19
+ },
+ "coco_000000214527": {
+  "hours": 12,
+  "minutes": 57
+ },
+ "coco_000000214737": {
+  "hours": 1,
+  "minutes": 50
+ },
+ "coco_000000215162": {
+  "hours": 6,
+  "minutes": 0
+ },
+ "coco_000000215443": {
+  "hours": 9,
+  "minutes": 46
+ },
+ "coco_000000215913": {
+  "hours": 1,
+  "minutes": 28
+ },
+ "coco_000000216398": {
+  "hours": 4,
+  "minutes": 4
+ },
+ "coco_000000216419": {
+  "hours": 2,
+  "minutes": 46
+ },
+ "coco_000000216742": {
+  "hours": 10,
+  "minutes": 4
+ },
+ "coco_000000216954": {
+  "hours": 1,
+  "minutes": 20
+ },
+ "coco_000000217303": {
+  "hours": 2,
+  "minutes": 32
+ },
+ "coco_000000217425": {
+  "hours": 8,
+  "minutes": 28
+ },
+ "coco_000000217787": {
+  "hours": 6,
+  "minutes": 52
+ },
+ "coco_000000217919": {
+  "hours": 3,
+  "minutes": 12
+ },
+ "coco_000000217938": {
+  "hours": 12,
+  "minutes": 6
+ },
+ "coco_000000218430": {
+  "hours": 7,
+  "minutes": 45
+ },
+ "coco_000000218587": {
+  "hours": 11,
+  "minutes": 18
+ },
+ "coco_000000218628": {
+  "hours": 12,
+  "minutes": 30
+ },
+ "coco_000000218762": {
+  "hours": 9,
+  "minutes": 10
+ },
+ "coco_000000218763": {
+  "hours": 12,
+  "minutes": 18
+ },
+ "coco_000000219225": {
+  "hours": 6,
+  "minutes": 0
+ },
+ "coco_000000219329": {
+  "hours": 12,
+  "minutes": 1
+ },
+ "coco_000000219906": {
+  "hours": 3,
+  "minutes": 30
+ },
+ "coco_000000219920": {
+  "hours": 12,
+  "minutes": 12
+ },
+ "coco_000000220205": {
+  "hours": 10,
+  "minutes": 8
+ },
+ "coco_000000220224": {
+  "hours": 10,
+  "minutes": 36
+ },
+ "coco_000000220505": {
+  "hours": 8,
+  "minutes": 45
+ },
+ "coco_000000220751": {
+  "hours": 12,
+  "minutes": 44
+ },
+ "coco_000000221330": {
+  "hours": 11,
+  "minutes": 58
+ },
+ "coco_000000222015": {
+  "hours": 2,
+  "minutes": 56
+ },
+ "coco_000000222686": {
+  "hours": 11,
+  "minutes": 53
+ },
+ "coco_000000223093": {
+  "hours": 4,
+  "minutes": 9
+ },
+ "coco_000000223988": {
+  "hours": 7,
+  "minutes": 31
+ },
+ "coco_000000224260": {
+  "hours": 10,
+  "minutes": 8
+ },
+ "coco_000000224622": {
+  "hours": 1,
+  "minutes": 53
+ },
+ "coco_000000225175": {
+  "hours": 1,
+  "minutes": 45
+ },
+ "coco_000000225700": {
+  "hours": 12,
+  "minutes": 20
+ },
+ "coco_000000225824": {
+  "hours": 11,
+  "minutes": 21
+ },
+ "coco_000000226247": {
+  "hours": 11,
+  "minutes": 47
+ },
+ "coco_000000226872": {
+  "hours": 1,
+  "minutes": 36
+ },
+ "coco_000000227433": {
+  "hours": 9,
+  "minutes": 53
+ },
+ "coco_000000227652": {
+  "hours": 3,
+  "minutes": 46
+ },
+ "coco_000000228260": {
+  "hours": 10,
+  "minutes": 35
+ },
+ "coco_000000228418": {
+  "hours": 3,
+  "minutes": 0
+ },
+ "coco_000000228464": {
+  "hours": 9,
+  "minutes": 18
+ },
+ "coco_000000229155": {
+  "hours": 1,
+  "minutes": 53
+ },
+ "coco_000000229654": {
+  "hours": 5,
+  "minutes": 9
+ },
+ "coco_000000229936": {
+  "hours": 12,
+  "minutes": 29
+ },
+ "coco_000000230601": {
+  "hours": 2,
+  "minutes": 29
+ },
+ "coco_000000230721": {
+  "hours": 8,
+  "minutes": 57
+ },
+ "coco_000000230879": {
+  "hours": 2,
+  "minutes": 25
+ },
+ "coco_000000230997": {
+  "hours": 11,
+  "minutes": 57
+ },
+ "coco_000000231116": {
+  "hours": 3,
+  "minutes": 11
+ },
+ "coco_000000232597": {
+  "hours": 8,
+  "minutes": 9
+ },
+ "coco_000000232905": {
+  "hours": 3,
+  "minutes": 24
+ },
+ "coco_000000233558": {
+  "hours": 4,
+  "minutes": 31
+ },
+ "coco_000000233843": {
+  "hours": 1,
+  "minutes": 1
+ },
+ "coco_000000234535": {
+  "hours": 12,
+  "minutes": 39
+ },
+ "coco_000000234691": {
+  "hours": 7,
+  "minutes": 35
+ },
+ "coco_000000234786": {
+  "hours": 10,
+  "minutes": 10
+ },
+ "coco_000000234910": {
+  "hours": 12,
+  "minutes": 32
+ },
+ "coco_000000234997": {
+  "hours": 5,
+  "minutes": 1
+ },
+ "coco_000000236312": {
+  "hours": 5,
+  "minutes": 46
+ },
+ "coco_000000236324": {
+  "hours": 4,
+  "minutes": 19
+ },
+ "coco_000000236767": {
+  "hours": 6,
+  "minutes": 45
+ },
+ "coco_000000237600": {
+  "hours": 7,
+  "minutes": 52
+ },
+ "coco_000000237608": {
+  "hours": 1,
+  "minutes": 22
+ },
+ "coco_000000237663": {
+  "hours": 3,
+  "minutes": 20
+ },
+ "coco_000000237869": {
+  "hours": 7,
+  "minutes": 12
+ },
+ "coco_000000238392": {
+  "hours": 2,
+  "minutes": 34
+ },
+ "coco_000000238455": {
+  "hours": 2,
+  "minutes": 0
+ },
+ "coco_000000240194": {
+  "hours": 3,
+  "minutes": 13
+ },
+ "coco_000000240247": {
+  "hours": 5,
+  "minutes": 14
+ },
+ "coco_000000240457": {
+  "hours": 12,
+  "minutes": 43
+ },
+ "coco_000000241726": {
+  "hours": 10,
+  "minutes": 8
+ },
+ "coco_000000241962": {
+  "hours": 2,
+  "minutes": 37
+ },
+ "coco_000000242203": {
+  "hours": 3,
+  "minutes": 16
+ },
+ "coco_000000242216": {
+  "hours": 11,
+  "minutes": 31
+ },
+ "coco_000000242400": {
+  "hours": 6,
+  "minutes": 14
+ },
+ "coco_000000242411": {
+  "hours": 12,
+  "minutes": 0
+ },
+ "coco_000000242510": {
+  "hours": 3,
+  "minutes": 46
+ },
+ "coco_000000242644": {
+  "hours": 10,
+  "minutes": 2
+ },
+ "coco_000000243189": {
+  "hours": 10,
+  "minutes": 0
+ },
+ "coco_000000243775": {
+  "hours": 3,
+  "minutes": 16
+ },
+ "coco_000000244795": {
+  "hours": 5,
+  "minutes": 37
+ },
+ "coco_000000245430": {
+  "hours": 11,
+  "minutes": 55
+ },
+ "coco_000000246597": {
+  "hours": 4,
+  "minutes": 5
+ },
+ "coco_000000246666": {
+  "hours": 5,
+  "minutes": 50
+ },
+ "coco_000000248017": {
+  "hours": 4,
+  "minutes": 53
+ },
+ "coco_000000248610": {
+  "hours": 2,
+  "minutes": 31
+ },
+ "coco_000000249295": {
+  "hours": 2,
+  "minutes": 17
+ },
+ "coco_000000250261": {
+  "hours": 11,
+  "minutes": 25
+ },
+ "coco_000000251047": {
+  "hours": 5,
+  "minutes": 15
+ },
+ "coco_000000251249": {
+  "hours": 10,
+  "minutes": 33
+ },
+ "coco_000000251523": {
+  "hours": 1,
+  "minutes": 44
+ },
+ "coco_000000251789": {
+  "hours": 1,
+  "minutes": 37
+ },
+ "coco_000000251803": {
+  "hours": 2,
+  "minutes": 0
+ },
+ "coco_000000252177": {
+  "hours": 12,
+  "minutes": 33
+ },
+ "coco_000000252272": {
+  "hours": 1,
+  "minutes": 11
+ },
+ "coco_000000252966": {
+  "hours": 3,
+  "minutes": 14
+ },
+ "coco_000000253177": {
+  "hours": 12,
+  "minutes": 54
+ },
+ "coco_000000253227": {
+  "hours": 12,
+  "minutes": 46
+ },
+ "coco_000000253716": {
+  "hours": 3,
+  "minutes": 5
+ },
+ "coco_000000253764": {
+  "hours": 9,
+  "minutes": 5
+ },
+ "coco_000000253992": {
+  "hours": 9,
+  "minutes": 30
+ },
+ "coco_000000254005": {
+  "hours": 9,
+  "minutes": 31
+ },
+ "coco_000000254119": {
+  "hours": 6,
+  "minutes": 1
+ },
+ "coco_000000254414": {
+  "hours": 9,
+  "minutes": 35
+ },
+ "coco_000000254682": {
+  "hours": 1,
+  "minutes": 41
+ },
+ "coco_000000254834": {
+  "hours": 8,
+  "minutes": 54
+ },
+ "coco_000000254931": {
+  "hours": 10,
+  "minutes": 19
+ },
+ "coco_000000255335": {
+  "hours": 11,
+  "minutes": 54
+ },
+ "coco_000000255385": {
+  "hours": 4,
+  "minutes": 45
+ },
+ "coco_000000256154": {
+  "hours": 12,
+  "minutes": 21
+ },
+ "coco_000000256231": {
+  "hours": 7,
+  "minutes": 10
+ },
+ "coco_000000256301": {
+  "hours": 11,
+  "minutes": 20
+ },
+ "coco_000000256407": {
+  "hours": 8,
+  "minutes": 35
+ },
+ "coco_000000256613": {
+  "hours": 7,
+  "minutes": 44
+ },
+ "coco_000000256799": {
+  "hours": 10,
+  "minutes": 46
+ },
+ "coco_000000256908": {
+  "hours": 2,
+  "minutes": 54
+ },
+ "coco_000000257178": {
+  "hours": 11,
+  "minutes": 10
+ },
+ "coco_000000257392": {
+  "hours": 9,
+  "minutes": 18
+ },
+ "coco_000000257489": {
+  "hours": 2,
+  "minutes": 26
+ },
+ "coco_000000257502": {
+  "hours": 3,
+  "minutes": 30
+ },
+ "coco_000000257663": {
+  "hours": 11,
+  "minutes": 47
+ },
+ "coco_000000257711": {
+  "hours": 11,
+  "minutes": 31
+ },
+ "coco_000000257786": {
+  "hours": 12,
+  "minutes": 0
+ },
+ "coco_000000258440": {
+  "hours": 1,
+  "minutes": 55
+ },
+ "coco_000000259338": {
+  "hours": 2,
+  "minutes": 51
+ },
+ "coco_000000259426": {
+  "hours": 3,
+  "minutes": 19
+ },
+ "coco_000000259758": {
+  "hours": 1,
+  "minutes": 50
+ },
+ "coco_000000260829": {
+  "hours": 10,
+  "minutes": 35
+ },
+ "coco_000000260910": {
+  "hours": 11,
+  "minutes": 46
+ },
+ "coco_000000260922": {
+  "hours": 10,
+  "minutes": 11
+ },
+ "coco_000000260966": {
+  "hours": 1,
+  "minutes": 14
+ },
+ "coco_000000261026": {
+  "hours": 2,
+  "minutes": 34
+ },
+ "coco_000000261118": {
+  "hours": 6,
+  "minutes": 5
+ },
+ "coco_000000261178": {
+  "hours": 3,
+  "minutes": 50
+ },
+ "coco_000000262054": {
+  "hours": 12,
+  "minutes": 30
+ },
+ "coco_000000262262": {
+  "hours": 12,
+  "minutes": 0
+ },
+ "coco_000000262307": {
+  "hours": 4,
+  "minutes": 36
+ },
+ "coco_000000262329": {
+  "hours": 11,
+  "minutes": 56
+ },
+ "coco_000000262522": {
+  "hours": 9,
+  "minutes": 27
+ },
+ "coco_000000262605": {
+  "hours": 10,
+  "minutes": 43
+ },
+ "coco_000000262690": {
+  "hours": 2,
+  "minutes": 20
+ },
+ "coco_000000262752": {
+  "hours": 6,
+  "minutes": 1
+ },
+ "coco_000000263292": {
+  "hours": 10,
+  "minutes": 5
+ },
+ "coco_000000263382": {
+  "hours": 11,
+  "minutes": 54
+ },
+ "coco_000000263412": {
+  "hours": 4,
+  "minutes": 45
+ },
+ "coco_000000264209": {
+  "hours": 5,
+  "minutes": 39
+ },
+ "coco_000000264730": {
+  "hours": 3,
+  "minutes": 48
+ },
+ "coco_000000264969": {
+  "hours": 1,
+  "minutes": 31
+ },
+ "coco_000000265150": {
+  "hours": 9,
+  "minutes": 25
+ },
+ "coco_000000265344": {
+  "hours": 4,
+  "minutes": 0
+ },
+ "coco_000000266385": {
+  "hours": 5,
+  "minutes": 31
+ },
+ "coco_000000266386": {
+  "hours": 2,
+  "minutes": 56
+ },
+ "coco_000000266451": {
+  "hours": 6,
+  "minutes": 56
+ },
+ "coco_000000267049": {
+  "hours": 9,
+  "minutes": 11
+ },
+ "coco_000000267351": {
+  "hours": 11,
+  "minutes": 45
+ },
+ "coco_000000268433": {
+  "hours": 8,
+  "minutes": 2
+ },
+ "coco_000000268940": {
+  "hours": 6,
+  "minutes": 47
+ },
+ "coco_000000269419": {
+  "hours": 4,
+  "minutes": 41
+ },
+ "coco_000000269600": {
+  "hours": 5,
+  "minutes": 41
+ },
+ "coco_000000269723": {
+  "hours": 4,
+  "minutes": 15
+ },
+ "coco_000000270796": {
+  "hours": 10,
+  "minutes": 2
+ },
+ "coco_000000270898": {
+  "hours": 3,
+  "minutes": 43
+ },
+ "coco_000000271038": {
+  "hours": 12,
+  "minutes": 10
+ },
+ "coco_000000272335": {
+  "hours": 5,
+  "minutes": 45
+ },
+ "coco_000000272405": {
+  "hours": 1,
+  "minutes": 17
+ },
+ "coco_000000272626": {
+  "hours": 2,
+  "minutes": 35
+ },
+ "coco_000000273082": {
+  "hours": 9,
+  "minutes": 30
+ },
+ "coco_000000273196": {
+  "hours": 8,
+  "minutes": 5
+ },
+ "coco_000000273268": {
+  "hours": 10,
+  "minutes": 5
+ },
+ "coco_000000273576": {
+  "hours": 4,
+  "minutes": 13
+ },
+ "coco_000000273840": {
+  "hours": 12,
+  "minutes": 59
+ },
+ "coco_000000274213": {
+  "hours": 3,
+  "minutes": 25
+ },
+ "coco_000000274254": {
+  "hours": 1,
+  "minutes": 27
+ },
+ "coco_000000274801": {
+  "hours": 2,
+  "minutes": 20
+ },
+ "coco_000000274894": {
+  "hours": 4,
+  "minutes": 21
+ },
+ "coco_000000274939": {
+  "hours": 10,
+  "minutes": 55
+ },
+ "coco_000000275102": {
+  "hours": 10,
+  "minutes": 33
+ },
+ "coco_000000275242": {
+  "hours": 2,
+  "minutes": 0
+ },
+ "coco_000000275263": {
+  "hours": 2,
+  "minutes": 59
+ },
+ "coco_000000276527": {
+  "hours": 10,
+  "minutes": 59
+ },
+ "coco_000000276796": {
+  "hours": 3,
+  "minutes": 54
+ },
+ "coco_000000277003": {
+  "hours": 4,
+  "minutes": 58
+ },
+ "coco_000000277334": {
+  "hours": 10,
+  "minutes": 12
+ },
+ "coco_000000277433": {
+  "hours": 11,
+  "minutes": 21
+ },
+ "coco_000000277463": {
+  "hours": 11,
+  "minutes": 54
+ },
+ "coco_000000277529": {
+  "hours": 7,
+  "minutes": 19
+ },
+ "coco_000000277550": {
+  "hours": 10,
+  "minutes": 26
+ },
+ "coco_000000278952": {
+  "hours": 12,
+  "minutes": 7
+ },
+ "coco_000000279247": {
+  "hours": 11,
+  "minutes": 46
+ },
+ "coco_000000279563": {
+  "hours": 5,
+  "minutes": 16
+ },
+ "coco_000000280530": {
+  "hours": 2,
+  "minutes": 45
+ },
+ "coco_000000280838": {
+  "hours": 11,
+  "minutes": 43
+ },
+ "coco_000000281191": {
+  "hours": 3,
+  "minutes": 39
+ },
+ "coco_000000281210": {
+  "hours": 11,
+  "minutes": 1
+ },
+ "coco_000000281273": {
+  "hours": 7,
+  "minutes": 41
+ },
+ "coco_000000281599": {
+  "hours": 1,
+  "minutes": 46
+ },
+ "coco_000000281631": {
+  "hours": 4,
+  "minutes": 0
+ },
+ "coco_000000282186": {
+  "hours": 5,
+  "minutes": 14
+ },
+ "coco_000000282298": {
+  "hours": 6,
+  "minutes": 17
+ },
+ "coco_000000282357": {
+  "hours": 8,
+  "minutes": 48
+ },
+ "coco_000000282464": {
+  "hours": 11,
+  "minutes": 56
+ },
+ "coco_000000282523": {
+  "hours": 11,
+  "minutes": 5
+ },
+ "coco_000000282730": {
+  "hours": 10,
+  "minutes": 11
+ },
+ "coco_000000282812": {
+  "hours": 11,
+  "minutes": 45
+ },
+ "coco_000000283432": {
+  "hours": 8,
+  "minutes": 28
+ },
+ "coco_000000283516": {
+  "hours": 12,
+  "minutes": 10
+ },
+ "coco_000000283790": {
+  "hours": 4,
+  "minutes": 58
+ },
+ "coco_000000284256": {
+  "hours": 6,
+  "minutes": 4
+ },
+ "coco_000000284297": {
+  "hours": 12,
+  "minutes": 30
+ },
+ "coco_000000284324": {
+  "hours": 2,
+  "minutes": 20
+ },
+ "coco_000000284686": {
+  "hours": 3,
+  "minutes": 5
+ },
+ "coco_000000285160": {
+  "hours": 11,
+  "minutes": 34
+ },
+ "coco_000000285683": {
+  "hours": 8,
+  "minutes": 9
+ },
+ "coco_000000285705": {
+  "hours": 11,
+  "minutes": 50
+ },
+ "coco_000000286619": {
+  "hours": 9,
+  "minutes": 5
+ },
+ "coco_000000287324": {
+  "hours": 10,
+  "minutes": 31
+ },
+ "coco_000000287384": {
+  "hours": 12,
+  "minutes": 5
+ },
+ "coco_000000288176": {
+  "hours": 3,
+  "minutes": 18
+ },
+ "coco_000000289516": {
+  "hours": 3,
+  "minutes": 19
+ },
+ "coco_000000290400": {
+  "hours": 11,
+  "minutes": 27
+ },
+ "coco_000000291458": {
+  "hours": 1,
+  "minutes": 50
+ },
+ "coco_000000291506": {
+  "hours": 11,
+  "minutes": 32
+ },
+ "coco_000000291816": {
+  "hours": 10,
+  "minutes": 11
+ },
+ "coco_000000292181": {
+  "hours": 8,
+  "minutes": 51
+ },
+ "coco_000000292347": {
+  "hours": 10,
+  "minutes": 54
+ },
+ "coco_000000292467": {
+  "hours": 9,
+  "minutes": 15
+ },
+ "coco_000000293166": {
+  "hours": 6,
+  "minutes": 6
+ },
+ "coco_000000293514": {
+  "hours": 2,
+  "minutes": 3
+ },
+ "coco_000000293666": {
+  "hours": 1,
+  "minutes": 49
+ },
+ "coco_000000294163": {
+  "hours": 6,
+  "minutes": 45
+ },
+ "coco_000000294176": {
+  "hours": 6,
+  "minutes": 19
+ },
+ "coco_000000294761": {
+  "hours": 8,
+  "minutes": 56
+ },
+ "coco_000000295116": {
+  "hours": 5,
+  "minutes": 40
+ },
+ "coco_000000295433": {
+  "hours": 6,
+  "minutes": 2
+ },
+ "coco_000000295441": {
+  "hours": 2,
+  "minutes": 58
+ },
+ "coco_000000295728": {
+  "hours": 5,
+  "minutes": 5
+ },
+ "coco_000000295797": {
+  "hours": 5,
+  "minutes": 56
+ },
+ "coco_000000296098": {
+  "hours": 9,
+  "minutes": 7
+ },
+ "coco_000000296367": {
+  "hours": 3,
+  "minutes": 25
+ },
+ "coco_000000296730": {
+  "hours": 1,
+  "minutes": 55
+ },
+ "coco_000000297415": {
+  "hours": 12,
+  "minutes": 40
+ },
+ "coco_000000297726": {
+  "hours": 11,
+  "minutes": 11
+ },
+ "coco_000000298644": {
+  "hours": 4,
+  "minutes": 17
+ },
+ "coco_000000299367": {
+  "hours": 8,
+  "minutes": 6
+ },
+ "coco_000000299704": {
+  "hours": 5,
+  "minutes": 38
+ },
+ "coco_000000300086": {
+  "hours": 2,
+  "minutes": 50
+ },
+ "coco_000000300121": {
+  "hours": 8,
+  "minutes": 10
+ },
+ "coco_000000300836": {
+  "hours": 2,
+  "minutes": 11
+ },
+ "coco_000000300855": {
+  "hours": 3,
+  "minutes": 41
+ },
+ "coco_000000300989": {
+  "hours": 6,
+  "minutes": 48
+ },
+ "coco_000000301191": {
+  "hours": 3,
+  "minutes": 4
+ },
+ "coco_000000301956": {
+  "hours": 1,
+  "minutes": 42
+ },
+ "coco_000000302019": {
+  "hours": 7,
+  "minutes": 25
+ },
+ "coco_000000302193": {
+  "hours": 6,
+  "minutes": 39
+ },
+ "coco_000000302375": {
+  "hours": 9,
+  "minutes": 12
+ },
+ "coco_000000302712": {
+  "hours": 1,
+  "minutes": 54
+ },
+ "coco_000000303133": {
+  "hours": 1,
+  "minutes": 21
+ },
+ "coco_000000303408": {
+  "hours": 5,
+  "minutes": 40
+ },
+ "coco_000000303873": {
+  "hours": 10,
+  "minutes": 9
+ },
+ "coco_000000303994": {
+  "hours": 10,
+  "minutes": 50
+ },
+ "coco_000000304250": {
+  "hours": 12,
+  "minutes": 37
+ },
+ "coco_000000304341": {
+  "hours": 8,
+  "minutes": 5
+ },
+ "coco_000000304484": {
+  "hours": 1,
+  "minutes": 52
+ },
+ "coco_000000304849": {
+  "hours": 1,
+  "minutes": 54
+ },
+ "coco_000000305030": {
+  "hours": 12,
+  "minutes": 5
+ },
+ "coco_000000305056": {
+  "hours": 1,
+  "minutes": 4
+ },
+ "coco_000000305253": {
+  "hours": 4,
+  "minutes": 40
+ },
+ "coco_000000305368": {
+  "hours": 3,
+  "minutes": 19
+ },
+ "coco_000000305959": {
+  "hours": 10,
+  "minutes": 40
+ },
+ "coco_000000306524": {
+  "hours": 10,
+  "minutes": 10
+ },
+ "coco_000000306928": {
+  "hours": 1,
+  "minutes": 45
+ },
+ "coco_000000308193": {
+  "hours": 10,
+  "minutes": 37
+ },
+ "coco_000000308950": {
+  "hours": 11,
+  "minutes": 41
+ },
+ "coco_000000309322": {
+  "hours": 6,
+  "minutes": 0
+ },
+ "coco_000000309531": {
+  "hours": 2,
+  "minutes": 42
+ },
+ "coco_000000309753": {
+  "hours": 8,
+  "minutes": 22
+ },
+ "coco_000000310047": {
+  "hours": 7,
+  "minutes": 25
+ },
+ "coco_000000310560": {
+  "hours": 3,
+  "minutes": 40
+ },
+ "coco_000000312144": {
+  "hours": 5,
+  "minutes": 30
+ },
+ "coco_000000312263": {
+  "hours": 2,
+  "minutes": 38
+ },
+ "coco_000000312355": {
+  "hours": 2,
+  "minutes": 4
+ },
+ "coco_000000312608": {
+  "hours": 3,
+  "minutes": 0
+ },
+ "coco_000000312621": {
+  "hours": 10,
+  "minutes": 57
+ },
+ "coco_000000312935": {
+  "hours": 1,
+  "minutes": 50
+ },
+ "coco_000000313449": {
+  "hours": 1,
+  "minutes": 42
+ },
+ "coco_000000313990": {
+  "hours": 5,
+  "minutes": 46
+ },
+ "coco_000000315319": {
+  "hours": 10,
+  "minutes": 29
+ },
+ "coco_000000315593": {
+  "hours": 4,
+  "minutes": 43
+ },
+ "coco_000000315830": {
+  "hours": 11,
+  "minutes": 25
+ },
+ "coco_000000316250": {
+  "hours": 3,
+  "minutes": 55
+ },
+ "coco_000000316336": {
+  "hours": 7,
+  "minutes": 48
+ },
+ "coco_000000316561": {
+  "hours": 8,
+  "minutes": 55
+ },
+ "coco_000000316650": {
+  "hours": 2,
+  "minutes": 28
+ },
+ "coco_000000317792": {
+  "hours": 10,
+  "minutes": 28
+ },
+ "coco_000000317795": {
+  "hours": 3,
+  "minutes": 10
+ },
+ "coco_000000318330": {
+  "hours": 10,
+  "minutes": 11
+ },
+ "coco_000000318910": {
+  "hours": 3,
+  "minutes": 27
+ },
+ "coco_000000319104": {
+  "hours": 7,
+  "minutes": 20
+ },
+ "coco_000000320008": {
+  "hours": 11,
+  "minutes": 58
+ },
+ "coco_000000320944": {
+  "hours": 4,
+  "minutes": 4
+ },
+ "coco_000000321437": {
+  "hours": 2,
+  "minutes": 50
+ },
+ "coco_000000321805": {
+  "hours": 5,
+  "minutes": 13
+ },
+ "coco_000000321897": {
+  "hours": 12,
+  "minutes": 28
+ },
+ "coco_000000321935": {
+  "hours": 3,
+  "minutes": 59
+ },
+ "coco_000000322822": {
+  "hours": 12,
+  "minutes": 47
+ },
+ "coco_000000323558": {
+  "hours": 6,
+  "minutes": 54
+ },
+ "coco_000000323705": {
+  "hours": 12,
+  "minutes": 30
+ },
+ "coco_000000323774": {
+  "hours": 1,
+  "minutes": 22
+ },
+ "coco_000000324492": {
+  "hours": 5,
+  "minutes": 29
+ },
+ "coco_000000324832": {
+  "hours": 1,
+  "minutes": 9
+ },
+ "coco_000000325332": {
+  "hours": 11,
+  "minutes": 46
+ },
+ "coco_000000325600": {
+  "hours": 4,
+  "minutes": 20
+ },
+ "coco_000000326640": {
+  "hours": 4,
+  "minutes": 1
+ },
+ "coco_000000326663": {
+  "hours": 1,
+  "minutes": 52
+ },
+ "coco_000000326925": {
+  "hours": 4,
+  "minutes": 18
+ },
+ "coco_000000327367": {
+  "hours": 10,
+  "minutes": 7
+ },
+ "coco_000000328551": {
+  "hours": 2,
+  "minutes": 19
+ },
+ "coco_000000329582": {
+  "hours": 1,
+  "minutes": 44
+ },
+ "coco_000000330051": {
+  "hours": 8,
+  "minutes": 5
+ },
+ "coco_000000330391": {
+  "hours": 12,
+  "minutes": 39
+ },
+ "coco_000000330405": {
+  "hours": 9,
+  "minutes": 41
+ },
+ "coco_000000330720": {
+  "hours": 11,
+  "minutes": 44
+ },
+ "coco_000000330917": {
+  "hours": 2,
+  "minutes": 40
+ },
+ "coco_000000331282": {
+  "hours": 3,
+  "minutes": 13
+ },
+ "coco_000000331607": {
+  "hours": 4,
+  "minutes": 3
+ },
+ "coco_000000331824": {
+  "hours": 5,
+  "minutes": 26
+ },
+ "coco_000000331978": {
+  "hours": 11,
+  "minutes": 3
+ },
+ "coco_000000332355": {
+  "hours": 1,
+  "minutes": 43
+ },
+ "coco_000000332417": {
+  "hours": 6,
+  "minutes": 25
+ },
+ "coco_000000333556": {
+  "hours": 12,
+  "minutes": 51
+ },
+ "coco_000000334050": {
+  "hours": 8,
+  "minutes": 58
+ },
+ "coco_000000334073": {
+  "hours": 4,
+  "minutes": 39
+ },
+ "coco_000000334174": {
+  "hours": 7,
+  "minutes": 4
+ },
+ "coco_000000334491": {
+  "hours": 11,
+  "minutes": 27
+ },
+ "coco_000000334587": {
+  "hours": 3,
+  "minutes": 56
+ },
+ "coco_000000334958": {
+  "hours": 5,
+  "minutes": 24
+ },
+ "coco_000000334995": {
+  "hours": 11,
+  "minutes": 5
+ },
+ "coco_000000335833": {
+  "hours": 9,
+  "minutes": 0
+ },
+ "coco_000000335967": {
+  "hours": 8,
+  "minutes": 11
+ },
+ "coco_000000336484": {
+  "hours": 3,
+  "minutes": 54
+ },
+ "coco_000000337083": {
+  "hours": 11,
+  "minutes": 35
+ },
+ "coco_000000337120": {
+  "hours": 2,
+  "minutes": 34
+ },
+ "coco_000000337814": {
+  "hours": 5,
+  "minutes": 40
+ },
+ "coco_000000338118": {
+  "hours": 2,
+  "minutes": 26
+ },
+ "coco_000000338132": {
+  "hours": 8,
+  "minutes": 4
+ },
+ "coco_000000338265": {
+  "hours": 8,
+  "minutes": 4
+ },
+ "coco_000000338321": {
+  "hours": 10,
+  "minutes": 49
+ },
+ "coco_000000338323": {
+  "hours": 12,
+  "minutes": 56
+ },
+ "coco_000000338363": {
+  "hours": 6,
+  "minutes": 53
+ },
+ "coco_000000338370": {
+  "hours": 1,
+  "minutes": 34
+ },
+ "coco_000000338528": {
+  "hours": 12,
+  "minutes": 43
+ },
+ "coco_000000338592": {
+  "hours": 1,
+  "minutes": 0
+ },
+ "coco_000000339211": {
+  "hours": 1,
+  "minutes": 55
+ },
+ "coco_000000340471": {
+  "hours": 6,
+  "minutes": 19
+ },
+ "coco_000000340561": {
+  "hours": 6,
+  "minutes": 0
+ },
+ "coco_000000340976": {
+  "hours": 11,
+  "minutes": 36
+ },
+ "coco_000000341296": {
+  "hours": 5,
+  "minutes": 11
+ },
+ "coco_000000341724": {
+  "hours": 6,
+  "minutes": 19
+ },
+ "coco_000000341871": {
+  "hours": 3,
+  "minutes": 0
+ },
+ "coco_000000342460": {
+  "hours": 11,
+  "minutes": 55
+ },
+ "coco_000000343149": {
+  "hours": 2,
+  "minutes": 41
+ },
+ "coco_000000343596": {
+  "hours": 3,
+  "minutes": 48
+ },
+ "coco_000000343815": {
+  "hours": 3,
+  "minutes": 28
+ },
+ "coco_000000344194": {
+  "hours": 12,
+  "minutes": 16
+ },
+ "coco_000000344280": {
+  "hours": 3,
+  "minutes": 17
+ },
+ "coco_000000344614": {
+  "hours": 8,
+  "minutes": 17
+ },
+ "coco_000000344726": {
+  "hours": 9,
+  "minutes": 53
+ },
+ "coco_000000345024": {
+  "hours": 11,
+  "minutes": 22
+ },
+ "coco_000000345331": {
+  "hours": 5,
+  "minutes": 48
+ },
+ "coco_000000345543": {
+  "hours": 12,
+  "minutes": 46
+ },
+ "coco_000000345562": {
+  "hours": 6,
+  "minutes": 8
+ },
+ "coco_000000345869": {
+  "hours": 1,
+  "minutes": 27
+ },
+ "coco_000000346341": {
+  "hours": 5,
+  "minutes": 45
+ },
+ "coco_000000346924": {
+  "hours": 5,
+  "minutes": 4
+ },
+ "coco_000000347312": {
+  "hours": 1,
+  "minutes": 15
+ },
+ "coco_000000347587": {
+  "hours": 12,
+  "minutes": 39
+ },
+ "coco_000000348087": {
+  "hours": 7,
+  "minutes": 4
+ },
+ "coco_000000348234": {
+  "hours": 9,
+  "minutes": 51
+ },
+ "coco_000000348277": {
+  "hours": 5,
+  "minutes": 32
+ },
+ "coco_000000348480": {
+  "hours": 10,
+  "minutes": 36
+ },
+ "coco_000000348598": {
+  "hours": 1,
+  "minutes": 10
+ },
+ "coco_000000348759": {
+  "hours": 11,
+  "minutes": 26
+ },
+ "coco_000000349512": {
+  "hours": 1,
+  "minutes": 42
+ },
+ "coco_000000349588": {
+  "hours": 3,
+  "minutes": 13
+ },
+ "coco_000000351116": {
+  "hours": 6,
+  "minutes": 40
+ },
+ "coco_000000351466": {
+  "hours": 9,
+  "minutes": 56
+ },
+ "coco_000000352162": {
+  "hours": 4,
+  "minutes": 51
+ },
+ "coco_000000353288": {
+  "hours": 3,
+  "minutes": 59
+ },
+ "coco_000000353485": {
+  "hours": 12,
+  "minutes": 8
+ },
+ "coco_000000354569": {
+  "hours": 3,
+  "minutes": 7
+ },
+ "coco_000000355069": {
+  "hours": 7,
+  "minutes": 29
+ },
+ "coco_000000355088": {
+  "hours": 4,
+  "minutes": 6
+ },
+ "coco_000000355169": {
+  "hours": 5,
+  "minutes": 18
+ },
+ "coco_000000356237": {
+  "hours": 6,
+  "minutes": 29
+ },
+ "coco_000000356938": {
+  "hours": 2,
+  "minutes": 14
+ },
+ "coco_000000357265": {
+  "hours": 11,
+  "minutes": 20
+ },
+ "coco_000000357432": {
+  "hours": 3,
+  "minutes": 53
+ },
+ "coco_000000357684": {
+  "hours": 12,
+  "minutes": 48
+ },
+ "coco_000000358020": {
+  "hours": 5,
+  "minutes": 41
+ },
+ "coco_000000358120": {
+  "hours": 11,
+  "minutes": 8
+ },
+ "coco_000000358607": {
+  "hours": 2,
+  "minutes": 52
+ },
+ "coco_000000358724": {
+  "hours": 12,
+  "minutes": 46
+ },
+ "coco_000000359132": {
+  "hours": 5,
+  "minutes": 0
+ },
+ "coco_000000359148": {
+  "hours": 11,
+  "minutes": 2
+ },
+ "coco_000000361259": {
+  "hours": 4,
+  "minutes": 16
+ },
+ "coco_000000362329": {
+  "hours": 1,
+  "minutes": 47
+ },
+ "coco_000000362608": {
+  "hours": 11,
+  "minutes": 58
+ },
+ "coco_000000362620": {
+  "hours": 12,
+  "minutes": 28
+ },
+ "coco_000000362796": {
+  "hours": 3,
+  "minutes": 27
+ },
+ "coco_000000363100": {
+  "hours": 12,
+  "minutes": 42
+ },
+ "coco_000000364104": {
+  "hours": 1,
+  "minutes": 58
+ },
+ "coco_000000364274": {
+  "hours": 6,
+  "minutes": 37
+ },
+ "coco_000000364476": {
+  "hours": 3,
+  "minutes": 58
+ },
+ "coco_000000366256": {
+  "hours": 9,
+  "minutes": 16
+ },
+ "coco_000000366528": {
+  "hours": 8,
+  "minutes": 49
+ },
+ "coco_000000366782": {
+  "hours": 7,
+  "minutes": 33
+ },
+ "coco_000000366984": {
+  "hours": 1,
+  "minutes": 44
+ },
+ "coco_000000368080": {
+  "hours": 10,
+  "minutes": 15
+ },
+ "coco_000000368637": {
+  "hours": 2,
+  "minutes": 22
+ },
+ "coco_000000368736": {
+  "hours": 4,
+  "minutes": 27
+ },
+ "coco_000000368821": {
+  "hours": 4,
+  "minutes": 20
+ },
+ "coco_000000369593": {
+  "hours": 11,
+  "minutes": 54
+ },
+ "coco_000000370911": {
+  "hours": 5,
+  "minutes": 15
+ },
+ "coco_000000371186": {
+  "hours": 10,
+  "minutes": 20
+ },
+ "coco_000000371392": {
+  "hours": 9,
+  "minutes": 34
+ },
+ "coco_000000371647": {
+  "hours": 9,
+  "minutes": 20
+ },
+ "coco_000000371958": {
+  "hours": 3,
+  "minutes": 30
+ },
+ "coco_000000371999": {
+  "hours": 12,
+  "minutes": 17
+ },
+ "coco_000000372150": {
+  "hours": 6,
+  "minutes": 57
+ },
+ "coco_000000372260": {
+  "hours": 2,
+  "minutes": 34
+ },
+ "coco_000000372305": {
+  "hours": 11,
+  "minutes": 24
+ },
+ "coco_000000372374": {
+  "hours": 3,
+  "minutes": 6
+ },
+ "coco_000000373342": {
+  "hours": 9,
+  "minutes": 6
+ },
+ "coco_000000373480": {
+  "hours": 8,
+  "minutes": 42
+ },
+ "coco_000000373857": {
+  "hours": 10,
+  "minutes": 8
+ },
+ "coco_000000374832": {
+  "hours": 8,
+  "minutes": 25
+ },
+ "coco_000000374955": {
+  "hours": 3,
+  "minutes": 41
+ },
+ "coco_000000375192": {
+  "hours": 4,
+  "minutes": 50
+ },
+ "coco_000000375473": {
+  "hours": 6,
+  "minutes": 17
+ },
+ "coco_000000375846": {
+  "hours": 9,
+  "minutes": 30
+ },
+ "coco_000000376747": {
+  "hours": 11,
+  "minutes": 7
+ },
+ "coco_000000376767": {
+  "hours": 4,
+  "minutes": 43
+ },
+ "coco_000000377110": {
+  "hours": 11,
+  "minutes": 46
+ },
+ "coco_000000377626": {
+  "hours": 11,
+  "minutes": 31
+ },
+ "coco_000000378299": {
+  "hours": 10,
+  "minutes": 23
+ },
+ "coco_000000378545": {
+  "hours": 12,
+  "minutes": 45
+ },
+ "coco_000000379402": {
+  "hours": 8,
+  "minutes": 18
+ },
+ "coco_000000379465": {
+  "hours": 12,
+  "minutes": 0
+ },
+ "coco_000000380510": {
+  "hours": 1,
+  "minutes": 44
+ },
+ "coco_000000380827": {
+  "hours": 3,
+  "minutes": 38
+ },
+ "coco_000000381247": {
+  "hours": 3,
+  "minutes": 1
+ },
+ "coco_000000381315": {
+  "hours": 4,
+  "minutes": 29
+ },
+ "coco_000000381350": {
+  "hours": 11,
+  "minutes": 57
+ },
+ "coco_000000381504": {
+  "hours": 10,
+  "minutes": 58
+ },
+ "coco_000000382127": {
+  "hours": 2,
+  "minutes": 29
+ },
+ "coco_000000382973": {
+  "hours": 1,
+  "minutes": 57
+ },
+ "coco_000000383580": {
+  "hours": 3,
+  "minutes": 37
+ },
+ "coco_000000383748": {
+  "hours": 11,
+  "minutes": 1
+ },
+ "coco_000000384793": {
+  "hours": 9,
+  "minutes": 54
+ },
+ "coco_000000384794": {
+  "hours": 2,
+  "minutes": 1
+ },
+ "coco_000000385378": {
+  "hours": 6,
+  "minutes": 6
+ },
+ "coco_000000385849": {
+  "hours": 10,
+  "minutes": 2
+ },
+ "coco_000000386193": {
+  "hours": 10,
+  "minutes": 8
+ },
+ "coco_000000386257": {
+  "hours": 12,
+  "minutes": 29
+ },
+ "coco_000000386313": {
+  "hours": 8,
+  "minutes": 5
+ },
+ "coco_000000386819": {
+  "hours": 1,
+  "minutes": 52
+ },
+ "coco_000000387431": {
+  "hours": 5,
+  "minutes": 54
+ },
+ "coco_000000387833": {
+  "hours": 2,
+  "minutes": 12
+ },
+ "coco_000000387887": {
+  "hours": 8,
+  "minutes": 7
+ },
+ "coco_000000388267": {
+  "hours": 1,
+  "minutes": 35
+ },
+ "coco_000000388316": {
+  "hours": 2,
+  "minutes": 16
+ },
+ "coco_000000388507": {
+  "hours": 7,
+  "minutes": 45
+ },
+ "coco_000000388854": {
+  "hours": 2,
+  "minutes": 26
+ },
+ "coco_000000389622": {
+  "hours": 2,
+  "minutes": 50
+ },
+ "coco_000000389729": {
+  "hours": 12,
+  "minutes": 22
+ },
+ "coco_000000390365": {
+  "hours": 5,
+  "minutes": 52
+ },
+ "coco_000000390658": {
+  "hours": 5,
+  "minutes": 4
+ },
+ "coco_000000391456": {
+  "hours": 3,
+  "minutes": 40
+ },
+ "coco_000000391648": {
+  "hours": 9,
+  "minutes": 29
+ },
+ "coco_000000391657": {
+  "hours": 2,
+  "minutes": 15
+ },
+ "coco_000000392228": {
+  "hours": 5,
+  "minutes": 37
+ },
+ "coco_000000393303": {
+  "hours": 1,
+  "minutes": 52
+ },
+ "coco_000000394008": {
+  "hours": 4,
+  "minutes": 10
+ },
+ "coco_000000394449": {
+  "hours": 8,
+  "minutes": 5
+ },
+ "coco_000000394866": {
+  "hours": 12,
+  "minutes": 16
+ },
+ "coco_000000394972": {
+  "hours": 5,
+  "minutes": 48
+ },
+ "coco_000000395210": {
+  "hours": 3,
+  "minutes": 24
+ },
+ "coco_000000395865": {
+  "hours": 11,
+  "minutes": 50
+ },
+ "coco_000000396116": {
+  "hours": 10,
+  "minutes": 4
+ },
+ "coco_000000396676": {
+  "hours": 12,
+  "minutes": 7
+ },
+ "coco_000000396768": {
+  "hours": 7,
+  "minutes": 4
+ },
+ "coco_000000396977": {
+  "hours": 3,
+  "minutes": 28
+ },
+ "coco_000000397036": {
+  "hours": 7,
+  "minutes": 34
+ },
+ "coco_000000397064": {
+  "hours": 2,
+  "minutes": 5
+ },
+ "coco_000000397210": {
+  "hours": 5,
+  "minutes": 8
+ },
+ "coco_000000397826": {
+  "hours": 12,
+  "minutes": 47
+ },
+ "coco_000000398666": {
+  "hours": 8,
+  "minutes": 40
+ },
+ "coco_000000398895": {
+  "hours": 3,
+  "minutes": 40
+ },
+ "coco_000000399009": {
+  "hours": 6,
+  "minutes": 0
+ },
+ "coco_000000399011": {
+  "hours": 7,
+  "minutes": 26
+ },
+ "coco_000000399177": {
+  "hours": 3,
+  "minutes": 17
+ },
+ "coco_000000399534": {
+  "hours": 12,
+  "minutes": 5
+ },
+ "coco_000000400218": {
+  "hours": 5,
+  "minutes": 47
+ },
+ "coco_000000400408": {
+  "hours": 12,
+  "minutes": 34
+ },
+ "coco_000000400729": {
+  "hours": 1,
+  "minutes": 7
+ },
+ "coco_000000400922": {
+  "hours": 11,
+  "minutes": 4
+ },
+ "coco_000000401240": {
+  "hours": 5,
+  "minutes": 1
+ },
+ "coco_000000402207": {
+  "hours": 10,
+  "minutes": 25
+ },
+ "coco_000000402570": {
+  "hours": 1,
+  "minutes": 48
+ },
+ "coco_000000403180": {
+  "hours": 1,
+  "minutes": 12
+ },
+ "coco_000000403500": {
+  "hours": 12,
+  "minutes": 4
+ },
+ "coco_000000403518": {
+  "hours": 5,
+  "minutes": 2
+ },
+ "coco_000000403553": {
+  "hours": 5,
+  "minutes": 1
+ },
+ "coco_000000403558": {
+  "hours": 1,
+  "minutes": 33
+ },
+ "coco_000000403657": {
+  "hours": 10,
+  "minutes": 35
+ },
+ "coco_000000403774": {
+  "hours": 10,
+  "minutes": 10
+ },
+ "coco_000000404064": {
+  "hours": 12,
+  "minutes": 54
+ },
+ "coco_000000404388": {
+  "hours": 11,
+  "minutes": 59
+ },
+ "coco_000000405194": {
+  "hours": 12,
+  "minutes": 5
+ },
+ "coco_000000405278": {
+  "hours": 10,
+  "minutes": 4
+ },
+ "coco_000000405606": {
+  "hours": 9,
+  "minutes": 46
+ },
+ "coco_000000405767": {
+  "hours": 1,
+  "minutes": 0
+ },
+ "coco_000000405777": {
+  "hours": 5,
+  "minutes": 22
+ },
+ "coco_000000407091": {
+  "hours": 3,
+  "minutes": 42
+ },
+ "coco_000000407667": {
+  "hours": 4,
+  "minutes": 5
+ },
+ "coco_000000407693": {
+  "hours": 4,
+  "minutes": 29
+ },
+ "coco_000000407825": {
+  "hours": 1,
+  "minutes": 9
+ },
+ "coco_000000408146": {
+  "hours": 9,
+  "minutes": 43
+ },
+ "coco_000000408532": {
+  "hours": 3,
+  "minutes": 42
+ },
+ "coco_000000408802": {
+  "hours": 12,
+  "minutes": 35
+ },
+ "coco_000000409116": {
+  "hours": 3,
+  "minutes": 48
+ },
+ "coco_000000409323": {
+  "hours": 9,
+  "minutes": 24
+ },
+ "coco_000000409542": {
+  "hours": 12,
+  "minutes": 58
+ },
+ "coco_000000409570": {
+  "hours": 2,
+  "minutes": 46
+ },
+ "coco_000000410711": {
+  "hours": 10,
+  "minutes": 21
+ },
+ "coco_000000410808": {
+  "hours": 1,
+  "minutes": 24
+ },
+ "coco_000000411385": {
+  "hours": 12,
+  "minutes": 59
+ },
+ "coco_000000411695": {
+  "hours": 1,
+  "minutes": 14
+ },
+ "coco_000000411748": {
+  "hours": 7,
+  "minutes": 49
+ },
+ "coco_000000412002": {
+  "hours": 8,
+  "minutes": 12
+ },
+ "coco_000000412174": {
+  "hours": 6,
+  "minutes": 17
+ },
+ "coco_000000412431": {
+  "hours": 3,
+  "minutes": 1
+ },
+ "coco_000000412615": {
+  "hours": 4,
+  "minutes": 18
+ },
+ "coco_000000413290": {
+  "hours": 4,
+  "minutes": 35
+ },
+ "coco_000000413497": {
+  "hours": 10,
+  "minutes": 33
+ },
+ "coco_000000413709": {
+  "hours": 9,
+  "minutes": 30
+ },
+ "coco_000000413792": {
+  "hours": 2,
+  "minutes": 25
+ },
+ "coco_000000414439": {
+  "hours": 5,
+  "minutes": 32
+ },
+ "coco_000000414663": {
+  "hours": 11,
+  "minutes": 44
+ },
+ "coco_000000414711": {
+  "hours": 5,
+  "minutes": 12
+ },
+ "coco_000000414870": {
+  "hours": 4,
+  "minutes": 17
+ },
+ "coco_000000415225": {
+  "hours": 3,
+  "minutes": 27
+ },
+ "coco_000000415663": {
+  "hours": 4,
+  "minutes": 0
+ },
+ "coco_000000415901": {
+  "hours": 2,
+  "minutes": 18
+ },
+ "coco_000000416387": {
+  "hours": 1,
+  "minutes": 28
+ },
+ "coco_000000417055": {
+  "hours": 12,
+  "minutes": 10
+ },
+ "coco_000000417159": {
+  "hours": 6,
+  "minutes": 12
+ },
+ "coco_000000417273": {
+  "hours": 12,
+  "minutes": 20
+ },
+ "coco_000000417384": {
+  "hours": 3,
+  "minutes": 45
+ },
+ "coco_000000417696": {
+  "hours": 4,
+  "minutes": 50
+ },
+ "coco_000000418757": {
+  "hours": 11,
+  "minutes": 12
+ },
+ "coco_000000418961": {
+  "hours": 7,
+  "minutes": 0
+ },
+ "coco_000000419211": {
+  "hours": 7,
+  "minutes": 43
+ },
+ "coco_000000419711": {
+  "hours": 5,
+  "minutes": 0
+ },
+ "coco_000000420354": {
+  "hours": 9,
+  "minutes": 6
+ },
+ "coco_000000420831": {
+  "hours": 2,
+  "minutes": 3
+ },
+ "coco_000000422020": {
+  "hours": 5,
+  "minutes": 5
+ },
+ "coco_000000422192": {
+  "hours": 5,
+  "minutes": 53
+ },
+ "coco_000000422268": {
+  "hours": 2,
+  "minutes": 20
+ },
+ "coco_000000422289": {
+  "hours": 6,
+  "minutes": 9
+ },
+ "coco_000000422804": {
+  "hours": 1,
+  "minutes": 28
+ },
+ "coco_000000423349": {
+  "hours": 11,
+  "minutes": 56
+ },
+ "coco_000000423860": {
+  "hours": 12,
+  "minutes": 46
+ },
+ "coco_000000423990": {
+  "hours": 10,
+  "minutes": 33
+ },
+ "coco_000000425150": {
+  "hours": 11,
+  "minutes": 15
+ },
+ "coco_000000425536": {
+  "hours": 11,
+  "minutes": 55
+ },
+ "coco_000000426079": {
+  "hours": 4,
+  "minutes": 22
+ },
+ "coco_000000426202": {
+  "hours": 10,
+  "minutes": 35
+ },
+ "coco_000000427055": {
+  "hours": 2,
+  "minutes": 1
+ },
+ "coco_000000427399": {
+  "hours": 11,
+  "minutes": 0
+ },
+ "coco_000000427692": {
+  "hours": 2,
+  "minutes": 28
+ },
+ "coco_000000428975": {
+  "hours": 10,
+  "minutes": 14
+ },
+ "coco_000000429305": {
+  "hours": 8,
+  "minutes": 33
+ },
+ "coco_000000429399": {
+  "hours": 11,
+  "minutes": 23
+ },
+ "coco_000000429560": {
+  "hours": 5,
+  "minutes": 10
+ },
+ "coco_000000430079": {
+  "hours": 1,
+  "minutes": 20
+ },
+ "coco_000000430598": {
+  "hours": 4,
+  "minutes": 44
+ },
+ "coco_000000431025": {
+  "hours": 11,
+  "minutes": 50
+ },
+ "coco_000000431873": {
+  "hours": 12,
+  "minutes": 26
+ },
+ "coco_000000432017": {
+  "hours": 7,
+  "minutes": 31
+ },
+ "coco_000000432064": {
+  "hours": 3,
+  "minutes": 55
+ },
+ "coco_000000432332": {
+  "hours": 2,
+  "minutes": 35
+ },
+ "coco_000000432964": {
+  "hours": 3,
+  "minutes": 8
+ },
+ "coco_000000434782": {
+  "hours": 8,
+  "minutes": 0
+ },
+ "coco_000000435090": {
+  "hours": 6,
+  "minutes": 14
+ },
+ "coco_000000435257": {
+  "hours": 10,
+  "minutes": 4
+ },
+ "coco_000000435389": {
+  "hours": 6,
+  "minutes": 4
+ },
+ "coco_000000435709": {
+  "hours": 1,
+  "minutes": 0
+ },
+ "coco_000000435755": {
+  "hours": 3,
+  "minutes": 25
+ },
+ "coco_000000436504": {
+  "hours": 12,
+  "minutes": 0
+ },
+ "coco_000000436949": {
+  "hours": 1,
+  "minutes": 43
+ },
+ "coco_000000437363": {
+  "hours": 4,
+  "minutes": 20
+ },
+ "coco_000000437525": {
+  "hours": 10,
+  "minutes": 35
+ },
+ "coco_000000437958": {
+  "hours": 5,
+  "minutes": 10
+ },
+ "coco_000000438187": {
+  "hours": 5,
+  "minutes": 54
+ },
+ "coco_000000438219": {
+  "hours": 8,
+  "minutes": 51
+ },
+ "coco_000000438267": {
+  "hours": 8,
+  "minutes": 30
+ },
+ "coco_000000438709": {
+  "hours": 10,
+  "minutes": 42
+ },
+ "coco_000000438755": {
+  "hours": 5,
+  "minutes": 7
+ },
+ "coco_000000438850": {
+  "hours": 12,
+  "minutes": 3
+ },
+ "coco_000000438995": {
+  "hours": 12,
+  "minutes": 18
+ },
+ "coco_000000439057": {
+  "hours": 1,
+  "minutes": 37
+ },
+ "coco_000000439399": {
+  "hours": 12,
+  "minutes": 55
+ },
+ "coco_000000439410": {
+  "hours": 8,
+  "minutes": 45
+ },
+ "coco_000000439493": {
+  "hours": 7,
+  "minutes": 55
+ },
+ "coco_000000439613": {
+  "hours": 11,
+  "minutes": 25
+ },
+ "coco_000000440792": {
+  "hours": 10,
+  "minutes": 8
+ },
+ "coco_000000441028": {
+  "hours": 6,
+  "minutes": 25
+ },
+ "coco_000000441974": {
+  "hours": 10,
+  "minutes": 5
+ },
+ "coco_000000442016": {
+  "hours": 12,
+  "minutes": 1
+ },
+ "coco_000000442612": {
+  "hours": 3,
+  "minutes": 5
+ },
+ "coco_000000443988": {
+  "hours": 12,
+  "minutes": 50
+ },
+ "coco_000000444141": {
+  "hours": 4,
+  "minutes": 38
+ },
+ "coco_000000444181": {
+  "hours": 3,
+  "minutes": 43
+ },
+ "coco_000000444500": {
+  "hours": 7,
+  "minutes": 28
+ },
+ "coco_000000444591": {
+  "hours": 12,
+  "minutes": 3
+ },
+ "coco_000000445537": {
+  "hours": 5,
+  "minutes": 17
+ },
+ "coco_000000445605": {
+  "hours": 1,
+  "minutes": 21
+ },
+ "coco_000000445638": {
+  "hours": 1,
+  "minutes": 17
+ },
+ "coco_000000445726": {
+  "hours": 1,
+  "minutes": 12
+ },
+ "coco_000000446033": {
+  "hours": 3,
+  "minutes": 8
+ },
+ "coco_000000447091": {
+  "hours": 2,
+  "minutes": 37
+ },
+ "coco_000000447543": {
+  "hours": 3,
+  "minutes": 1
+ },
+ "coco_000000447573": {
+  "hours": 4,
+  "minutes": 29
+ },
+ "coco_000000447913": {
+  "hours": 6,
+  "minutes": 17
+ },
+ "coco_000000448504": {
+  "hours": 8,
+  "minutes": 50
+ },
+ "coco_000000448697": {
+  "hours": 3,
+  "minutes": 25
+ },
+ "coco_000000449038": {
+  "hours": 4,
+  "minutes": 6
+ },
+ "coco_000000449043": {
+  "hours": 2,
+  "minutes": 12
+ },
+ "coco_000000449154": {
+  "hours": 4,
+  "minutes": 35
+ },
+ "coco_000000450052": {
+  "hours": 1,
+  "minutes": 21
+ },
+ "coco_000000450452": {
+  "hours": 11,
+  "minutes": 0
+ },
+ "coco_000000450786": {
+  "hours": 4,
+  "minutes": 43
+ },
+ "coco_000000450849": {
+  "hours": 3,
+  "minutes": 18
+ },
+ "coco_000000451095": {
+  "hours": 12,
+  "minutes": 50
+ },
+ "coco_000000451668": {
+  "hours": 2,
+  "minutes": 58
+ },
+ "coco_000000451960": {
+  "hours": 4,
+  "minutes": 1
+ },
+ "coco_000000452259": {
+  "hours": 12,
+  "minutes": 32
+ },
+ "coco_000000452922": {
+  "hours": 1,
+  "minutes": 50
+ },
+ "coco_000000453332": {
+  "hours": 8,
+  "minutes": 39
+ },
+ "coco_000000454329": {
+  "hours": 2,
+  "minutes": 0
+ },
+ "coco_000000455136": {
+  "hours": 4,
+  "minutes": 48
+ },
+ "coco_000000455369": {
+  "hours": 5,
+  "minutes": 5
+ },
+ "coco_000000455912": {
+  "hours": 9,
+  "minutes": 25
+ },
+ "coco_000000456178": {
+  "hours": 11,
+  "minutes": 20
+ },
+ "coco_000000458204": {
+  "hours": 5,
+  "minutes": 20
+ },
+ "coco_000000458338": {
+  "hours": 2,
+  "minutes": 40
+ },
+ "coco_000000458541": {
+  "hours": 10,
+  "minutes": 0
+ },
+ "coco_000000458568": {
+  "hours": 4,
+  "minutes": 39
+ },
+ "coco_000000459500": {
+  "hours": 2,
+  "minutes": 52
+ },
+ "coco_000000459631": {
+  "hours": 10,
+  "minutes": 10
+ },
+ "coco_000000459793": {
+  "hours": 12,
+  "minutes": 1
+ },
+ "coco_000000459999": {
+  "hours": 1,
+  "minutes": 27
+ },
+ "coco_000000460099": {
+  "hours": 4,
+  "minutes": 40
+ },
+ "coco_000000461389": {
+  "hours": 6,
+  "minutes": 46
+ },
+ "coco_000000461464": {
+  "hours": 9,
+  "minutes": 15
+ },
+ "coco_000000461802": {
+  "hours": 2,
+  "minutes": 40
+ },
+ "coco_000000461878": {
+  "hours": 3,
+  "minutes": 50
+ },
+ "coco_000000462341": {
+  "hours": 7,
+  "minutes": 18
+ },
+ "coco_000000462404": {
+  "hours": 5,
+  "minutes": 5
+ },
+ "coco_000000462488": {
+  "hours": 11,
+  "minutes": 30
+ },
+ "coco_000000462604": {
+  "hours": 1,
+  "minutes": 15
+ },
+ "coco_000000463021": {
+  "hours": 5,
+  "minutes": 27
+ },
+ "coco_000000464149": {
+  "hours": 11,
+  "minutes": 17
+ },
+ "coco_000000464993": {
+  "hours": 3,
+  "minutes": 53
+ },
+ "coco_000000465060": {
+  "hours": 8,
+  "minutes": 56
+ },
+ "coco_000000465138": {
+  "hours": 6,
+  "minutes": 22
+ },
+ "coco_000000465579": {
+  "hours": 2,
+  "minutes": 39
+ },
+ "coco_000000465780": {
+  "hours": 8,
+  "minutes": 0
+ },
+ "coco_000000465877": {
+  "hours": 4,
+  "minutes": 4
+ },
+ "coco_000000466153": {
+  "hours": 10,
+  "minutes": 27
+ },
+ "coco_000000466536": {
+  "hours": 3,
+  "minutes": 2
+ },
+ "coco_000000466945": {
+  "hours": 9,
+  "minutes": 53
+ },
+ "coco_000000467249": {
+  "hours": 9,
+  "minutes": 17
+ },
+ "coco_000000467460": {
+  "hours": 4,
+  "minutes": 13
+ },
+ "coco_000000468233": {
+  "hours": 12,
+  "minutes": 27
+ },
+ "coco_000000468238": {
+  "hours": 3,
+  "minutes": 54
+ },
+ "coco_000000468605": {
+  "hours": 1,
+  "minutes": 55
+ },
+ "coco_000000468704": {
+  "hours": 6,
+  "minutes": 6
+ },
+ "coco_000000468798": {
+  "hours": 8,
+  "minutes": 29
+ },
+ "coco_000000469075": {
+  "hours": 7,
+  "minutes": 5
+ },
+ "coco_000000469265": {
+  "hours": 10,
+  "minutes": 21
+ },
+ "coco_000000470442": {
+  "hours": 10,
+  "minutes": 18
+ },
+ "coco_000000470463": {
+  "hours": 8,
+  "minutes": 55
+ },
+ "coco_000000470909": {
+  "hours": 3,
+  "minutes": 13
+ },
+ "coco_000000471535": {
+  "hours": 10,
+  "minutes": 58
+ },
+ "coco_000000471578": {
+  "hours": 5,
+  "minutes": 11
+ },
+ "coco_000000471629": {
+  "hours": 2,
+  "minutes": 16
+ },
+ "coco_000000471822": {
+  "hours": 3,
+  "minutes": 15
+ },
+ "coco_000000471840": {
+  "hours": 5,
+  "minutes": 20
+ },
+ "coco_000000471884": {
+  "hours": 3,
+  "minutes": 19
+ },
+ "coco_000000471901": {
+  "hours": 4,
+  "minutes": 6
+ },
+ "coco_000000472960": {
+  "hours": 7,
+  "minutes": 53
+ },
+ "coco_000000473196": {
+  "hours": 5,
+  "minutes": 50
+ },
+ "coco_000000473345": {
+  "hours": 9,
+  "minutes": 31
+ },
+ "coco_000000473503": {
+  "hours": 4,
+  "minutes": 52
+ },
+ "coco_000000473647": {
+  "hours": 1,
+  "minutes": 0
+ },
+ "coco_000000473726": {
+  "hours": 11,
+  "minutes": 18
+ },
+ "coco_000000473896": {
+  "hours": 12,
+  "minutes": 40
+ },
+ "coco_000000474069": {
+  "hours": 5,
+  "minutes": 1
+ },
+ "coco_000000474402": {
+  "hours": 3,
+  "minutes": 22
+ },
+ "coco_000000474675": {
+  "hours": 2,
+  "minutes": 51
+ },
+ "coco_000000474827": {
+  "hours": 11,
+  "minutes": 46
+ },
+ "coco_000000475245": {
+  "hours": 6,
+  "minutes": 22
+ },
+ "coco_000000475641": {
+  "hours": 11,
+  "minutes": 16
+ },
+ "coco_000000475881": {
+  "hours": 4,
+  "minutes": 15
+ },
+ "coco_000000475890": {
+  "hours": 7,
+  "minutes": 0
+ },
+ "coco_000000476515": {
+  "hours": 2,
+  "minutes": 2
+ },
+ "coco_000000476685": {
+  "hours": 5,
+  "minutes": 30
+ },
+ "coco_000000476706": {
+  "hours": 11,
+  "minutes": 1
+ },
+ "coco_000000476812": {
+  "hours": 1,
+  "minutes": 31
+ },
+ "coco_000000477383": {
+  "hours": 8,
+  "minutes": 8
+ },
+ "coco_000000477417": {
+  "hours": 3,
+  "minutes": 26
+ },
+ "coco_000000477435": {
+  "hours": 12,
+  "minutes": 10
+ },
+ "coco_000000478614": {
+  "hours": 6,
+  "minutes": 53
+ },
+ "coco_000000479045": {
+  "hours": 9,
+  "minutes": 40
+ },
+ "coco_000000479234": {
+  "hours": 5,
+  "minutes": 22
+ },
+ "coco_000000479590": {
+  "hours": 5,
+  "minutes": 26
+ },
+ "coco_000000479803": {
+  "hours": 3,
+  "minutes": 56
+ },
+ "coco_000000481147": {
+  "hours": 3,
+  "minutes": 21
+ },
+ "coco_000000482328": {
+  "hours": 10,
+  "minutes": 1
+ },
+ "coco_000000483786": {
+  "hours": 9,
+  "minutes": 55
+ },
+ "coco_000000483806": {
+  "hours": 11,
+  "minutes": 46
+ },
+ "coco_000000484474": {
+  "hours": 11,
+  "minutes": 7
+ },
+ "coco_000000484666": {
+  "hours": 10,
+  "minutes": 8
+ },
+ "coco_000000485131": {
+  "hours": 11,
+  "minutes": 36
+ },
+ "coco_000000485773": {
+  "hours": 6,
+  "minutes": 20
+ },
+ "coco_000000486170": {
+  "hours": 10,
+  "minutes": 30
+ },
+ "coco_000000486482": {
+  "hours": 10,
+  "minutes": 40
+ },
+ "coco_000000486576": {
+  "hours": 11,
+  "minutes": 30
+ },
+ "coco_000000486941": {
+  "hours": 1,
+  "minutes": 55
+ },
+ "coco_000000487013": {
+  "hours": 6,
+  "minutes": 30
+ },
+ "coco_000000487060": {
+  "hours": 9,
+  "minutes": 45
+ },
+ "coco_000000487504": {
+  "hours": 12,
+  "minutes": 49
+ },
+ "coco_000000487735": {
+  "hours": 5,
+  "minutes": 40
+ },
+ "coco_000000487872": {
+  "hours": 5,
+  "minutes": 28
+ },
+ "coco_000000488736": {
+  "hours": 10,
+  "minutes": 8
+ },
+ "coco_000000488746": {
+  "hours": 5,
+  "minutes": 0
+ },
+ "coco_000000488750": {
+  "hours": 8,
+  "minutes": 24
+ },
+ "coco_000000488942": {
+  "hours": 9,
+  "minutes": 35
+ },
+ "coco_000000490322": {
+  "hours": 3,
+  "minutes": 44
+ },
+ "coco_000000490598": {
+  "hours": 5,
+  "minutes": 43
+ },
+ "coco_000000490615": {
+  "hours": 3,
+  "minutes": 27
+ },
+ "coco_000000491753": {
+  "hours": 10,
+  "minutes": 37
+ },
+ "coco_000000493121": {
+  "hours": 7,
+  "minutes": 45
+ },
+ "coco_000000493720": {
+  "hours": 5,
+  "minutes": 25
+ },
+ "coco_000000493841": {
+  "hours": 12,
+  "minutes": 12
+ },
+ "coco_000000493843": {
+  "hours": 9,
+  "minutes": 47
+ },
+ "coco_000000494264": {
+  "hours": 12,
+  "minutes": 58
+ },
+ "coco_000000494583": {
+  "hours": 2,
+  "minutes": 51
+ },
+ "coco_000000495681": {
+  "hours": 11,
+  "minutes": 26
+ },
+ "coco_000000495894": {
+  "hours": 7,
+  "minutes": 56
+ },
+ "coco_000000497504": {
+  "hours": 12,
+  "minutes": 8
+ },
+ "coco_000000498804": {
+  "hours": 12,
+  "minutes": 46
+ },
+ "coco_000000499398": {
+  "hours": 1,
+  "minutes": 40
+ },
+ "coco_000000499423": {
+  "hours": 12,
+  "minutes": 20
+ },
+ "coco_000000499460": {
+  "hours": 9,
+  "minutes": 38
+ },
+ "coco_000000499867": {
+  "hours": 11,
+  "minutes": 1
+ },
+ "coco_000000500446": {
+  "hours": 11,
+  "minutes": 28
+ },
+ "coco_000000500616": {
+  "hours": 3,
+  "minutes": 16
+ },
+ "coco_000000500940": {
+  "hours": 2,
+  "minutes": 8
+ },
+ "coco_000000501085": {
+  "hours": 7,
+  "minutes": 46
+ },
+ "coco_000000501742": {
+  "hours": 10,
+  "minutes": 20
+ },
+ "coco_000000503081": {
+  "hours": 3,
+  "minutes": 0
+ },
+ "coco_000000503534": {
+  "hours": 7,
+  "minutes": 25
+ },
+ "coco_000000503640": {
+  "hours": 12,
+  "minutes": 35
+ },
+ "coco_000000503883": {
+  "hours": 8,
+  "minutes": 41
+ },
+ "coco_000000504065": {
+  "hours": 8,
+  "minutes": 50
+ },
+ "coco_000000504736": {
+  "hours": 5,
+  "minutes": 52
+ },
+ "coco_000000505243": {
+  "hours": 7,
+  "minutes": 15
+ },
+ "coco_000000505492": {
+  "hours": 7,
+  "minutes": 27
+ },
+ "coco_000000505663": {
+  "hours": 9,
+  "minutes": 55
+ },
+ "coco_000000505825": {
+  "hours": 7,
+  "minutes": 58
+ },
+ "coco_000000505852": {
+  "hours": 5,
+  "minutes": 25
+ },
+ "coco_000000506169": {
+  "hours": 11,
+  "minutes": 24
+ },
+ "coco_000000506322": {
+  "hours": 5,
+  "minutes": 30
+ },
+ "coco_000000506628": {
+  "hours": 7,
+  "minutes": 56
+ },
+ "coco_000000508030": {
+  "hours": 11,
+  "minutes": 10
+ },
+ "coco_000000508215": {
+  "hours": 1,
+  "minutes": 30
+ },
+ "coco_000000508247": {
+  "hours": 5,
+  "minutes": 27
+ },
+ "coco_000000508577": {
+  "hours": 8,
+  "minutes": 50
+ },
+ "coco_000000509551": {
+  "hours": 7,
+  "minutes": 0
+ },
+ "coco_000000510299": {
+  "hours": 5,
+  "minutes": 47
+ },
+ "coco_000000510707": {
+  "hours": 1,
+  "minutes": 45
+ },
+ "coco_000000511200": {
+  "hours": 4,
+  "minutes": 12
+ },
+ "coco_000000511379": {
+  "hours": 2,
+  "minutes": 20
+ },
+ "coco_000000511651": {
+  "hours": 10,
+  "minutes": 0
+ },
+ "coco_000000511716": {
+  "hours": 12,
+  "minutes": 0
+ },
+ "coco_000000511849": {
+  "hours": 2,
+  "minutes": 21
+ },
+ "coco_000000512143": {
+  "hours": 4,
+  "minutes": 30
+ },
+ "coco_000000512248": {
+  "hours": 4,
+  "minutes": 31
+ },
+ "coco_000000512511": {
+  "hours": 7,
+  "minutes": 15
+ },
+ "coco_000000513497": {
+  "hours": 11,
+  "minutes": 55
+ },
+ "coco_000000513550": {
+  "hours": 10,
+  "minutes": 14
+ },
+ "coco_000000513616": {
+  "hours": 10,
+  "minutes": 8
+ },
+ "coco_000000514200": {
+  "hours": 5,
+  "minutes": 7
+ },
+ "coco_000000514402": {
+  "hours": 12,
+  "minutes": 13
+ },
+ "coco_000000515394": {
+  "hours": 12,
+  "minutes": 3
+ },
+ "coco_000000515565": {
+  "hours": 8,
+  "minutes": 15
+ },
+ "coco_000000515820": {
+  "hours": 7,
+  "minutes": 1
+ },
+ "coco_000000516124": {
+  "hours": 3,
+  "minutes": 46
+ },
+ "coco_000000516178": {
+  "hours": 2,
+  "minutes": 16
+ },
+ "coco_000000516866": {
+  "hours": 5,
+  "minutes": 9
+ },
+ "coco_000000517047": {
+  "hours": 11,
+  "minutes": 26
+ },
+ "coco_000000517176": {
+  "hours": 4,
+  "minutes": 11
+ },
+ "coco_000000517322": {
+  "hours": 10,
+  "minutes": 3
+ },
+ "coco_000000517417": {
+  "hours": 6,
+  "minutes": 0
+ },
+ "coco_000000517819": {
+  "hours": 6,
+  "minutes": 50
+ },
+ "coco_000000519491": {
+  "hours": 6,
+  "minutes": 52
+ },
+ "coco_000000519598": {
+  "hours": 2,
+  "minutes": 50
+ },
+ "coco_000000519758": {
+  "hours": 1,
+  "minutes": 50
+ },
+ "coco_000000519883": {
+  "hours": 3,
+  "minutes": 58
+ },
+ "coco_000000519977": {
+  "hours": 3,
+  "minutes": 19
+ },
+ "coco_000000520956": {
+  "hours": 11,
+  "minutes": 4
+ },
+ "coco_000000521175": {
+  "hours": 10,
+  "minutes": 5
+ },
+ "coco_000000522916": {
+  "hours": 12,
+  "minutes": 50
+ },
+ "coco_000000523109": {
+  "hours": 10,
+  "minutes": 30
+ },
+ "coco_000000524144": {
+  "hours": 2,
+  "minutes": 50
+ },
+ "coco_000000524211": {
+  "hours": 9,
+  "minutes": 12
+ },
+ "coco_000000524577": {
+  "hours": 11,
+  "minutes": 9
+ },
+ "coco_000000525286": {
+  "hours": 6,
+  "minutes": 10
+ },
+ "coco_000000526187": {
+  "hours": 2,
+  "minutes": 42
+ },
+ "coco_000000526256": {
+  "hours": 1,
+  "minutes": 11
+ },
+ "coco_000000526898": {
+  "hours": 2,
+  "minutes": 42
+ },
+ "coco_000000527492": {
+  "hours": 11,
+  "minutes": 42
+ },
+ "coco_000000527963": {
+  "hours": 4,
+  "minutes": 45
+ },
+ "coco_000000528800": {
+  "hours": 3,
+  "minutes": 22
+ },
+ "coco_000000529273": {
+  "hours": 12,
+  "minutes": 43
+ },
+ "coco_000000529829": {
+  "hours": 10,
+  "minutes": 7
+ },
+ "coco_000000530019": {
+  "hours": 4,
+  "minutes": 0
+ },
+ "coco_000000530461": {
+  "hours": 6,
+  "minutes": 12
+ },
+ "coco_000000530571": {
+  "hours": 5,
+  "minutes": 3
+ },
+ "coco_000000531431": {
+  "hours": 8,
+  "minutes": 54
+ },
+ "coco_000000532310": {
+  "hours": 3,
+  "minutes": 26
+ },
+ "coco_000000532833": {
+  "hours": 2,
+  "minutes": 50
+ },
+ "coco_000000533063": {
+  "hours": 11,
+  "minutes": 56
+ },
+ "coco_000000533508": {
+  "hours": 1,
+  "minutes": 55
+ },
+ "coco_000000533537": {
+  "hours": 12,
+  "minutes": 1
+ },
+ "coco_000000535501": {
+  "hours": 9,
+  "minutes": 56
+ },
+ "coco_000000535891": {
+  "hours": 9,
+  "minutes": 5
+ },
+ "coco_000000537727": {
+  "hours": 7,
+  "minutes": 21
+ },
+ "coco_000000538196": {
+  "hours": 1,
+  "minutes": 47
+ },
+ "coco_000000538209": {
+  "hours": 9,
+  "minutes": 2
+ },
+ "coco_000000538407": {
+  "hours": 7,
+  "minutes": 20
+ },
+ "coco_000000538779": {
+  "hours": 10,
+  "minutes": 55
+ },
+ "coco_000000539371": {
+  "hours": 3,
+  "minutes": 40
+ },
+ "coco_000000540103": {
+  "hours": 1,
+  "minutes": 55
+ },
+ "coco_000000540789": {
+  "hours": 9,
+  "minutes": 52
+ },
+ "coco_000000541580": {
+  "hours": 4,
+  "minutes": 10
+ },
+ "coco_000000541593": {
+  "hours": 7,
+  "minutes": 55
+ },
+ "coco_000000542511": {
+  "hours": 1,
+  "minutes": 25
+ },
+ "coco_000000543681": {
+  "hours": 3,
+  "minutes": 12
+ },
+ "coco_000000543922": {
+  "hours": 8,
+  "minutes": 32
+ },
+ "coco_000000544306": {
+  "hours": 2,
+  "minutes": 22
+ },
+ "coco_000000544717": {
+  "hours": 1,
+  "minutes": 30
+ },
+ "coco_000000544883": {
+  "hours": 11,
+  "minutes": 56
+ },
+ "coco_000000545007": {
+  "hours": 2,
+  "minutes": 23
+ },
+ "coco_000000546292": {
+  "hours": 4,
+  "minutes": 5
+ },
+ "coco_000000546511": {
+  "hours": 12,
+  "minutes": 20
+ },
+ "coco_000000547106": {
+  "hours": 9,
+  "minutes": 53
+ },
+ "coco_000000547221": {
+  "hours": 1,
+  "minutes": 6
+ },
+ "coco_000000547229": {
+  "hours": 1,
+  "minutes": 51
+ },
+ "coco_000000547378": {
+  "hours": 10,
+  "minutes": 9
+ },
+ "coco_000000547528": {
+  "hours": 2,
+  "minutes": 12
+ },
+ "coco_000000548930": {
+  "hours": 1,
+  "minutes": 44
+ },
+ "coco_000000549650": {
+  "hours": 3,
+  "minutes": 0
+ },
+ "coco_000000550403": {
+  "hours": 12,
+  "minutes": 57
+ },
+ "coco_000000551454": {
+  "hours": 4,
+  "minutes": 45
+ },
+ "coco_000000551657": {
+  "hours": 11,
+  "minutes": 10
+ },
+ "coco_000000551780": {
+  "hours": 8,
+  "minutes": 26
+ },
+ "coco_000000552579": {
+  "hours": 5,
+  "minutes": 53
+ },
+ "coco_000000552584": {
+  "hours": 1,
+  "minutes": 25
+ },
+ "coco_000000552791": {
+  "hours": 11,
+  "minutes": 28
+ },
+ "coco_000000552824": {
+  "hours": 7,
+  "minutes": 5
+ },
+ "coco_000000552962": {
+  "hours": 6,
+  "minutes": 56
+ },
+ "coco_000000553097": {
+  "hours": 3,
+  "minutes": 54
+ },
+ "coco_000000553471": {
+  "hours": 6,
+  "minutes": 0
+ },
+ "coco_000000554455": {
+  "hours": 9,
+  "minutes": 46
+ },
+ "coco_000000556086": {
+  "hours": 11,
+  "minutes": 0
+ },
+ "coco_000000556240": {
+  "hours": 1,
+  "minutes": 43
+ },
+ "coco_000000556279": {
+  "hours": 2,
+  "minutes": 30
+ },
+ "coco_000000556326": {
+  "hours": 10,
+  "minutes": 24
+ },
+ "coco_000000556482": {
+  "hours": 1,
+  "minutes": 34
+ },
+ "coco_000000558860": {
+  "hours": 12,
+  "minutes": 31
+ },
+ "coco_000000559039": {
+  "hours": 2,
+  "minutes": 21
+ },
+ "coco_000000559816": {
+  "hours": 11,
+  "minutes": 40
+ },
+ "coco_000000560309": {
+  "hours": 1,
+  "minutes": 25
+ },
+ "coco_000000560358": {
+  "hours": 12,
+  "minutes": 34
+ },
+ "coco_000000560566": {
+  "hours": 7,
+  "minutes": 33
+ },
+ "coco_000000561289": {
+  "hours": 2,
+  "minutes": 52
+ },
+ "coco_000000561578": {
+  "hours": 4,
+  "minutes": 12
+ },
+ "coco_000000561814": {
+  "hours": 5,
+  "minutes": 49
+ },
+ "coco_000000561962": {
+  "hours": 3,
+  "minutes": 17
+ },
+ "coco_000000562014": {
+  "hours": 11,
+  "minutes": 20
+ },
+ "coco_000000562419": {
+  "hours": 7,
+  "minutes": 0
+ },
+ "coco_000000562462": {
+  "hours": 1,
+  "minutes": 41
+ },
+ "coco_000000562819": {
+  "hours": 9,
+  "minutes": 53
+ },
+ "coco_000000562879": {
+  "hours": 8,
+  "minutes": 55
+ },
+ "coco_000000563292": {
+  "hours": 6,
+  "minutes": 16
+ },
+ "coco_000000563301": {
+  "hours": 9,
+  "minutes": 50
+ },
+ "coco_000000563731": {
+  "hours": 3,
+  "minutes": 16
+ },
+ "coco_000000564015": {
+  "hours": 3,
+  "minutes": 48
+ },
+ "coco_000000564503": {
+  "hours": 1,
+  "minutes": 18
+ },
+ "coco_000000564733": {
+  "hours": 11,
+  "minutes": 1
+ },
+ "coco_000000565053": {
+  "hours": 12,
+  "minutes": 25
+ },
+ "coco_000000565081": {
+  "hours": 3,
+  "minutes": 3
+ },
+ "coco_000000565273": {
+  "hours": 6,
+  "minutes": 37
+ },
+ "coco_000000565954": {
+  "hours": 8,
+  "minutes": 39
+ },
+ "coco_000000565979": {
+  "hours": 4,
+  "minutes": 32
+ },
+ "coco_000000566258": {
+  "hours": 6,
+  "minutes": 16
+ },
+ "coco_000000566314": {
+  "hours": 5,
+  "minutes": 2
+ },
+ "coco_000000566346": {
+  "hours": 6,
+  "minutes": 36
+ },
+ "coco_000000568560": {
+  "hours": 11,
+  "minutes": 40
+ },
+ "coco_000000569058": {
+  "hours": 2,
+  "minutes": 8
+ },
+ "coco_000000570037": {
+  "hours": 10,
+  "minutes": 30
+ },
+ "coco_000000570333": {
+  "hours": 9,
+  "minutes": 26
+ },
+ "coco_000000571395": {
+  "hours": 1,
+  "minutes": 47
+ },
+ "coco_000000571657": {
+  "hours": 4,
+  "minutes": 24
+ },
+ "coco_000000572207": {
+  "hours": 1,
+  "minutes": 4
+ },
+ "coco_000000573008": {
+  "hours": 10,
+  "minutes": 38
+ },
+ "coco_000000573329": {
+  "hours": 10,
+  "minutes": 56
+ },
+ "coco_000000573911": {
+  "hours": 8,
+  "minutes": 33
+ },
+ "coco_000000573920": {
+  "hours": 7,
+  "minutes": 56
+ },
+ "coco_000000574110": {
+  "hours": 3,
+  "minutes": 58
+ },
+ "coco_000000574308": {
+  "hours": 11,
+  "minutes": 30
+ },
+ "coco_000000574623": {
+  "hours": 12,
+  "minutes": 50
+ },
+ "coco_000000575376": {
+  "hours": 12,
+  "minutes": 12
+ },
+ "coco_000000575395": {
+  "hours": 10,
+  "minutes": 8
+ },
+ "coco_000000575511": {
+  "hours": 6,
+  "minutes": 16
+ },
+ "coco_000000575523": {
+  "hours": 3,
+  "minutes": 58
+ },
+ "coco_000000576533": {
+  "hours": 1,
+  "minutes": 13
+ },
+ "coco_000000576608": {
+  "hours": 10,
+  "minutes": 20
+ },
+ "coco_000000576956": {
+  "hours": 2,
+  "minutes": 55
+ },
+ "coco_000000577029": {
+  "hours": 12,
+  "minutes": 30
+ },
+ "coco_000000577613": {
+  "hours": 3,
+  "minutes": 38
+ },
+ "coco_000000577723": {
+  "hours": 6,
+  "minutes": 39
+ },
+ "coco_000000578786": {
+  "hours": 11,
+  "minutes": 52
+ },
+ "coco_000000579002": {
+  "hours": 5,
+  "minutes": 15
+ },
+ "coco_000000579188": {
+  "hours": 5,
+  "minutes": 43
+ },
+ "coco_000000579226": {
+  "hours": 12,
+  "minutes": 55
+ },
+ "coco_000000579739": {
+  "hours": 1,
+  "minutes": 35
+ },
+ "coco_000000579859": {
+  "hours": 1,
+  "minutes": 33
+ },
+ "coco_000000581042": {
+  "hours": 12,
+  "minutes": 44
+ },
+ "coco_000000581073": {
+  "hours": 4,
+  "minutes": 38
+ },
+ "coco_000000581482": {
+  "hours": 11,
+  "minutes": 28
+ },
+ "coco_000000581632": {
+  "hours": 12,
+  "minutes": 51
+ },
+ "openimages_000529aa27b32a58": {
+  "hours": 11,
+  "minutes": 50
+ },
+ "openimages_000578c4cbd9c9f2": {
+  "hours": 12,
+  "minutes": 26
+ },
+ "openimages_000bb2f7132013dc": {
+  "hours": 4,
+  "minutes": 10
+ },
+ "openimages_001886673fde2e15": {
+  "hours": 5,
+  "minutes": 17
+ },
+ "openimages_001f5618a7b33d88": {
+  "hours": 5,
+  "minutes": 34
+ },
+ "openimages_00259130671bd32b": {
+  "hours": 9,
+  "minutes": 50
+ },
+ "openimages_00299661bf57253d": {
+  "hours": 2,
+  "minutes": 30
+ },
+ "openimages_0034b84b4d675628": {
+  "hours": 10,
+  "minutes": 50
+ },
+ "openimages_0034d174c02756ca": {
+  "hours": 5,
+  "minutes": 25
+ },
+ "openimages_003ad2d61ffd5f60": {
+  "hours": 10,
+  "minutes": 52
+ },
+ "openimages_003e70af91878eb3": {
+  "hours": 12,
+  "minutes": 18
+ },
+ "openimages_0047e3f0cb7827eb": {
+  "hours": 12,
+  "minutes": 45
+ },
+ "openimages_0061b18e3fb140ff": {
+  "hours": 4,
+  "minutes": 15
+ },
+ "openimages_0077cfc1390df0e6": {
+  "hours": 4,
+  "minutes": 28
+ },
+ "openimages_008a1b4b3f67689a": {
+  "hours": 3,
+  "minutes": 5
+ },
+ "openimages_008eb1db3d98439e": {
+  "hours": 10,
+  "minutes": 38
+ },
+ "openimages_00a706ca95d22529": {
+  "hours": 4,
+  "minutes": 13
+ },
+ "openimages_00b34125e40825fe": {
+  "hours": 11,
+  "minutes": 31
+ },
+ "openimages_00b5ac570d995133": {
+  "hours": 1,
+  "minutes": 21
+ },
+ "openimages_00b74a3d89c40e29": {
+  "hours": 9,
+  "minutes": 20
+ },
+ "openimages_00b8e76e70c90916": {
+  "hours": 5,
+  "minutes": 5
+ },
+ "openimages_00c79041873d5156": {
+  "hours": 6,
+  "minutes": 53
+ },
+ "openimages_00cbc381888d9ffb": {
+  "hours": 10,
+  "minutes": 52
+ },
+ "openimages_00e1a8f0faec9bff": {
+  "hours": 11,
+  "minutes": 30
+ },
+ "openimages_00fca8a2da7a4694": {
+  "hours": 3,
+  "minutes": 39
+ },
+ "openimages_00ffc05d4de94301": {
+  "hours": 3,
+  "minutes": 37
+ },
+ "openimages_010517f55cba7b1f": {
+  "hours": 1,
+  "minutes": 21
+ },
+ "openimages_010ffd3881ac2199": {
+  "hours": 3,
+  "minutes": 20
+ },
+ "openimages_012ceeb72f25221e": {
+  "hours": 12,
+  "minutes": 1
+ },
+ "openimages_01404c0f6d3368d1": {
+  "hours": 4,
+  "minutes": 40
+ },
+ "openimages_014dc9d971f35687": {
+  "hours": 3,
+  "minutes": 33
+ },
+ "openimages_0155e99465d9ca6d": {
+  "hours": 10,
+  "minutes": 45
+ },
+ "openimages_015fbcebae90bee0": {
+  "hours": 6,
+  "minutes": 43
+ },
+ "openimages_0170e1a1009ecc20": {
+  "hours": 11,
+  "minutes": 2
+ },
+ "openimages_01858e4b52f9828f": {
+  "hours": 12,
+  "minutes": 7
+ },
+ "openimages_01a3e1b4d3fe77d7": {
+  "hours": 6,
+  "minutes": 38
+ },
+ "openimages_0215c6163e9301f8": {
+  "hours": 9,
+  "minutes": 40
+ },
+ "openimages_0225794adb189f43": {
+  "hours": 12,
+  "minutes": 4
+ },
+ "openimages_0235ce48f0456a2f": {
+  "hours": 4,
+  "minutes": 35
+ },
+ "openimages_0237cf14614965d0": {
+  "hours": 10,
+  "minutes": 19
+ },
+ "openimages_028d4adcf7a06bfd": {
+  "hours": 2,
+  "minutes": 16
+ },
+ "openimages_0292a2ce7793a2d1": {
+  "hours": 11,
+  "minutes": 48
+ },
+ "openimages_029f2bc0cf04580f": {
+  "hours": 9,
+  "minutes": 12
+ },
+ "openimages_02a289b0659a1c01": {
+  "hours": 3,
+  "minutes": 2
+ },
+ "openimages_02b7a8ef07f7b9c2": {
+  "hours": 4,
+  "minutes": 35
+ },
+ "openimages_02dd063a0e2fc93a": {
+  "hours": 11,
+  "minutes": 52
+ },
+ "openimages_02ef02744ed5e3cd": {
+  "hours": 3,
+  "minutes": 30
+ },
+ "openimages_02f058c942dafc53": {
+  "hours": 7,
+  "minutes": 18
+ },
+ "openimages_02f0ac108b626e03": {
+  "hours": 10,
+  "minutes": 5
+ },
+ "openimages_031733473703e84a": {
+  "hours": 12,
+  "minutes": 54
+ },
+ "openimages_03185a9dbe007a8f": {
+  "hours": 9,
+  "minutes": 45
+ },
+ "openimages_03459a3abd776e53": {
+  "hours": 4,
+  "minutes": 0
+ },
+ "openimages_034f44ed3233160c": {
+  "hours": 11,
+  "minutes": 34
+ },
+ "openimages_035e3f6c2bbcff24": {
+  "hours": 10,
+  "minutes": 35
+ },
+ "openimages_03b4be482cfc41d9": {
+  "hours": 7,
+  "minutes": 57
+ },
+ "openimages_03c05fe91276fd78": {
+  "hours": 2,
+  "minutes": 54
+ },
+ "openimages_03d7d53b4dc7a464": {
+  "hours": 2,
+  "minutes": 4
+ },
+ "openimages_03ea98322cd963da": {
+  "hours": 6,
+  "minutes": 45
+ },
+ "openimages_03f2254ef7c7b326": {
+  "hours": 1,
+  "minutes": 34
+ },
+ "openimages_03f5d6dfa4a2a146": {
+  "hours": 12,
+  "minutes": 19
+ },
+ "openimages_0425988326765f5c": {
+  "hours": 1,
+  "minutes": 23
+ },
+ "openimages_044aa6b67c27620e": {
+  "hours": 9,
+  "minutes": 16
+ },
+ "openimages_0451c28b9222ae72": {
+  "hours": 5,
+  "minutes": 42
+ },
+ "openimages_04800afb45b96a3c": {
+  "hours": 11,
+  "minutes": 54
+ },
+ "openimages_04842fb7900ecaef": {
+  "hours": 5,
+  "minutes": 38
+ },
+ "openimages_048eb426b4101e95": {
+  "hours": 12,
+  "minutes": 26
+ },
+ "openimages_0492e3bd20fbe0eb": {
+  "hours": 7,
+  "minutes": 52
+ },
+ "openimages_049605545311fe36": {
+  "hours": 6,
+  "minutes": 0
+ },
+ "openimages_049de7f82c256ed2": {
+  "hours": 9,
+  "minutes": 12
+ },
+ "openimages_04b59524b3cebdf2": {
+  "hours": 7,
+  "minutes": 7
+ },
+ "openimages_04cfef06445e63ab": {
+  "hours": 4,
+  "minutes": 13
+ },
+ "openimages_04d6bbb3fe646cb4": {
+  "hours": 2,
+  "minutes": 18
+ },
+ "openimages_04d74b4084c88925": {
+  "hours": 10,
+  "minutes": 2
+ },
+ "openimages_04de68b1ea51bdd4": {
+  "hours": 1,
+  "minutes": 24
+ },
+ "openimages_04e14a8f5dc496b8": {
+  "hours": 2,
+  "minutes": 9
+ },
+ "openimages_04e562f083ca45ea": {
+  "hours": 10,
+  "minutes": 52
+ },
+ "openimages_04ed2211d3c94bd1": {
+  "hours": 4,
+  "minutes": 9
+ },
+ "openimages_050195a1717cfe45": {
+  "hours": 9,
+  "minutes": 43
+ },
+ "openimages_050606febb3e0796": {
+  "hours": 1,
+  "minutes": 38
+ },
+ "openimages_0516fbff19c3a68e": {
+  "hours": 10,
+  "minutes": 43
+ },
+ "openimages_0561158c78dfc33f": {
+  "hours": 12,
+  "minutes": 0
+ },
+ "openimages_0584d0c42b656f11": {
+  "hours": 11,
+  "minutes": 58
+ },
+ "openimages_058a06bd146ab2bc": {
+  "hours": 12,
+  "minutes": 4
+ },
+ "openimages_05e1eb3ff61df19a": {
+  "hours": 4,
+  "minutes": 1
+ },
+ "openimages_05e4988f4a7b856c": {
+  "hours": 10,
+  "minutes": 0
+ },
+ "openimages_05fa09f5f96848d5": {
+  "hours": 3,
+  "minutes": 21
+ },
+ "openimages_0600a2703cdd707e": {
+  "hours": 7,
+  "minutes": 8
+ },
+ "openimages_0606a05caf1ea44a": {
+  "hours": 12,
+  "minutes": 12
+ },
+ "openimages_0623d31d92c5f8e5": {
+  "hours": 1,
+  "minutes": 10
+ },
+ "openimages_062db822b4d0387d": {
+  "hours": 8,
+  "minutes": 50
+ },
+ "openimages_0665054b37963015": {
+  "hours": 12,
+  "minutes": 21
+ },
+ "openimages_0676dc74735714a6": {
+  "hours": 1,
+  "minutes": 45
+ },
+ "openimages_069111ef81e3772b": {
+  "hours": 11,
+  "minutes": 42
+ },
+ "openimages_06a4d8176c9f90b4": {
+  "hours": 12,
+  "minutes": 55
+ },
+ "openimages_06b34e42b4dd8876": {
+  "hours": 8,
+  "minutes": 40
+ },
+ "openimages_06ba372a74ec5be3": {
+  "hours": 12,
+  "minutes": 0
+ },
+ "openimages_06c4728aa7fa9db5": {
+  "hours": 1,
+  "minutes": 49
+ },
+ "openimages_072fdeb76b2274e6": {
+  "hours": 11,
+  "minutes": 18
+ },
+ "openimages_07347fd77ad920ff": {
+  "hours": 3,
+  "minutes": 0
+ },
+ "openimages_07a072ede0f46ff4": {
+  "hours": 5,
+  "minutes": 17
+ },
+ "openimages_07a0a5793146c595": {
+  "hours": 12,
+  "minutes": 34
+ },
+ "openimages_07b4a02fca6f706e": {
+  "hours": 1,
+  "minutes": 55
+ },
+ "openimages_07ba726b4e91860c": {
+  "hours": 8,
+  "minutes": 2
+ },
+ "openimages_07d4daa62d5422f8": {
+  "hours": 8,
+  "minutes": 17
+ },
+ "openimages_07d71d49994d7ec7": {
+  "hours": 9,
+  "minutes": 16
+ },
+ "openimages_07d93530a46c8e3a": {
+  "hours": 11,
+  "minutes": 24
+ },
+ "openimages_07da256940d8d63d": {
+  "hours": 10,
+  "minutes": 10
+ },
+ "openimages_07e5cd3c0ea1a697": {
+  "hours": 11,
+  "minutes": 14
+ },
+ "openimages_080088b2eb04ad61": {
+  "hours": 2,
+  "minutes": 59
+ },
+ "openimages_0802ef55e36ab2f8": {
+  "hours": 3,
+  "minutes": 7
+ },
+ "openimages_0826064c9408504b": {
+  "hours": 6,
+  "minutes": 10
+ },
+ "openimages_083f03bc7caa89ec": {
+  "hours": 7,
+  "minutes": 47
+ },
+ "openimages_084018f8340b14bf": {
+  "hours": 9,
+  "minutes": 38
+ },
+ "openimages_08431e796bad3616": {
+  "hours": 10,
+  "minutes": 12
+ },
+ "openimages_0858f39c6f2f33be": {
+  "hours": 5,
+  "minutes": 21
+ },
+ "openimages_08955d5db618741c": {
+  "hours": 4,
+  "minutes": 28
+ },
+ "openimages_08b668a78df5d4af": {
+  "hours": 9,
+  "minutes": 2
+ },
+ "openimages_08c23463225da89c": {
+  "hours": 11,
+  "minutes": 57
+ },
+ "openimages_08d2592a8ed29ba8": {
+  "hours": 7,
+  "minutes": 50
+ },
+ "openimages_08d56f7224bd779a": {
+  "hours": 9,
+  "minutes": 32
+ },
+ "openimages_08de04b1d5f6b9e4": {
+  "hours": 5,
+  "minutes": 1
+ },
+ "openimages_08e34190b986dfea": {
+  "hours": 4,
+  "minutes": 3
+ },
+ "openimages_08e7e27f3d842bf9": {
+  "hours": 2,
+  "minutes": 34
+ },
+ "openimages_08ee5b07b308da8c": {
+  "hours": 9,
+  "minutes": 32
+ },
+ "openimages_091c8bbeab9af7e4": {
+  "hours": 11,
+  "minutes": 43
+ },
+ "openimages_0925852db946d15b": {
+  "hours": 7,
+  "minutes": 35
+ },
+ "openimages_095e9b8e867074ac": {
+  "hours": 4,
+  "minutes": 4
+ },
+ "openimages_09adc40a5295affc": {
+  "hours": 5,
+  "minutes": 11
+ },
+ "openimages_09b7454b1a62f113": {
+  "hours": 6,
+  "minutes": 24
+ },
+ "openimages_09cf45f14c5e6c5c": {
+  "hours": 3,
+  "minutes": 0
+ },
+ "openimages_09d1d5ea55c7d1d1": {
+  "hours": 4,
+  "minutes": 17
+ },
+ "openimages_09da9293dfe128d3": {
+  "hours": 9,
+  "minutes": 2
+ },
+ "openimages_09efcb22ca121f57": {
+  "hours": 10,
+  "minutes": 22
+ },
+ "openimages_0a0505b37292f590": {
+  "hours": 10,
+  "minutes": 9
+ },
+ "openimages_0a23aaafeeb788d0": {
+  "hours": 11,
+  "minutes": 40
+ },
+ "openimages_0a2d11a35183428f": {
+  "hours": 7,
+  "minutes": 20
+ },
+ "openimages_0a4b25e9e591d28c": {
+  "hours": 1,
+  "minutes": 49
+ },
+ "openimages_0a80173632291911": {
+  "hours": 4,
+  "minutes": 45
+ },
+ "openimages_0a8090eae3685bb1": {
+  "hours": 7,
+  "minutes": 57
+ },
+ "openimages_0a9f0c144fde63b7": {
+  "hours": 2,
+  "minutes": 53
+ },
+ "openimages_0accef11d18c2a1d": {
+  "hours": 5,
+  "minutes": 31
+ },
+ "openimages_0ad80dd416a766bb": {
+  "hours": 12,
+  "minutes": 0
+ },
+ "openimages_0b10603fded8bce0": {
+  "hours": 2,
+  "minutes": 8
+ },
+ "openimages_0b11f4eb57434d25": {
+  "hours": 11,
+  "minutes": 8
+ },
+ "openimages_0b177df2a0b9964f": {
+  "hours": 5,
+  "minutes": 12
+ },
+ "openimages_0b3b7fd1924db235": {
+  "hours": 4,
+  "minutes": 55
+ },
+ "openimages_0b401706a093e6d6": {
+  "hours": 10,
+  "minutes": 10
+ },
+ "openimages_0b61646f2795ca9b": {
+  "hours": 6,
+  "minutes": 5
+ },
+ "openimages_0b62e5acebb52a74": {
+  "hours": 12,
+  "minutes": 25
+ },
+ "openimages_0bc8ab35085d56d1": {
+  "hours": 3,
+  "minutes": 29
+ },
+ "openimages_0bc8bf7f3c1ea063": {
+  "hours": 9,
+  "minutes": 14
+ },
+ "openimages_0bd146234e1aafb5": {
+  "hours": 5,
+  "minutes": 36
+ },
+ "openimages_0bda02a4d21065b4": {
+  "hours": 2,
+  "minutes": 49
+ },
+ "openimages_0bf712204d837cac": {
+  "hours": 11,
+  "minutes": 0
+ },
+ "openimages_0c33993b15b5641b": {
+  "hours": 3,
+  "minutes": 8
+ },
+ "openimages_0c3d05acc13d6b1d": {
+  "hours": 10,
+  "minutes": 11
+ },
+ "openimages_0c7c0c689ac49080": {
+  "hours": 7,
+  "minutes": 1
+ },
+ "openimages_0c8eb7ef703b6ac9": {
+  "hours": 11,
+  "minutes": 58
+ },
+ "openimages_0c9199624dee06ac": {
+  "hours": 4,
+  "minutes": 32
+ },
+ "openimages_0ccc0082afd6f329": {
+  "hours": 12,
+  "minutes": 3
+ },
+ "openimages_0cd7cfd0efc44519": {
+  "hours": 7,
+  "minutes": 18
+ },
+ "openimages_0cf0e6eb33936e09": {
+  "hours": 10,
+  "minutes": 37
+ },
+ "openimages_0cfbfa57dc1b9586": {
+  "hours": 12,
+  "minutes": 25
+ },
+ "openimages_0cfe4ee24bb93139": {
+  "hours": 4,
+  "minutes": 21
+ },
+ "openimages_0d0b21029c982910": {
+  "hours": 12,
+  "minutes": 4
+ },
+ "openimages_0d1c15b162a6c0b2": {
+  "hours": 11,
+  "minutes": 17
+ },
+ "openimages_0d4aa69251becca2": {
+  "hours": 3,
+  "minutes": 25
+ },
+ "openimages_0d50b6c18caa5ab2": {
+  "hours": 10,
+  "minutes": 10
+ },
+ "openimages_0d79859306e692c2": {
+  "hours": 11,
+  "minutes": 19
+ },
+ "openimages_0d7a92f2ce317220": {
+  "hours": 1,
+  "minutes": 42
+ },
+ "openimages_0de512af01a8cf3b": {
+  "hours": 10,
+  "minutes": 17
+ },
+ "openimages_0dfa47b1f2d4a4ad": {
+  "hours": 6,
+  "minutes": 52
+ },
+ "openimages_0e0d6926ef33a616": {
+  "hours": 12,
+  "minutes": 1
+ },
+ "openimages_0e2352247e7d2389": {
+  "hours": 3,
+  "minutes": 8
+ },
+ "openimages_0e47462d0b006289": {
+  "hours": 2,
+  "minutes": 11
+ },
+ "openimages_0e66de68a4aec4db": {
+  "hours": 10,
+  "minutes": 49
+ },
+ "openimages_0e86719a23c4335a": {
+  "hours": 4,
+  "minutes": 21
+ },
+ "openimages_0e9307ab19d98539": {
+  "hours": 3,
+  "minutes": 5
+ },
+ "openimages_0ea2faa8f80d09d2": {
+  "hours": 12,
+  "minutes": 53
+ },
+ "openimages_0f23222b90abc788": {
+  "hours": 12,
+  "minutes": 0
+ },
+ "openimages_0f2b172360ced726": {
+  "hours": 12,
+  "minutes": 35
+ },
+ "openimages_0f3e8d7bbf5f05f5": {
+  "hours": 3,
+  "minutes": 35
+ },
+ "openimages_0f4115adcfcf07ae": {
+  "hours": 4,
+  "minutes": 52
+ },
+ "openimages_0f6ea8853018443d": {
+  "hours": 12,
+  "minutes": 10
+ },
+ "openimages_102d33178cd60155": {
+  "hours": 5,
+  "minutes": 17
+ },
+ "openimages_103e20ae5ac0fd63": {
+  "hours": 12,
+  "minutes": 11
+ },
+ "openimages_10442d366d5061ee": {
+  "hours": 11,
+  "minutes": 57
+ },
+ "openimages_10591753e876e37e": {
+  "hours": 9,
+  "minutes": 22
+ },
+ "openimages_108e099964a5f7c7": {
+  "hours": 2,
+  "minutes": 30
+ },
+ "openimages_108fcdedf3555c11": {
+  "hours": 1,
+  "minutes": 52
+ },
+ "openimages_10a39fbbcbe5d435": {
+  "hours": 11,
+  "minutes": 55
+ },
+ "openimages_10e0f8abcdbd76e2": {
+  "hours": 11,
+  "minutes": 48
+ },
+ "openimages_114b2c6c76f3e50b": {
+  "hours": 9,
+  "minutes": 37
+ },
+ "openimages_116c3a601d1b9b0d": {
+  "hours": 11,
+  "minutes": 25
+ },
+ "openimages_11ef22d266ecbb8a": {
+  "hours": 2,
+  "minutes": 59
+ },
+ "openimages_121e9c0b68bcde2f": {
+  "hours": 12,
+  "minutes": 54
+ },
+ "openimages_12242681ed084839": {
+  "hours": 1,
+  "minutes": 24
+ },
+ "openimages_123523b33c865986": {
+  "hours": 12,
+  "minutes": 15
+ },
+ "openimages_1254e8f6234bfe1d": {
+  "hours": 4,
+  "minutes": 12
+ },
+ "openimages_1256be3e30d5f961": {
+  "hours": 4,
+  "minutes": 44
+ },
+ "openimages_12715bb380b7da9d": {
+  "hours": 8,
+  "minutes": 0
+ },
+ "openimages_12d3d26b909aa3c1": {
+  "hours": 9,
+  "minutes": 57
+ },
+ "openimages_12d5531e4c70ea0b": {
+  "hours": 12,
+  "minutes": 3
+ },
+ "openimages_131ae214a6ac8c9b": {
+  "hours": 11,
+  "minutes": 50
+ },
+ "openimages_133104855c751ab2": {
+  "hours": 4,
+  "minutes": 40
+ },
+ "openimages_13518248e1e47d2f": {
+  "hours": 2,
+  "minutes": 20
+ },
+ "openimages_1373feb8c90cb05c": {
+  "hours": 12,
+  "minutes": 55
+ },
+ "openimages_13a30a0c035aa579": {
+  "hours": 8,
+  "minutes": 20
+ },
+ "openimages_13c7d6863f9902c3": {
+  "hours": 5,
+  "minutes": 12
+ },
+ "openimages_1434f1adfc781217": {
+  "hours": 2,
+  "minutes": 7
+ },
+ "openimages_146b6b684fba1ccb": {
+  "hours": 5,
+  "minutes": 2
+ },
+ "openimages_14a77919a1808d01": {
+  "hours": 3,
+  "minutes": 51
+ },
+ "openimages_14aa999978aa7992": {
+  "hours": 3,
+  "minutes": 50
+ },
+ "openimages_14e672d3d8b528d9": {
+  "hours": 12,
+  "minutes": 55
+ },
+ "openimages_15070f0394b4e1b0": {
+  "hours": 1,
+  "minutes": 45
+ },
+ "openimages_1514e2c8c4a045f3": {
+  "hours": 11,
+  "minutes": 55
+ },
+ "openimages_15622397be7441df": {
+  "hours": 7,
+  "minutes": 17
+ },
+ "openimages_159c2aa8a997b40e": {
+  "hours": 7,
+  "minutes": 50
+ },
+ "openimages_15a1d06ac6047b40": {
+  "hours": 12,
+  "minutes": 46
+ },
+ "openimages_163541d2d3a4a33e": {
+  "hours": 12,
+  "minutes": 21
+ },
+ "openimages_1704f594d645f696": {
+  "hours": 10,
+  "minutes": 59
+ },
+ "openimages_1749eab5eaaf09b2": {
+  "hours": 4,
+  "minutes": 25
+ },
+ "openimages_17592424b0aa8930": {
+  "hours": 2,
+  "minutes": 57
+ },
+ "openimages_179e8840e2a1e60c": {
+  "hours": 3,
+  "minutes": 37
+ },
+ "openimages_17a5b6f95e9e1435": {
+  "hours": 6,
+  "minutes": 23
+ },
+ "openimages_17a6a73f953f02f0": {
+  "hours": 3,
+  "minutes": 45
+ },
+ "openimages_1869ea4753797245": {
+  "hours": 4,
+  "minutes": 16
+ },
+ "openimages_187620a2149462f7": {
+  "hours": 11,
+  "minutes": 50
+ },
+ "openimages_18cd366f78ab7cc5": {
+  "hours": 12,
+  "minutes": 36
+ },
+ "openimages_18d0acfefde9a9fa": {
+  "hours": 6,
+  "minutes": 45
+ },
+ "openimages_18ddf932b546a292": {
+  "hours": 5,
+  "minutes": 5
+ },
+ "openimages_192398e897e1f3f7": {
+  "hours": 7,
+  "minutes": 50
+ },
+ "openimages_19a1d5b0855774bc": {
+  "hours": 9,
+  "minutes": 27
+ },
+ "openimages_19cf80060bd2354a": {
+  "hours": 4,
+  "minutes": 54
+ },
+ "openimages_1a0120483f440a5b": {
+  "hours": 11,
+  "minutes": 39
+ },
+ "openimages_1a38ec83e7abc14c": {
+  "hours": 3,
+  "minutes": 55
+ },
+ "openimages_1a4df54f9ecec3c6": {
+  "hours": 2,
+  "minutes": 1
+ },
+ "openimages_1a7c740234fd3013": {
+  "hours": 1,
+  "minutes": 50
+ },
+ "openimages_1ae3a04b7130f1f5": {
+  "hours": 11,
+  "minutes": 16
+ },
+ "openimages_1ae5614fbbab1f8f": {
+  "hours": 5,
+  "minutes": 0
+ },
+ "openimages_1afddab5c4e10cda": {
+  "hours": 2,
+  "minutes": 25
+ },
+ "openimages_1b3937ca23f29f83": {
+  "hours": 10,
+  "minutes": 11
+ },
+ "openimages_1b77a8c8a3a93788": {
+  "hours": 11,
+  "minutes": 46
+ },
+ "openimages_1b7a2056bd3ab1ea": {
+  "hours": 10,
+  "minutes": 40
+ },
+ "openimages_1bac4dfb598e62f9": {
+  "hours": 1,
+  "minutes": 16
+ },
+ "openimages_1baf3511431fd1e5": {
+  "hours": 10,
+  "minutes": 36
+ },
+ "openimages_1beb4b47b7d8f76c": {
+  "hours": 11,
+  "minutes": 58
+ },
+ "openimages_1c09dfc710f5233b": {
+  "hours": 2,
+  "minutes": 13
+ },
+ "openimages_1c0b982acc20fc9f": {
+  "hours": 12,
+  "minutes": 36
+ },
+ "openimages_1c0e4521810d2113": {
+  "hours": 1,
+  "minutes": 41
+ },
+ "openimages_1c88210ab9a2c045": {
+  "hours": 4,
+  "minutes": 26
+ },
+ "openimages_1c9be11196b3c58b": {
+  "hours": 8,
+  "minutes": 20
+ },
+ "openimages_1ca1234b44267df0": {
+  "hours": 1,
+  "minutes": 19
+ },
+ "openimages_1ca8e7850bf29d69": {
+  "hours": 5,
+  "minutes": 58
+ },
+ "openimages_1cd54ccb885304c3": {
+  "hours": 3,
+  "minutes": 26
+ },
+ "openimages_1cd8ae1b4ec09f57": {
+  "hours": 12,
+  "minutes": 40
+ },
+ "openimages_1d1c6d1d05ca6cad": {
+  "hours": 4,
+  "minutes": 41
+ },
+ "openimages_1d35089b72324280": {
+  "hours": 12,
+  "minutes": 43
+ },
+ "openimages_1d8828a6bcf7e7a3": {
+  "hours": 1,
+  "minutes": 23
+ },
+ "openimages_1d9f221109833a95": {
+  "hours": 10,
+  "minutes": 27
+ },
+ "openimages_1da42a5bc12bf4a4": {
+  "hours": 11,
+  "minutes": 16
+ },
+ "openimages_1dad63ff47d99df9": {
+  "hours": 12,
+  "minutes": 30
+ },
+ "openimages_1daf5c822cc09d53": {
+  "hours": 5,
+  "minutes": 22
+ },
+ "openimages_1dd14dcc5d521d12": {
+  "hours": 5,
+  "minutes": 34
+ },
+ "openimages_1e7f0ec1af5f7e90": {
+  "hours": 10,
+  "minutes": 10
+ },
+ "openimages_1eba6e76fc9d9339": {
+  "hours": 11,
+  "minutes": 25
+ },
+ "openimages_1ebc22fa1ae0ceb2": {
+  "hours": 3,
+  "minutes": 7
+ },
+ "openimages_1f205586f1680e0d": {
+  "hours": 2,
+  "minutes": 39
+ },
+ "openimages_1fdfbee01bc74d96": {
+  "hours": 2,
+  "minutes": 34
+ },
+ "openimages_1ffc89b316201ada": {
+  "hours": 4,
+  "minutes": 29
+ },
+ "openimages_2015df7781c03d3c": {
+  "hours": 7,
+  "minutes": 31
+ },
+ "openimages_20173dadc1e55773": {
+  "hours": 2,
+  "minutes": 0
+ },
+ "openimages_20241f0a2be7e7c5": {
+  "hours": 10,
+  "minutes": 20
+ },
+ "openimages_219f3bda5a5abb93": {
+  "hours": 12,
+  "minutes": 15
+ },
+ "openimages_21e484bb5aa47a34": {
+  "hours": 2,
+  "minutes": 32
+ },
+ "openimages_22212b61cdc04ac6": {
+  "hours": 11,
+  "minutes": 50
+ },
+ "openimages_2265f6ef083f9c82": {
+  "hours": 10,
+  "minutes": 9
+ },
+ "openimages_228e8f63021a7676": {
+  "hours": 12,
+  "minutes": 39
+ },
+ "openimages_22e0638917b3e932": {
+  "hours": 10,
+  "minutes": 20
+ },
+ "openimages_23384b1e2a9e9e7e": {
+  "hours": 6,
+  "minutes": 59
+ },
+ "openimages_23487570ec2ef729": {
+  "hours": 5,
+  "minutes": 3
+ },
+ "openimages_2364d0d87314f83d": {
+  "hours": 11,
+  "minutes": 4
+ },
+ "openimages_23afda261384af53": {
+  "hours": 10,
+  "minutes": 10
+ },
+ "openimages_23b6a52b4d0e8b45": {
+  "hours": 2,
+  "minutes": 5
+ },
+ "openimages_240adfaa64b9ac0c": {
+  "hours": 5,
+  "minutes": 15
+ },
+ "openimages_241054cfdcf47d56": {
+  "hours": 1,
+  "minutes": 48
+ },
+ "openimages_241b11306597ffdc": {
+  "hours": 1,
+  "minutes": 40
+ },
+ "openimages_2448c95320e2b5df": {
+  "hours": 2,
+  "minutes": 19
+ },
+ "openimages_2484fd3899da6a84": {
+  "hours": 10,
+  "minutes": 13
+ },
+ "openimages_24c04bb1c9955327": {
+  "hours": 4,
+  "minutes": 59
+ },
+ "openimages_251183464eaf748b": {
+  "hours": 2,
+  "minutes": 7
+ },
+ "openimages_253ae8e6e88f6f6f": {
+  "hours": 4,
+  "minutes": 35
+ },
+ "openimages_257e5699d93d63bf": {
+  "hours": 3,
+  "minutes": 13
+ },
+ "openimages_25968443608fb83a": {
+  "hours": 9,
+  "minutes": 25
+ },
+ "openimages_2636137f305e000e": {
+  "hours": 3,
+  "minutes": 16
+ },
+ "openimages_26673c2f2c32abac": {
+  "hours": 3,
+  "minutes": 32
+ },
+ "openimages_26c93968d7373fb1": {
+  "hours": 4,
+  "minutes": 0
+ },
+ "openimages_26cd98a29add59e5": {
+  "hours": 3,
+  "minutes": 28
+ },
+ "openimages_26da249118ea6cad": {
+  "hours": 1,
+  "minutes": 41
+ },
+ "openimages_26f15e5a7f3b4217": {
+  "hours": 2,
+  "minutes": 34
+ },
+ "openimages_2707993b535b0aeb": {
+  "hours": 8,
+  "minutes": 52
+ },
+ "openimages_277658d13c7bd1b6": {
+  "hours": 3,
+  "minutes": 35
+ },
+ "openimages_27822f4f3209f3ce": {
+  "hours": 9,
+  "minutes": 16
+ },
+ "openimages_278fe37fe0d28e34": {
+  "hours": 5,
+  "minutes": 2
+ },
+ "openimages_2816f52e3b5b5ee4": {
+  "hours": 11,
+  "minutes": 18
+ },
+ "openimages_286c305638000de2": {
+  "hours": 12,
+  "minutes": 6
+ },
+ "openimages_287b17a4e63a4267": {
+  "hours": 10,
+  "minutes": 11
+ },
+ "openimages_29060d1e1e2dfa5e": {
+  "hours": 4,
+  "minutes": 32
+ },
+ "openimages_293f507bd888d00a": {
+  "hours": 12,
+  "minutes": 0
+ },
+ "openimages_29b8e36ebe8e8a73": {
+  "hours": 11,
+  "minutes": 0
+ },
+ "openimages_29db6ed5e662c2b6": {
+  "hours": 3,
+  "minutes": 24
+ },
+ "openimages_2a23037a9dafc43a": {
+  "hours": 12,
+  "minutes": 1
+ },
+ "openimages_2ab1c7331e49e6ee": {
+  "hours": 4,
+  "minutes": 55
+ },
+ "openimages_2bb3979e8dd7889c": {
+  "hours": 1,
+  "minutes": 19
+ },
+ "openimages_2be1beb5b96dbe54": {
+  "hours": 10,
+  "minutes": 10
+ },
+ "openimages_2c218e7637850220": {
+  "hours": 12,
+  "minutes": 50
+ },
+ "openimages_2c2d78ee6b7cb3cc": {
+  "hours": 12,
+  "minutes": 10
+ },
+ "openimages_2c4b3aa7a8108ba3": {
+  "hours": 11,
+  "minutes": 55
+ },
+ "openimages_2c533b600a258407": {
+  "hours": 3,
+  "minutes": 37
+ },
+ "openimages_2c64d833d56a677f": {
+  "hours": 2,
+  "minutes": 55
+ },
+ "openimages_2c65277f0254e10b": {
+  "hours": 10,
+  "minutes": 10
+ },
+ "openimages_2c9d86a419f5108b": {
+  "hours": 3,
+  "minutes": 50
+ },
+ "openimages_2d362b1930914fe0": {
+  "hours": 9,
+  "minutes": 7
+ },
+ "openimages_2d37ed23ca6894b1": {
+  "hours": 5,
+  "minutes": 18
+ },
+ "openimages_2d63bc7246596d4e": {
+  "hours": 9,
+  "minutes": 9
+ },
+ "openimages_2d69cd69d4d3bf6c": {
+  "hours": 12,
+  "minutes": 42
+ },
+ "openimages_2e978641b96d14cd": {
+  "hours": 12,
+  "minutes": 38
+ },
+ "openimages_2e980ceba26d59b4": {
+  "hours": 3,
+  "minutes": 11
+ },
+ "openimages_2ec0dae215a7b440": {
+  "hours": 5,
+  "minutes": 26
+ },
+ "openimages_2fc84c0863aa0a1d": {
+  "hours": 12,
+  "minutes": 2
+ },
+ "openimages_308c9c356c731a70": {
+  "hours": 10,
+  "minutes": 15
+ },
+ "openimages_30a462ca06399d7b": {
+  "hours": 1,
+  "minutes": 53
+ },
+ "openimages_30b64590bf0ca512": {
+  "hours": 1,
+  "minutes": 6
+ },
+ "openimages_310ab0134fe28593": {
+  "hours": 7,
+  "minutes": 50
+ },
+ "openimages_3151043d669ea1a9": {
+  "hours": 8,
+  "minutes": 51
+ },
+ "openimages_315cfe05d43faeba": {
+  "hours": 4,
+  "minutes": 14
+ },
+ "openimages_319b17e72008adc5": {
+  "hours": 11,
+  "minutes": 20
+ },
+ "openimages_31d4ddd6477aefb2": {
+  "hours": 2,
+  "minutes": 25
+ },
+ "openimages_335a20722472ebf5": {
+  "hours": 11,
+  "minutes": 43
+ },
+ "openimages_33ac51c37e4c2ea1": {
+  "hours": 3,
+  "minutes": 35
+ },
+ "openimages_33c7949f5691ae0b": {
+  "hours": 12,
+  "minutes": 0
+ },
+ "openimages_33ca59bce751278c": {
+  "hours": 12,
+  "minutes": 46
+ },
+ "openimages_340a9dc24ee3eb2f": {
+  "hours": 8,
+  "minutes": 28
+ },
+ "openimages_344368c55c3ab29e": {
+  "hours": 10,
+  "minutes": 40
+ },
+ "openimages_3445f7bcde8d39f1": {
+  "hours": 3,
+  "minutes": 59
+ },
+ "openimages_348c925edbebfcf4": {
+  "hours": 2,
+  "minutes": 34
+ },
+ "openimages_3490d5644635726d": {
+  "hours": 5,
+  "minutes": 41
+ },
+ "openimages_34b551062d259577": {
+  "hours": 1,
+  "minutes": 43
+ },
+ "openimages_34fd99e5c0b70cf7": {
+  "hours": 6,
+  "minutes": 3
+ },
+ "openimages_3511edd1de0387a6": {
+  "hours": 4,
+  "minutes": 29
+ },
+ "openimages_35dccea75accb223": {
+  "hours": 6,
+  "minutes": 4
+ },
+ "openimages_364a71033a730e6e": {
+  "hours": 12,
+  "minutes": 22
+ },
+ "openimages_369e924d16905c67": {
+  "hours": 3,
+  "minutes": 24
+ },
+ "openimages_3714d260a1835e2a": {
+  "hours": 12,
+  "minutes": 0
+ },
+ "openimages_3756093539afebf6": {
+  "hours": 12,
+  "minutes": 53
+ },
+ "openimages_378094e4e9060607": {
+  "hours": 2,
+  "minutes": 8
+ },
+ "openimages_3796bcf7a2259cdd": {
+  "hours": 12,
+  "minutes": 58
+ },
+ "openimages_37981c894e1c6357": {
+  "hours": 2,
+  "minutes": 43
+ },
+ "openimages_38035029a82912b5": {
+  "hours": 2,
+  "minutes": 57
+ },
+ "openimages_381930bfa6c9e9f9": {
+  "hours": 11,
+  "minutes": 26
+ },
+ "openimages_3833c22fed53a60b": {
+  "hours": 3,
+  "minutes": 7
+ },
+ "openimages_385ea6c42e7cb025": {
+  "hours": 11,
+  "minutes": 10
+ },
+ "openimages_38979564c25864ea": {
+  "hours": 1,
+  "minutes": 55
+ },
+ "openimages_38f115cbefcc9224": {
+  "hours": 6,
+  "minutes": 1
+ },
+ "openimages_392f035d671e1999": {
+  "hours": 3,
+  "minutes": 14
+ },
+ "openimages_395a3a80d18e7f9b": {
+  "hours": 9,
+  "minutes": 20
+ },
+ "openimages_3961fb946d05a81a": {
+  "hours": 8,
+  "minutes": 3
+ },
+ "openimages_3988e7f91f36d966": {
+  "hours": 12,
+  "minutes": 50
+ },
+ "openimages_39a3202a06d123d5": {
+  "hours": 10,
+  "minutes": 30
+ },
+ "openimages_39acea46df12c6f6": {
+  "hours": 5,
+  "minutes": 25
+ },
+ "openimages_39df31c6d4f1ae20": {
+  "hours": 8,
+  "minutes": 0
+ },
+ "openimages_39e19d3b0075b538": {
+  "hours": 5,
+  "minutes": 23
+ },
+ "openimages_3a7ca1d2820924c5": {
+  "hours": 3,
+  "minutes": 33
+ },
+ "openimages_3ae229f065cd207d": {
+  "hours": 1,
+  "minutes": 10
+ },
+ "openimages_3aef4fdbecbb85fd": {
+  "hours": 1,
+  "minutes": 10
+ },
+ "openimages_3b222ef09bc0277e": {
+  "hours": 2,
+  "minutes": 34
+ },
+ "openimages_3b2871447ec226f4": {
+  "hours": 5,
+  "minutes": 56
+ },
+ "openimages_3b748ec7c0cde5e1": {
+  "hours": 5,
+  "minutes": 17
+ },
+ "openimages_3bba800623d5d200": {
+  "hours": 12,
+  "minutes": 45
+ },
+ "openimages_3c6d5756e7d3cc15": {
+  "hours": 1,
+  "minutes": 20
+ },
+ "openimages_3c960edcd686fe92": {
+  "hours": 1,
+  "minutes": 46
+ },
+ "openimages_3cfb95a65724ae4e": {
+  "hours": 10,
+  "minutes": 36
+ },
+ "openimages_3d028d25d99eb756": {
+  "hours": 1,
+  "minutes": 58
+ },
+ "openimages_3d0871a160b422fa": {
+  "hours": 5,
+  "minutes": 39
+ },
+ "openimages_3d698b6bb4196e6b": {
+  "hours": 8,
+  "minutes": 19
+ },
+ "openimages_3dc483acda6ddb3c": {
+  "hours": 2,
+  "minutes": 19
+ },
+ "openimages_3ddbda2ffce8828a": {
+  "hours": 4,
+  "minutes": 13
+ },
+ "openimages_3e40e2c3a81444ae": {
+  "hours": 1,
+  "minutes": 7
+ },
+ "openimages_3efc7c13e3822c50": {
+  "hours": 6,
+  "minutes": 21
+ },
+ "openimages_3f021e5260524eb5": {
+  "hours": 1,
+  "minutes": 26
+ },
+ "openimages_3f8259701fe53234": {
+  "hours": 6,
+  "minutes": 0
+ },
+ "openimages_40619456a6926a8b": {
+  "hours": 11,
+  "minutes": 55
+ },
+ "openimages_40ab90c6f135670c": {
+  "hours": 5,
+  "minutes": 8
+ },
+ "openimages_40b8a9b20126bc8f": {
+  "hours": 1,
+  "minutes": 49
+ },
+ "openimages_40dc4ea26048c68b": {
+  "hours": 10,
+  "minutes": 2
+ },
+ "openimages_41116b0749652168": {
+  "hours": 7,
+  "minutes": 3
+ },
+ "openimages_4123d5f717865573": {
+  "hours": 11,
+  "minutes": 22
+ },
+ "openimages_416870e833d87956": {
+  "hours": 5,
+  "minutes": 0
+ },
+ "openimages_4182c65b030c236b": {
+  "hours": 10,
+  "minutes": 10
+ },
+ "openimages_418a986a6e240519": {
+  "hours": 5,
+  "minutes": 14
+ },
+ "openimages_41bd135408762afc": {
+  "hours": 8,
+  "minutes": 4
+ },
+ "openimages_41d2c4cbae3fc6e6": {
+  "hours": 4,
+  "minutes": 2
+ },
+ "openimages_432f962a09b00ed4": {
+  "hours": 11,
+  "minutes": 59
+ },
+ "openimages_4336bed50336ed7c": {
+  "hours": 8,
+  "minutes": 32
+ },
+ "openimages_434bdc6dd2895e5f": {
+  "hours": 7,
+  "minutes": 38
+ },
+ "openimages_43604b3c176c2181": {
+  "hours": 1,
+  "minutes": 28
+ },
+ "openimages_437a796a1199e406": {
+  "hours": 12,
+  "minutes": 13
+ },
+ "openimages_437f4d85b8b0fb40": {
+  "hours": 1,
+  "minutes": 39
+ },
+ "openimages_438df5467eecb329": {
+  "hours": 7,
+  "minutes": 8
+ },
+ "openimages_43d24d5cd7aa9792": {
+  "hours": 4,
+  "minutes": 34
+ },
+ "openimages_4439dc6256d73096": {
+  "hours": 8,
+  "minutes": 27
+ },
+ "openimages_443bd3a05e93399a": {
+  "hours": 1,
+  "minutes": 39
+ },
+ "openimages_445dd0c413776c18": {
+  "hours": 5,
+  "minutes": 43
+ },
+ "openimages_448257f528616044": {
+  "hours": 10,
+  "minutes": 53
+ },
+ "openimages_44ff619c6f2a6279": {
+  "hours": 11,
+  "minutes": 5
+ },
+ "openimages_45047acaa4471310": {
+  "hours": 4,
+  "minutes": 10
+ },
+ "openimages_451d799638a7941e": {
+  "hours": 11,
+  "minutes": 46
+ },
+ "openimages_4537cdbfdc2c2429": {
+  "hours": 9,
+  "minutes": 18
+ },
+ "openimages_454ccaaf17e567e6": {
+  "hours": 11,
+  "minutes": 58
+ },
+ "openimages_45be819a07a7887a": {
+  "hours": 5,
+  "minutes": 55
+ },
+ "openimages_45fb34ea18328101": {
+  "hours": 3,
+  "minutes": 4
+ },
+ "openimages_460fd0e81da2bc03": {
+  "hours": 9,
+  "minutes": 30
+ },
+ "openimages_461559729813aaf6": {
+  "hours": 5,
+  "minutes": 40
+ },
+ "openimages_4619af235cac1ba1": {
+  "hours": 2,
+  "minutes": 7
+ },
+ "openimages_462ea5200d04bcb2": {
+  "hours": 12,
+  "minutes": 12
+ },
+ "openimages_469266d2e67b113c": {
+  "hours": 4,
+  "minutes": 56
+ },
+ "openimages_46aedfaadf866258": {
+  "hours": 2,
+  "minutes": 25
+ },
+ "openimages_46d93dd634e4cb2a": {
+  "hours": 12,
+  "minutes": 7
+ },
+ "openimages_4703f0c06e1e70ee": {
+  "hours": 10,
+  "minutes": 10
+ },
+ "openimages_470b4aba8d496a50": {
+  "hours": 4,
+  "minutes": 24
+ },
+ "openimages_478e6af79f09d2ba": {
+  "hours": 3,
+  "minutes": 33
+ },
+ "openimages_479ebe682f7b3dc7": {
+  "hours": 9,
+  "minutes": 50
+ },
+ "openimages_47b78464e24b22f6": {
+  "hours": 10,
+  "minutes": 11
+ },
+ "openimages_47ebbf8fbadf47ba": {
+  "hours": 9,
+  "minutes": 26
+ },
+ "openimages_47f2426c0d12bb5c": {
+  "hours": 6,
+  "minutes": 17
+ },
+ "openimages_47f882a341f8cef1": {
+  "hours": 12,
+  "minutes": 10
+ },
+ "openimages_480d46b1e4cfb886": {
+  "hours": 1,
+  "minutes": 12
+ },
+ "openimages_48d392816f5fd4a1": {
+  "hours": 1,
+  "minutes": 23
+ },
+ "openimages_492c637f19ead89b": {
+  "hours": 11,
+  "minutes": 35
+ },
+ "openimages_493420bb064d5215": {
+  "hours": 3,
+  "minutes": 15
+ },
+ "openimages_49b58f93e7cf4732": {
+  "hours": 10,
+  "minutes": 58
+ },
+ "openimages_49b7af644e5c341b": {
+  "hours": 10,
+  "minutes": 11
+ },
+ "openimages_49d4ce3647ef0abe": {
+  "hours": 8,
+  "minutes": 17
+ },
+ "openimages_49f187556757c137": {
+  "hours": 10,
+  "minutes": 12
+ },
+ "openimages_4a56010c76a2c30b": {
+  "hours": 8,
+  "minutes": 45
+ },
+ "openimages_4a634a2eb9051e67": {
+  "hours": 2,
+  "minutes": 15
+ },
+ "openimages_4b4c0cb398b3797e": {
+  "hours": 8,
+  "minutes": 0
+ },
+ "openimages_4b6ac460c6721f5b": {
+  "hours": 3,
+  "minutes": 45
+ },
+ "openimages_4bc4839a85fb0ab1": {
+  "hours": 7,
+  "minutes": 51
+ },
+ "openimages_4c02be143c30b84b": {
+  "hours": 6,
+  "minutes": 25
+ },
+ "openimages_4c1bfa5875b100c0": {
+  "hours": 7,
+  "minutes": 35
+ },
+ "openimages_4c59f8677a4383bd": {
+  "hours": 9,
+  "minutes": 23
+ },
+ "openimages_4caf2cc051267329": {
+  "hours": 3,
+  "minutes": 40
+ },
+ "openimages_4cc1211ba7cebaaf": {
+  "hours": 5,
+  "minutes": 17
+ },
+ "openimages_4cfce4b2e0b1edd6": {
+  "hours": 1,
+  "minutes": 0
+ },
+ "openimages_4d0e16885ed8a131": {
+  "hours": 3,
+  "minutes": 32
+ },
+ "openimages_4d3d8bd5931da3ee": {
+  "hours": 5,
+  "minutes": 47
+ },
+ "openimages_4d44fce648402745": {
+  "hours": 10,
+  "minutes": 49
+ },
+ "openimages_4dd9e1c177daa8c1": {
+  "hours": 12,
+  "minutes": 52
+ },
+ "openimages_4e0908ad6d1b8147": {
+  "hours": 12,
+  "minutes": 10
+ },
+ "openimages_4f881c85c8733d12": {
+  "hours": 3,
+  "minutes": 50
+ },
+ "openimages_4fec043390f890f6": {
+  "hours": 6,
+  "minutes": 17
+ },
+ "openimages_4ff20661584028ab": {
+  "hours": 10,
+  "minutes": 12
+ },
+ "openimages_502ba30d3efda65b": {
+  "hours": 2,
+  "minutes": 46
+ },
+ "openimages_5052db8212ef1385": {
+  "hours": 3,
+  "minutes": 5
+ },
+ "openimages_50abd136ccd333f6": {
+  "hours": 3,
+  "minutes": 0
+ },
+ "openimages_50b30556dabc5a90": {
+  "hours": 7,
+  "minutes": 40
+ },
+ "openimages_50e226ade0196d53": {
+  "hours": 12,
+  "minutes": 44
+ },
+ "openimages_50ee4349ede52ea2": {
+  "hours": 8,
+  "minutes": 35
+ },
+ "openimages_50f5f62c82e81951": {
+  "hours": 9,
+  "minutes": 15
+ },
+ "openimages_5120f7da380cafa6": {
+  "hours": 7,
+  "minutes": 24
+ },
+ "openimages_514a12971a3affc5": {
+  "hours": 5,
+  "minutes": 9
+ },
+ "openimages_515332076b22fc27": {
+  "hours": 10,
+  "minutes": 35
+ },
+ "openimages_51bd99157ba3d4fa": {
+  "hours": 10,
+  "minutes": 40
+ },
+ "openimages_52047fe9dc33151b": {
+  "hours": 4,
+  "minutes": 41
+ },
+ "openimages_5217af6433bb9fe0": {
+  "hours": 7,
+  "minutes": 55
+ },
+ "openimages_5249c2881e8ad04f": {
+  "hours": 4,
+  "minutes": 15
+ },
+ "openimages_52901a6ca6eb58a0": {
+  "hours": 12,
+  "minutes": 36
+ },
+ "openimages_53231c108193808e": {
+  "hours": 6,
+  "minutes": 57
+ },
+ "openimages_5330f94c5c1da0ce": {
+  "hours": 4,
+  "minutes": 51
+ },
+ "openimages_5339adb6e831a1e4": {
+  "hours": 8,
+  "minutes": 2
+ },
+ "openimages_534b4f6eb027b770": {
+  "hours": 10,
+  "minutes": 6
+ },
+ "openimages_548697b81a635aa6": {
+  "hours": 1,
+  "minutes": 21
+ },
+ "openimages_54fe89d0a2912010": {
+  "hours": 7,
+  "minutes": 24
+ },
+ "openimages_5580a8df61dc70a4": {
+  "hours": 10,
+  "minutes": 26
+ },
+ "openimages_5621f494bcbe63b5": {
+  "hours": 12,
+  "minutes": 4
+ },
+ "openimages_56b1d44e92e7fe15": {
+  "hours": 4,
+  "minutes": 21
+ },
+ "openimages_571ff07401575ea2": {
+  "hours": 8,
+  "minutes": 34
+ },
+ "openimages_573d1f0de6670273": {
+  "hours": 3,
+  "minutes": 32
+ },
+ "openimages_5761585f9ecba1a2": {
+  "hours": 7,
+  "minutes": 43
+ },
+ "openimages_5791ba8b07394c6e": {
+  "hours": 12,
+  "minutes": 21
+ },
+ "openimages_5797a011421a293d": {
+  "hours": 8,
+  "minutes": 42
+ },
+ "openimages_579853cad3d5c5a4": {
+  "hours": 5,
+  "minutes": 34
+ },
+ "openimages_58e53c66f004060f": {
+  "hours": 7,
+  "minutes": 52
+ },
+ "openimages_58ea3e90c24c6a57": {
+  "hours": 3,
+  "minutes": 3
+ },
+ "openimages_58eefdd8ccf456dc": {
+  "hours": 5,
+  "minutes": 17
+ },
+ "openimages_5903269e2a55f1b0": {
+  "hours": 12,
+  "minutes": 0
+ },
+ "openimages_5962ddb772e74b26": {
+  "hours": 2,
+  "minutes": 40
+ },
+ "openimages_5966c34161594c72": {
+  "hours": 2,
+  "minutes": 47
+ },
+ "openimages_5973faaa0d470f66": {
+  "hours": 5,
+  "minutes": 22
+ },
+ "openimages_59be82824bc60ad6": {
+  "hours": 3,
+  "minutes": 50
+ },
+ "openimages_5a061b9d5b826dbf": {
+  "hours": 9,
+  "minutes": 45
+ },
+ "openimages_5a24ecf611d757e0": {
+  "hours": 10,
+  "minutes": 10
+ },
+ "openimages_5a3781ba52e4e2cd": {
+  "hours": 8,
+  "minutes": 52
+ },
+ "openimages_5a6ed75b8a957057": {
+  "hours": 12,
+  "minutes": 2
+ },
+ "openimages_5ac2f40ae92dbdac": {
+  "hours": 1,
+  "minutes": 5
+ },
+ "openimages_5af3a348e74d3086": {
+  "hours": 12,
+  "minutes": 6
+ },
+ "openimages_5b1a6168ea986c55": {
+  "hours": 10,
+  "minutes": 40
+ },
+ "openimages_5b27972eafc71167": {
+  "hours": 4,
+  "minutes": 4
+ },
+ "openimages_5b2e50943746a045": {
+  "hours": 12,
+  "minutes": 32
+ },
+ "openimages_5b47778cf70f08a1": {
+  "hours": 10,
+  "minutes": 10
+ },
+ "openimages_5bbda335f00812d5": {
+  "hours": 11,
+  "minutes": 24
+ },
+ "openimages_5c460b17e6607fe9": {
+  "hours": 11,
+  "minutes": 54
+ },
+ "openimages_5c6ee9b863cbcd13": {
+  "hours": 6,
+  "minutes": 38
+ },
+ "openimages_5ca2c0da6bd6e94d": {
+  "hours": 6,
+  "minutes": 58
+ },
+ "openimages_5cc770c21a481940": {
+  "hours": 2,
+  "minutes": 6
+ },
+ "openimages_5ceecf9ec8005b46": {
+  "hours": 1,
+  "minutes": 20
+ },
+ "openimages_5d14a0fc9d0ac143": {
+  "hours": 12,
+  "minutes": 47
+ },
+ "openimages_5d1fe2e202d4645c": {
+  "hours": 4,
+  "minutes": 34
+ },
+ "openimages_5d24f9dade02f788": {
+  "hours": 4,
+  "minutes": 1
+ },
+ "openimages_5e097e3f068fb622": {
+  "hours": 12,
+  "minutes": 5
+ },
+ "openimages_5e3a1656a549d220": {
+  "hours": 10,
+  "minutes": 10
+ },
+ "openimages_5ebc055bda4116b4": {
+  "hours": 4,
+  "minutes": 43
+ },
+ "openimages_5f03d10c57fcbc16": {
+  "hours": 6,
+  "minutes": 24
+ },
+ "openimages_5f197c65e48fdb66": {
+  "hours": 7,
+  "minutes": 6
+ },
+ "openimages_602bdd6124a66b28": {
+  "hours": 12,
+  "minutes": 15
+ },
+ "openimages_603e8da9aa13f648": {
+  "hours": 4,
+  "minutes": 32
+ },
+ "openimages_604fe21fd8aefef4": {
+  "hours": 7,
+  "minutes": 20
+ },
+ "openimages_61292e52629b1e48": {
+  "hours": 5,
+  "minutes": 57
+ },
+ "openimages_613594a54a4bd495": {
+  "hours": 5,
+  "minutes": 35
+ },
+ "openimages_617cf57e23cc777c": {
+  "hours": 4,
+  "minutes": 25
+ },
+ "openimages_61a75bab1734549e": {
+  "hours": 3,
+  "minutes": 20
+ },
+ "openimages_625f43fb3cff5d1c": {
+  "hours": 12,
+  "minutes": 10
+ },
+ "openimages_62633029221455de": {
+  "hours": 3,
+  "minutes": 15
+ },
+ "openimages_6263d9d32e865e9e": {
+  "hours": 11,
+  "minutes": 53
+ },
+ "openimages_626eb1f1c7ec7152": {
+  "hours": 11,
+  "minutes": 36
+ },
+ "openimages_628de6ba0e30fe56": {
+  "hours": 10,
+  "minutes": 31
+ },
+ "openimages_62926eedb9f7c3b6": {
+  "hours": 12,
+  "minutes": 36
+ },
+ "openimages_629e9bd99006377d": {
+  "hours": 11,
+  "minutes": 33
+ },
+ "openimages_62d1af691e080c5e": {
+  "hours": 3,
+  "minutes": 37
+ },
+ "openimages_63a4887a1b865638": {
+  "hours": 4,
+  "minutes": 50
+ },
+ "openimages_63edf3cee3780ed0": {
+  "hours": 10,
+  "minutes": 10
+ },
+ "openimages_6440fac36e2ca8c9": {
+  "hours": 3,
+  "minutes": 30
+ },
+ "openimages_64506f552f222a63": {
+  "hours": 4,
+  "minutes": 55
+ },
+ "openimages_645219a11c697669": {
+  "hours": 10,
+  "minutes": 53
+ },
+ "openimages_64a9853823898d79": {
+  "hours": 12,
+  "minutes": 55
+ },
+ "openimages_64dc41cb06d32492": {
+  "hours": 4,
+  "minutes": 35
+ },
+ "openimages_65a5a494b269cdea": {
+  "hours": 5,
+  "minutes": 25
+ },
+ "openimages_65fa67be80f1959c": {
+  "hours": 12,
+  "minutes": 35
+ },
+ "openimages_6618503f6b98d2c2": {
+  "hours": 11,
+  "minutes": 17
+ },
+ "openimages_6619763c4423d46e": {
+  "hours": 4,
+  "minutes": 24
+ },
+ "openimages_668e433ae2aa62ff": {
+  "hours": 2,
+  "minutes": 5
+ },
+ "openimages_6749520495b4c169": {
+  "hours": 7,
+  "minutes": 25
+ },
+ "openimages_67a642d85542a3a6": {
+  "hours": 3,
+  "minutes": 40
+ },
+ "openimages_67e3016d6f0b5c4f": {
+  "hours": 1,
+  "minutes": 8
+ },
+ "openimages_67f15c662bfc9aac": {
+  "hours": 1,
+  "minutes": 55
+ },
+ "openimages_681cfbd60d117ba7": {
+  "hours": 2,
+  "minutes": 37
+ },
+ "openimages_6858a36c1a0d1a41": {
+  "hours": 11,
+  "minutes": 20
+ },
+ "openimages_686ecc39c18ec33b": {
+  "hours": 8,
+  "minutes": 22
+ },
+ "openimages_689d5b8ab03b5192": {
+  "hours": 10,
+  "minutes": 59
+ },
+ "openimages_68c8ef6527e441e2": {
+  "hours": 7,
+  "minutes": 38
+ },
+ "openimages_690498379457ade5": {
+  "hours": 6,
+  "minutes": 32
+ },
+ "openimages_69514e65f17bafea": {
+  "hours": 12,
+  "minutes": 4
+ },
+ "openimages_695f529c5fb2f309": {
+  "hours": 12,
+  "minutes": 4
+ },
+ "openimages_697814dac80ac447": {
+  "hours": 12,
+  "minutes": 28
+ },
+ "openimages_69d9f69cf8f2d792": {
+  "hours": 6,
+  "minutes": 15
+ },
+ "openimages_69f86a619e9338f1": {
+  "hours": 10,
+  "minutes": 7
+ },
+ "openimages_6a2fd16e604a9b87": {
+  "hours": 11,
+  "minutes": 58
+ },
+ "openimages_6a7ed70430ab86f4": {
+  "hours": 4,
+  "minutes": 11
+ },
+ "openimages_6b65ec71f39537e7": {
+  "hours": 7,
+  "minutes": 57
+ },
+ "openimages_6bb204b71c626adc": {
+  "hours": 6,
+  "minutes": 18
+ },
+ "openimages_6bdd9f42ff27cb03": {
+  "hours": 5,
+  "minutes": 17
+ },
+ "openimages_6be1099c19e42132": {
+  "hours": 8,
+  "minutes": 0
+ },
+ "openimages_6c281c50b4f2562b": {
+  "hours": 11,
+  "minutes": 50
+ },
+ "openimages_6c3c99cdaad46fdb": {
+  "hours": 12,
+  "minutes": 25
+ },
+ "openimages_6c61301fae29cba4": {
+  "hours": 12,
+  "minutes": 40
+ },
+ "openimages_6ca22db47f7659bd": {
+  "hours": 12,
+  "minutes": 1
+ },
+ "openimages_6cd3397502990578": {
+  "hours": 8,
+  "minutes": 26
+ },
+ "openimages_6cdcbb2c81348c74": {
+  "hours": 2,
+  "minutes": 2
+ },
+ "openimages_6d025830098e0083": {
+  "hours": 3,
+  "minutes": 15
+ },
+ "openimages_6d264e3dc5dc8bd8": {
+  "hours": 10,
+  "minutes": 2
+ },
+ "openimages_6d62243f2b3e2159": {
+  "hours": 12,
+  "minutes": 13
+ },
+ "openimages_6d7bf243cd06ba06": {
+  "hours": 12,
+  "minutes": 11
+ },
+ "openimages_6dabd73a39bbc53c": {
+  "hours": 12,
+  "minutes": 22
+ },
+ "openimages_6e2e3a5e21260623": {
+  "hours": 8,
+  "minutes": 45
+ },
+ "openimages_6e8fa55a65f3ebc0": {
+  "hours": 9,
+  "minutes": 50
+ },
+ "openimages_6e9e3fab27096330": {
+  "hours": 1,
+  "minutes": 48
+ },
+ "openimages_6eb020d62dbdfa33": {
+  "hours": 2,
+  "minutes": 14
+ },
+ "openimages_6ed13046a8a8f585": {
+  "hours": 12,
+  "minutes": 16
+ },
+ "openimages_6ee223bfda4bc1b3": {
+  "hours": 11,
+  "minutes": 55
+ },
+ "openimages_6f5f26b5ccb62d04": {
+  "hours": 1,
+  "minutes": 52
+ },
+ "openimages_6f719957009afbab": {
+  "hours": 6,
+  "minutes": 5
+ },
+ "openimages_6f85f7542ef5ec85": {
+  "hours": 1,
+  "minutes": 48
+ },
+ "openimages_6fd08574591ab6e4": {
+  "hours": 9,
+  "minutes": 18
+ },
+ "openimages_6fd479c385d6c367": {
+  "hours": 1,
+  "minutes": 10
+ },
+ "openimages_704a8b0f182e3c0a": {
+  "hours": 8,
+  "minutes": 44
+ },
+ "openimages_704d9fdab6bd2f99": {
+  "hours": 1,
+  "minutes": 45
+ },
+ "openimages_70d879ca75ba2be3": {
+  "hours": 1,
+  "minutes": 27
+ },
+ "openimages_715c69184b6d71d7": {
+  "hours": 3,
+  "minutes": 48
+ },
+ "openimages_71773ef79113a1e6": {
+  "hours": 4,
+  "minutes": 25
+ },
+ "openimages_71934e6bf426c8cd": {
+  "hours": 12,
+  "minutes": 41
+ },
+ "openimages_724a7ea6ff0dc90a": {
+  "hours": 3,
+  "minutes": 7
+ },
+ "openimages_7254e49d19ffec76": {
+  "hours": 8,
+  "minutes": 57
+ },
+ "openimages_725b58c60910627a": {
+  "hours": 9,
+  "minutes": 5
+ },
+ "openimages_7290226768f91478": {
+  "hours": 2,
+  "minutes": 45
+ },
+ "openimages_72d4d9e8cd2c51a5": {
+  "hours": 2,
+  "minutes": 23
+ },
+ "openimages_72d7db8ca956e3da": {
+  "hours": 2,
+  "minutes": 59
+ },
+ "openimages_7309992904fd0fa8": {
+  "hours": 4,
+  "minutes": 10
+ },
+ "openimages_730d4a756458d56d": {
+  "hours": 4,
+  "minutes": 13
+ },
+ "openimages_737c9c3dc86b44c7": {
+  "hours": 2,
+  "minutes": 49
+ },
+ "openimages_73813f281766aa3d": {
+  "hours": 1,
+  "minutes": 55
+ },
+ "openimages_752592d8ba50ba93": {
+  "hours": 6,
+  "minutes": 54
+ },
+ "openimages_75a8e3ed3bfccd71": {
+  "hours": 3,
+  "minutes": 45
+ },
+ "openimages_7624cc886957c094": {
+  "hours": 12,
+  "minutes": 37
+ },
+ "openimages_767bcda529989c65": {
+  "hours": 12,
+  "minutes": 0
+ },
+ "openimages_7691cf949d4ab899": {
+  "hours": 4,
+  "minutes": 19
+ },
+ "openimages_76baf19b837d3a85": {
+  "hours": 12,
+  "minutes": 0
+ },
+ "openimages_76e2fae2cf2fee2d": {
+  "hours": 1,
+  "minutes": 0
+ },
+ "openimages_771dba7cdb707eb6": {
+  "hours": 12,
+  "minutes": 22
+ },
+ "openimages_771f3662123878a2": {
+  "hours": 6,
+  "minutes": 8
+ },
+ "openimages_780cbdfa6d2cfd65": {
+  "hours": 6,
+  "minutes": 55
+ },
+ "openimages_7847572c30ba0f97": {
+  "hours": 8,
+  "minutes": 29
+ },
+ "openimages_78549bf1a5d77751": {
+  "hours": 6,
+  "minutes": 19
+ },
+ "openimages_78b4430ce0e3c992": {
+  "hours": 8,
+  "minutes": 59
+ },
+ "openimages_78c2614cc98cbaf2": {
+  "hours": 11,
+  "minutes": 10
+ },
+ "openimages_78c33114c7aded26": {
+  "hours": 6,
+  "minutes": 10
+ },
+ "openimages_7932fe3669fc95d7": {
+  "hours": 11,
+  "minutes": 54
+ },
+ "openimages_7977857fc37cf51c": {
+  "hours": 2,
+  "minutes": 59
+ },
+ "openimages_79944233a3510162": {
+  "hours": 5,
+  "minutes": 50
+ },
+ "openimages_79df449b00943a5f": {
+  "hours": 10,
+  "minutes": 10
+ },
+ "openimages_7a307639fc428f84": {
+  "hours": 9,
+  "minutes": 10
+ },
+ "openimages_7a33bd6de300b2fa": {
+  "hours": 8,
+  "minutes": 55
+ },
+ "openimages_7a92bd2a8b5daf88": {
+  "hours": 5,
+  "minutes": 22
+ },
+ "openimages_7b40b394f6ceb30d": {
+  "hours": 11,
+  "minutes": 36
+ },
+ "openimages_7b6456e0f025a2be": {
+  "hours": 3,
+  "minutes": 22
+ },
+ "openimages_7bd68bc684a38b14": {
+  "hours": 12,
+  "minutes": 19
+ },
+ "openimages_7bdea793113aab36": {
+  "hours": 12,
+  "minutes": 44
+ },
+ "openimages_7be80364784ae5a7": {
+  "hours": 3,
+  "minutes": 0
+ },
+ "openimages_7c87d557121bfab7": {
+  "hours": 10,
+  "minutes": 37
+ },
+ "openimages_7d07d66741f381d1": {
+  "hours": 9,
+  "minutes": 14
+ },
+ "openimages_7d145f9d90463418": {
+  "hours": 10,
+  "minutes": 42
+ },
+ "openimages_7d603177be028220": {
+  "hours": 1,
+  "minutes": 26
+ },
+ "openimages_7d756a7c0b120e76": {
+  "hours": 2,
+  "minutes": 47
+ },
+ "openimages_7db00379a84454ab": {
+  "hours": 7,
+  "minutes": 56
+ },
+ "openimages_7e9238c955c28f28": {
+  "hours": 5,
+  "minutes": 28
+ },
+ "openimages_7e95106983bd7de7": {
+  "hours": 11,
+  "minutes": 50
+ },
+ "openimages_7e967012ad145c29": {
+  "hours": 11,
+  "minutes": 50
+ },
+ "openimages_7eba65162cb47904": {
+  "hours": 4,
+  "minutes": 45
+ },
+ "openimages_7ef6f2ac0ce2fb27": {
+  "hours": 3,
+  "minutes": 17
+ },
+ "openimages_7f2363f8039994c8": {
+  "hours": 2,
+  "minutes": 59
+ },
+ "openimages_7f535bc5999d0afb": {
+  "hours": 12,
+  "minutes": 50
+ },
+ "openimages_7f69d5b19a918b3e": {
+  "hours": 4,
+  "minutes": 20
+ },
+ "openimages_7fb7d7544c8838d6": {
+  "hours": 4,
+  "minutes": 35
+ },
+ "openimages_7fd1d1ed2c6b57e5": {
+  "hours": 11,
+  "minutes": 46
+ },
+ "openimages_7fdeb5b9c7beed24": {
+  "hours": 4,
+  "minutes": 20
+ },
+ "openimages_7fe936de5034538a": {
+  "hours": 12,
+  "minutes": 25
+ },
+ "openimages_80504857bf04ec4a": {
+  "hours": 7,
+  "minutes": 37
+ },
+ "openimages_80b2a8b6d57202c7": {
+  "hours": 5,
+  "minutes": 0
+ },
+ "openimages_80b42e783ef65c7d": {
+  "hours": 9,
+  "minutes": 47
+ },
+ "openimages_80ca55f8086c4559": {
+  "hours": 10,
+  "minutes": 10
+ },
+ "openimages_80d32e04d888d9d5": {
+  "hours": 3,
+  "minutes": 30
+ },
+ "openimages_80f0692b6f140e91": {
+  "hours": 11,
+  "minutes": 46
+ },
+ "openimages_815c7fe52652d702": {
+  "hours": 1,
+  "minutes": 25
+ },
+ "openimages_827a52fc03d15298": {
+  "hours": 3,
+  "minutes": 26
+ },
+ "openimages_8291a8879f8505d4": {
+  "hours": 4,
+  "minutes": 4
+ },
+ "openimages_831fc15025a59606": {
+  "hours": 8,
+  "minutes": 24
+ },
+ "openimages_83f2626ce794b001": {
+  "hours": 11,
+  "minutes": 35
+ },
+ "openimages_846a946cd24e7a1f": {
+  "hours": 10,
+  "minutes": 9
+ },
+ "openimages_8492b26624cca2f2": {
+  "hours": 11,
+  "minutes": 55
+ },
+ "openimages_84fd75b27cd1392f": {
+  "hours": 8,
+  "minutes": 50
+ },
+ "openimages_850a65316c016028": {
+  "hours": 1,
+  "minutes": 51
+ },
+ "openimages_8587384f95ce0e83": {
+  "hours": 8,
+  "minutes": 33
+ },
+ "openimages_85881fecbc8b8ddb": {
+  "hours": 10,
+  "minutes": 42
+ },
+ "openimages_8596090177c07b50": {
+  "hours": 3,
+  "minutes": 45
+ },
+ "openimages_85f0c226bde8552e": {
+  "hours": 2,
+  "minutes": 21
+ },
+ "openimages_86047307a180d8cd": {
+  "hours": 4,
+  "minutes": 14
+ },
+ "openimages_86450104d6a68327": {
+  "hours": 10,
+  "minutes": 46
+ },
+ "openimages_86967e682fc15c94": {
+  "hours": 11,
+  "minutes": 45
+ },
+ "openimages_86a0b1b2ab999802": {
+  "hours": 9,
+  "minutes": 31
+ },
+ "openimages_86aa171c2b052872": {
+  "hours": 6,
+  "minutes": 55
+ },
+ "openimages_8725d69c4852cf30": {
+  "hours": 11,
+  "minutes": 10
+ },
+ "openimages_876897ccd1143950": {
+  "hours": 11,
+  "minutes": 10
+ },
+ "openimages_87738b5ffb878e19": {
+  "hours": 6,
+  "minutes": 59
+ },
+ "openimages_87fa4b46808a58ea": {
+  "hours": 1,
+  "minutes": 28
+ },
+ "openimages_89026fe755b882a1": {
+  "hours": 10,
+  "minutes": 15
+ },
+ "openimages_8924f92be9064c4c": {
+  "hours": 1,
+  "minutes": 0
+ },
+ "openimages_89674d9de8090d92": {
+  "hours": 6,
+  "minutes": 26
+ },
+ "openimages_89874819fce76305": {
+  "hours": 11,
+  "minutes": 17
+ },
+ "openimages_89a55f8e2c2967c7": {
+  "hours": 9,
+  "minutes": 57
+ },
+ "openimages_89f4c37d7c6e7e3c": {
+  "hours": 12,
+  "minutes": 35
+ },
+ "openimages_8a2248b1663b13de": {
+  "hours": 3,
+  "minutes": 20
+ },
+ "openimages_8a2a1b78079ebf77": {
+  "hours": 2,
+  "minutes": 3
+ },
+ "openimages_8a46412d69ce7b18": {
+  "hours": 9,
+  "minutes": 59
+ },
+ "openimages_8a8b8b7139527e47": {
+  "hours": 9,
+  "minutes": 55
+ },
+ "openimages_8aa928f25bba67de": {
+  "hours": 3,
+  "minutes": 7
+ },
+ "openimages_8ab853eab988c998": {
+  "hours": 3,
+  "minutes": 6
+ },
+ "openimages_8b03294bd218943d": {
+  "hours": 9,
+  "minutes": 15
+ },
+ "openimages_8b403a0a5a202a28": {
+  "hours": 12,
+  "minutes": 40
+ },
+ "openimages_8bd48c590eb2d276": {
+  "hours": 2,
+  "minutes": 14
+ },
+ "openimages_8c16320ad5e4ce50": {
+  "hours": 4,
+  "minutes": 14
+ },
+ "openimages_8d6990a01efd059a": {
+  "hours": 10,
+  "minutes": 10
+ },
+ "openimages_8da03a4c6d799087": {
+  "hours": 2,
+  "minutes": 15
+ },
+ "openimages_8e0ddce731954697": {
+  "hours": 10,
+  "minutes": 57
+ },
+ "openimages_8e474943d64d73aa": {
+  "hours": 11,
+  "minutes": 41
+ },
+ "openimages_8e51ab52c9fbea93": {
+  "hours": 12,
+  "minutes": 59
+ },
+ "openimages_8f2e5fedded15073": {
+  "hours": 3,
+  "minutes": 56
+ },
+ "openimages_8f3bc7f35da363a6": {
+  "hours": 9,
+  "minutes": 45
+ },
+ "openimages_8f5ccda3bdf5311b": {
+  "hours": 5,
+  "minutes": 53
+ },
+ "openimages_8f5e8f6776a21c98": {
+  "hours": 9,
+  "minutes": 3
+ },
+ "openimages_8f8ac67163b44dcc": {
+  "hours": 1,
+  "minutes": 15
+ },
+ "openimages_8f994859e6f3fb45": {
+  "hours": 5,
+  "minutes": 0
+ },
+ "openimages_8faedcd150ad09b3": {
+  "hours": 3,
+  "minutes": 48
+ },
+ "openimages_8fe1e8e5d83fb8ff": {
+  "hours": 12,
+  "minutes": 53
+ },
+ "openimages_901589ebcd6c65c4": {
+  "hours": 1,
+  "minutes": 25
+ },
+ "openimages_903ebf41a977abe5": {
+  "hours": 3,
+  "minutes": 25
+ },
+ "openimages_905491bf842223b2": {
+  "hours": 4,
+  "minutes": 31
+ },
+ "openimages_9075b561d62f0d36": {
+  "hours": 1,
+  "minutes": 28
+ },
+ "openimages_90911e8e964859e3": {
+  "hours": 2,
+  "minutes": 11
+ },
+ "openimages_90f837646368c71c": {
+  "hours": 10,
+  "minutes": 8
+ },
+ "openimages_9120703fb5d9e413": {
+  "hours": 12,
+  "minutes": 55
+ },
+ "openimages_9143859ae2a7f7b7": {
+  "hours": 11,
+  "minutes": 38
+ },
+ "openimages_9163c725894cdcc2": {
+  "hours": 11,
+  "minutes": 33
+ },
+ "openimages_9185d744be9cc916": {
+  "hours": 1,
+  "minutes": 21
+ },
+ "openimages_919a06689c200e2f": {
+  "hours": 3,
+  "minutes": 39
+ },
+ "openimages_91ff00e6f535c469": {
+  "hours": 9,
+  "minutes": 27
+ },
+ "openimages_9200d51e678a2cac": {
+  "hours": 11,
+  "minutes": 26
+ },
+ "openimages_9207dfb3f62fa02b": {
+  "hours": 3,
+  "minutes": 21
+ },
+ "openimages_9216c3ceceb6b0c6": {
+  "hours": 9,
+  "minutes": 47
+ },
+ "openimages_921d2eba5c25c898": {
+  "hours": 5,
+  "minutes": 44
+ },
+ "openimages_92248bb5a33df3f6": {
+  "hours": 10,
+  "minutes": 0
+ },
+ "openimages_9251bd142ecf6588": {
+  "hours": 12,
+  "minutes": 1
+ },
+ "openimages_925b06ae9e87e2be": {
+  "hours": 12,
+  "minutes": 25
+ },
+ "openimages_92d4652fc8a28b46": {
+  "hours": 8,
+  "minutes": 40
+ },
+ "openimages_92ef672c2f223d2a": {
+  "hours": 5,
+  "minutes": 23
+ },
+ "openimages_9344f943412c0e14": {
+  "hours": 3,
+  "minutes": 47
+ },
+ "openimages_937e5fa258e29797": {
+  "hours": 10,
+  "minutes": 31
+ },
+ "openimages_9387c7955d5c2550": {
+  "hours": 3,
+  "minutes": 42
+ },
+ "openimages_93f7df7e9523b663": {
+  "hours": 4,
+  "minutes": 20
+ },
+ "openimages_944de3e9a564dfbc": {
+  "hours": 11,
+  "minutes": 26
+ },
+ "openimages_94541be91dbaa0d5": {
+  "hours": 4,
+  "minutes": 24
+ },
+ "openimages_947da4e8ebd0d8f6": {
+  "hours": 5,
+  "minutes": 33
+ },
+ "openimages_94c3f0db4a79d69a": {
+  "hours": 2,
+  "minutes": 34
+ },
+ "openimages_94e2fa6afa6cc696": {
+  "hours": 11,
+  "minutes": 28
+ },
+ "openimages_9540cf39c91682cc": {
+  "hours": 4,
+  "minutes": 40
+ },
+ "openimages_95489d08acac64a2": {
+  "hours": 12,
+  "minutes": 18
+ },
+ "openimages_95abed3ab57e7ee6": {
+  "hours": 6,
+  "minutes": 34
+ },
+ "openimages_95bd722d1484d9de": {
+  "hours": 4,
+  "minutes": 54
+ },
+ "openimages_95d7cdfc20fb21af": {
+  "hours": 11,
+  "minutes": 54
+ },
+ "openimages_95dafd6f3e9d1c09": {
+  "hours": 11,
+  "minutes": 29
+ },
+ "openimages_969d201b6117caf0": {
+  "hours": 2,
+  "minutes": 18
+ },
+ "openimages_97950d7048d4e7e3": {
+  "hours": 3,
+  "minutes": 16
+ },
+ "openimages_97cc7f71f035a1b2": {
+  "hours": 3,
+  "minutes": 46
+ },
+ "openimages_981b3399623b3afc": {
+  "hours": 10,
+  "minutes": 10
+ },
+ "openimages_9844edbedf7789d4": {
+  "hours": 4,
+  "minutes": 19
+ },
+ "openimages_98c8df993d8c64bf": {
+  "hours": 2,
+  "minutes": 0
+ },
+ "openimages_9941b806730ea483": {
+  "hours": 11,
+  "minutes": 40
+ },
+ "openimages_9a299e72a37e7a55": {
+  "hours": 12,
+  "minutes": 46
+ },
+ "openimages_9a2dd04596616aec": {
+  "hours": 9,
+  "minutes": 0
+ },
+ "openimages_9a45f6dad0ada494": {
+  "hours": 9,
+  "minutes": 36
+ },
+ "openimages_9aadc2f6231c4d9a": {
+  "hours": 2,
+  "minutes": 26
+ },
+ "openimages_9b1df01e840aad2f": {
+  "hours": 12,
+  "minutes": 48
+ },
+ "openimages_9be87ac53ea3bd10": {
+  "hours": 4,
+  "minutes": 5
+ },
+ "openimages_9c3b90ee5ea3c811": {
+  "hours": 12,
+  "minutes": 35
+ },
+ "openimages_9c43d89c212f7455": {
+  "hours": 10,
+  "minutes": 10
+ },
+ "openimages_9c8043247210962b": {
+  "hours": 2,
+  "minutes": 59
+ },
+ "openimages_9caf43e961f1956b": {
+  "hours": 5,
+  "minutes": 18
+ },
+ "openimages_9d02c4756693a8ca": {
+  "hours": 10,
+  "minutes": 16
+ },
+ "openimages_9d518c7f3c32624e": {
+  "hours": 7,
+  "minutes": 5
+ },
+ "openimages_9db867c0e53b83d5": {
+  "hours": 8,
+  "minutes": 5
+ },
+ "openimages_9e2b99dd322cc288": {
+  "hours": 3,
+  "minutes": 54
+ },
+ "openimages_9efd8be775c26487": {
+  "hours": 9,
+  "minutes": 30
+ },
+ "openimages_9eff7189b2e65fe6": {
+  "hours": 6,
+  "minutes": 2
+ },
+ "openimages_9f7e4c98ffb951fc": {
+  "hours": 11,
+  "minutes": 49
+ },
+ "openimages_9fb67361298ffabd": {
+  "hours": 5,
+  "minutes": 20
+ },
+ "openimages_9fced37a4a3430fa": {
+  "hours": 7,
+  "minutes": 13
+ },
+ "openimages_9ff3438ba54d71d7": {
+  "hours": 6,
+  "minutes": 30
+ },
+ "openimages_a004bbe2d371f6c5": {
+  "hours": 10,
+  "minutes": 12
+ },
+ "openimages_a064c1d4dbe5be58": {
+  "hours": 10,
+  "minutes": 1
+ },
+ "openimages_a09c762b2fe024d8": {
+  "hours": 10,
+  "minutes": 19
+ },
+ "openimages_a0ce99bdfa0ffb0a": {
+  "hours": 11,
+  "minutes": 19
+ },
+ "openimages_a0fbe0c22f3dd5b8": {
+  "hours": 8,
+  "minutes": 19
+ },
+ "openimages_a11fdfd436ee2ef9": {
+  "hours": 12,
+  "minutes": 3
+ },
+ "openimages_a19cd024730fb7d4": {
+  "hours": 12,
+  "minutes": 9
+ },
+ "openimages_a1f3c89de64424a1": {
+  "hours": 9,
+  "minutes": 55
+ },
+ "openimages_a210597e59a57898": {
+  "hours": 7,
+  "minutes": 16
+ },
+ "openimages_a22af370fb246e68": {
+  "hours": 3,
+  "minutes": 35
+ },
+ "openimages_a23a13a5f5cedc7d": {
+  "hours": 9,
+  "minutes": 56
+ },
+ "openimages_a23c923c22220e14": {
+  "hours": 5,
+  "minutes": 55
+ },
+ "openimages_a2a64a6d09b4ff5e": {
+  "hours": 7,
+  "minutes": 14
+ },
+ "openimages_a2e9157139c348a9": {
+  "hours": 6,
+  "minutes": 55
+ },
+ "openimages_a2ed2388428601be": {
+  "hours": 3,
+  "minutes": 41
+ },
+ "openimages_a311293d694e8006": {
+  "hours": 11,
+  "minutes": 54
+ },
+ "openimages_a3e00541ddd8252a": {
+  "hours": 12,
+  "minutes": 1
+ },
+ "openimages_a3ff2ec2f49a563a": {
+  "hours": 6,
+  "minutes": 56
+ },
+ "openimages_a43fe134561a3d52": {
+  "hours": 10,
+  "minutes": 21
+ },
+ "openimages_a4642c3bd24b965a": {
+  "hours": 6,
+  "minutes": 59
+ },
+ "openimages_a47821ddbd22ed65": {
+  "hours": 11,
+  "minutes": 17
+ },
+ "openimages_a4969b35174ed176": {
+  "hours": 7,
+  "minutes": 1
+ },
+ "openimages_a4d4ca25238be252": {
+  "hours": 4,
+  "minutes": 50
+ },
+ "openimages_a4dbc0136ba61042": {
+  "hours": 4,
+  "minutes": 57
+ },
+ "openimages_a4e5c432c06b1a75": {
+  "hours": 1,
+  "minutes": 53
+ },
+ "openimages_a4f8216348c765ee": {
+  "hours": 10,
+  "minutes": 31
+ },
+ "openimages_a505dcc6fc58fd46": {
+  "hours": 10,
+  "minutes": 2
+ },
+ "openimages_a53d89a84e166028": {
+  "hours": 2,
+  "minutes": 48
+ },
+ "openimages_a547a6b4104ab236": {
+  "hours": 12,
+  "minutes": 9
+ },
+ "openimages_a598e7c5446c2d1e": {
+  "hours": 2,
+  "minutes": 45
+ },
+ "openimages_a5fde90fcaa9f44d": {
+  "hours": 2,
+  "minutes": 55
+ },
+ "openimages_a633aafac21ac2a3": {
+  "hours": 8,
+  "minutes": 0
+ },
+ "openimages_a6b7775b00cbcb0f": {
+  "hours": 6,
+  "minutes": 37
+ },
+ "openimages_a6e8cf76da133544": {
+  "hours": 2,
+  "minutes": 7
+ },
+ "openimages_a71cb83438daeb2a": {
+  "hours": 11,
+  "minutes": 58
+ },
+ "openimages_a759ae4de52010dd": {
+  "hours": 3,
+  "minutes": 43
+ },
+ "openimages_a7ec58b2c2373f03": {
+  "hours": 9,
+  "minutes": 51
+ },
+ "openimages_a851489d8f74f19d": {
+  "hours": 12,
+  "minutes": 44
+ },
+ "openimages_a8a3a26094d3e0f0": {
+  "hours": 10,
+  "minutes": 12
+ },
+ "openimages_a91bd4e02835c90e": {
+  "hours": 10,
+  "minutes": 48
+ },
+ "openimages_a94643568d7d7e07": {
+  "hours": 2,
+  "minutes": 22
+ },
+ "openimages_a9cf36f02d9672fe": {
+  "hours": 3,
+  "minutes": 44
+ },
+ "openimages_a9d6d4cbc8aca6a0": {
+  "hours": 4,
+  "minutes": 52
+ },
+ "openimages_aa1981df753f8ef5": {
+  "hours": 7,
+  "minutes": 52
+ },
+ "openimages_aa724e6c041a51e8": {
+  "hours": 1,
+  "minutes": 50
+ },
+ "openimages_aac808477aa00eb9": {
+  "hours": 6,
+  "minutes": 18
+ },
+ "openimages_ab155c9d53054853": {
+  "hours": 4,
+  "minutes": 9
+ },
+ "openimages_abcccec062e85b67": {
+  "hours": 12,
+  "minutes": 47
+ },
+ "openimages_ac4a5b3975eb3a70": {
+  "hours": 7,
+  "minutes": 16
+ },
+ "openimages_ac9d4c77baf2e978": {
+  "hours": 5,
+  "minutes": 36
+ },
+ "openimages_aca85b8bb9a9fa74": {
+  "hours": 7,
+  "minutes": 30
+ },
+ "openimages_acb8ec3c05763a33": {
+  "hours": 12,
+  "minutes": 0
+ },
+ "openimages_accdb381eb92c136": {
+  "hours": 1,
+  "minutes": 22
+ },
+ "openimages_ad4b0bcdf50b0a7e": {
+  "hours": 3,
+  "minutes": 42
+ },
+ "openimages_ad9573b0a017fb40": {
+  "hours": 6,
+  "minutes": 31
+ },
+ "openimages_ada27d3797954157": {
+  "hours": 12,
+  "minutes": 43
+ },
+ "openimages_adda4dd1bef8ee17": {
+  "hours": 9,
+  "minutes": 29
+ },
+ "openimages_ade6182acb6070f2": {
+  "hours": 5,
+  "minutes": 15
+ },
+ "openimages_adfd2965886d2fbb": {
+  "hours": 7,
+  "minutes": 43
+ },
+ "openimages_ae920bc17510d9af": {
+  "hours": 8,
+  "minutes": 30
+ },
+ "openimages_ae9d1930083064a6": {
+  "hours": 7,
+  "minutes": 31
+ },
+ "openimages_aea2edc7743aaa2c": {
+  "hours": 8,
+  "minutes": 5
+ },
+ "openimages_aef6124dfe57ed27": {
+  "hours": 12,
+  "minutes": 15
+ },
+ "openimages_af0558345111bbf8": {
+  "hours": 12,
+  "minutes": 29
+ },
+ "openimages_af6933e739540809": {
+  "hours": 7,
+  "minutes": 20
+ },
+ "openimages_af7e468230a14b5f": {
+  "hours": 12,
+  "minutes": 40
+ },
+ "openimages_aff630d38eb37e89": {
+  "hours": 11,
+  "minutes": 42
+ },
+ "openimages_b0589de7d92cbae2": {
+  "hours": 1,
+  "minutes": 0
+ },
+ "openimages_b07f3006b4209354": {
+  "hours": 3,
+  "minutes": 21
+ },
+ "openimages_b0a2a5b429335675": {
+  "hours": 8,
+  "minutes": 39
+ },
+ "openimages_b0da07ba1240a976": {
+  "hours": 6,
+  "minutes": 35
+ },
+ "openimages_b0df54c8fba8f6c1": {
+  "hours": 11,
+  "minutes": 42
+ },
+ "openimages_b0e80cfecf8734d2": {
+  "hours": 6,
+  "minutes": 32
+ },
+ "openimages_b0f80ffeaf0f0ebd": {
+  "hours": 10,
+  "minutes": 51
+ },
+ "openimages_b115747e410cb6b7": {
+  "hours": 7,
+  "minutes": 10
+ },
+ "openimages_b12e2db0793fb718": {
+  "hours": 7,
+  "minutes": 51
+ },
+ "openimages_b1402467aeb8870a": {
+  "hours": 10,
+  "minutes": 45
+ },
+ "openimages_b145b75765fc0b36": {
+  "hours": 2,
+  "minutes": 33
+ },
+ "openimages_b179a2efbd1a2a35": {
+  "hours": 11,
+  "minutes": 14
+ },
+ "openimages_b17ceb7704521c49": {
+  "hours": 6,
+  "minutes": 31
+ },
+ "openimages_b19aa6093050e1fd": {
+  "hours": 4,
+  "minutes": 21
+ },
+ "openimages_b1a228b3bce4e7a2": {
+  "hours": 10,
+  "minutes": 51
+ },
+ "openimages_b1b15e9b2fa06948": {
+  "hours": 4,
+  "minutes": 10
+ },
+ "openimages_b1cd4a6315c4def8": {
+  "hours": 10,
+  "minutes": 24
+ },
+ "openimages_b222325380781f3c": {
+  "hours": 11,
+  "minutes": 12
+ },
+ "openimages_b29631fba516c668": {
+  "hours": 6,
+  "minutes": 46
+ },
+ "openimages_b31b8f7cb5e439ce": {
+  "hours": 5,
+  "minutes": 0
+ },
+ "openimages_b31c502386fbc97c": {
+  "hours": 9,
+  "minutes": 16
+ },
+ "openimages_b4372de83ef7ba3f": {
+  "hours": 12,
+  "minutes": 41
+ },
+ "openimages_b43ecf6d0e2959f6": {
+  "hours": 6,
+  "minutes": 37
+ },
+ "openimages_b4466508098c3fdd": {
+  "hours": 2,
+  "minutes": 56
+ },
+ "openimages_b4c78b7d165d0202": {
+  "hours": 4,
+  "minutes": 33
+ },
+ "openimages_b4d0542ec0c6bfe8": {
+  "hours": 2,
+  "minutes": 34
+ },
+ "openimages_b4f13a685677239b": {
+  "hours": 9,
+  "minutes": 0
+ },
+ "openimages_b4fa1d9fb077d5fd": {
+  "hours": 11,
+  "minutes": 59
+ },
+ "openimages_b5093e8b0ee43c66": {
+  "hours": 4,
+  "minutes": 38
+ },
+ "openimages_b549e0c45442e0ed": {
+  "hours": 1,
+  "minutes": 20
+ },
+ "openimages_b55bd77dece7f828": {
+  "hours": 9,
+  "minutes": 35
+ },
+ "openimages_b5a07982f4eec5cf": {
+  "hours": 10,
+  "minutes": 6
+ },
+ "openimages_b5a7347c017ba128": {
+  "hours": 10,
+  "minutes": 9
+ },
+ "openimages_b5ea115a4718a156": {
+  "hours": 12,
+  "minutes": 17
+ },
+ "openimages_b670d81ff9658d0e": {
+  "hours": 10,
+  "minutes": 15
+ },
+ "openimages_b6aecd2b1fd3f21c": {
+  "hours": 2,
+  "minutes": 30
+ },
+ "openimages_b6be1aa0cb3cdabe": {
+  "hours": 5,
+  "minutes": 14
+ },
+ "openimages_b6e8095e399cda91": {
+  "hours": 11,
+  "minutes": 22
+ },
+ "openimages_b7324f04a04e4141": {
+  "hours": 12,
+  "minutes": 19
+ },
+ "openimages_b747f4a995f226e7": {
+  "hours": 10,
+  "minutes": 55
+ },
+ "openimages_b75beb913227eece": {
+  "hours": 10,
+  "minutes": 53
+ },
+ "openimages_b78e60d37f2ae2f5": {
+  "hours": 5,
+  "minutes": 17
+ },
+ "openimages_b81c007d8b5e6a7a": {
+  "hours": 10,
+  "minutes": 31
+ },
+ "openimages_b8d2b1470b760f3d": {
+  "hours": 5,
+  "minutes": 45
+ },
+ "openimages_b92a1eeb130b25f0": {
+  "hours": 8,
+  "minutes": 5
+ },
+ "openimages_b9cfedbcabea0861": {
+  "hours": 6,
+  "minutes": 51
+ },
+ "openimages_ba0243ed9f3db661": {
+  "hours": 4,
+  "minutes": 36
+ },
+ "openimages_ba32588fd9d4fb94": {
+  "hours": 12,
+  "minutes": 12
+ },
+ "openimages_ba4d8deb1136e049": {
+  "hours": 10,
+  "minutes": 52
+ },
+ "openimages_ba6ff70249da1195": {
+  "hours": 4,
+  "minutes": 37
+ },
+ "openimages_bacdf6f96f44db12": {
+  "hours": 5,
+  "minutes": 3
+ },
+ "openimages_bae8b662c7ecb7dc": {
+  "hours": 6,
+  "minutes": 9
+ },
+ "openimages_bb21ea554c8b4f57": {
+  "hours": 12,
+  "minutes": 38
+ },
+ "openimages_bb2e4831a7b5c26b": {
+  "hours": 8,
+  "minutes": 33
+ },
+ "openimages_bbe24b168abff263": {
+  "hours": 8,
+  "minutes": 9
+ },
+ "openimages_bc19a6f77873acc0": {
+  "hours": 4,
+  "minutes": 1
+ },
+ "openimages_bc5478285a497b86": {
+  "hours": 2,
+  "minutes": 13
+ },
+ "openimages_bd2a756022452e57": {
+  "hours": 10,
+  "minutes": 18
+ },
+ "openimages_bd5a6841ed41049e": {
+  "hours": 8,
+  "minutes": 20
+ },
+ "openimages_bd746133611b0120": {
+  "hours": 2,
+  "minutes": 45
+ },
+ "openimages_bdba03d7e5741bf3": {
+  "hours": 11,
+  "minutes": 6
+ },
+ "openimages_be400b07c906510c": {
+  "hours": 4,
+  "minutes": 1
+ },
+ "openimages_be9ad96c2ce3c9c7": {
+  "hours": 5,
+  "minutes": 31
+ },
+ "openimages_bf96aed5cc6cbc67": {
+  "hours": 10,
+  "minutes": 11
+ },
+ "openimages_bfd2a825e65bb0f7": {
+  "hours": 2,
+  "minutes": 25
+ },
+ "openimages_bfe8bf2503f2fb64": {
+  "hours": 2,
+  "minutes": 16
+ },
+ "openimages_c0087efdcfca0f0c": {
+  "hours": 9,
+  "minutes": 54
+ },
+ "openimages_c07f8c345e0812aa": {
+  "hours": 2,
+  "minutes": 35
+ },
+ "openimages_c0cebe7a87eeb4f0": {
+  "hours": 4,
+  "minutes": 0
+ },
+ "openimages_c0e35491ff5e8a72": {
+  "hours": 9,
+  "minutes": 53
+ },
+ "openimages_c15f02de82f4fe65": {
+  "hours": 9,
+  "minutes": 41
+ },
+ "openimages_c1e0b86de25b1f46": {
+  "hours": 10,
+  "minutes": 10
+ },
+ "openimages_c20084e881db2de6": {
+  "hours": 5,
+  "minutes": 50
+ },
+ "openimages_c20b500f04537aa7": {
+  "hours": 11,
+  "minutes": 34
+ },
+ "openimages_c24753768bdd7f33": {
+  "hours": 5,
+  "minutes": 52
+ },
+ "openimages_c28362228abf5f6f": {
+  "hours": 3,
+  "minutes": 9
+ },
+ "openimages_c2849ed2060d32db": {
+  "hours": 11,
+  "minutes": 6
+ },
+ "openimages_c29b41778352e527": {
+  "hours": 1,
+  "minutes": 24
+ },
+ "openimages_c2a3c7d3b6cd9657": {
+  "hours": 4,
+  "minutes": 58
+ },
+ "openimages_c2dac433fd276a82": {
+  "hours": 11,
+  "minutes": 51
+ },
+ "openimages_c302cda9792ac69b": {
+  "hours": 3,
+  "minutes": 51
+ },
+ "openimages_c34cfba8e0065455": {
+  "hours": 5,
+  "minutes": 56
+ },
+ "openimages_c370b2b3222587db": {
+  "hours": 2,
+  "minutes": 6
+ },
+ "openimages_c377dc79daea44bc": {
+  "hours": 10,
+  "minutes": 51
+ },
+ "openimages_c399ad167fa92bbc": {
+  "hours": 11,
+  "minutes": 47
+ },
+ "openimages_c3c8171457522268": {
+  "hours": 3,
+  "minutes": 11
+ },
+ "openimages_c3dc1d05e9cc941f": {
+  "hours": 12,
+  "minutes": 17
+ },
+ "openimages_c3fbe4cc8567e69c": {
+  "hours": 4,
+  "minutes": 26
+ },
+ "openimages_c45998f47526872a": {
+  "hours": 9,
+  "minutes": 45
+ },
+ "openimages_c4a0656934337145": {
+  "hours": 11,
+  "minutes": 59
+ },
+ "openimages_c4ef3399528ba7b6": {
+  "hours": 8,
+  "minutes": 40
+ },
+ "openimages_c515e70e7d444e3f": {
+  "hours": 10,
+  "minutes": 26
+ },
+ "openimages_c56fd13c3e5eed2c": {
+  "hours": 12,
+  "minutes": 20
+ },
+ "openimages_c5a0f46d60c470e8": {
+  "hours": 7,
+  "minutes": 16
+ },
+ "openimages_c636b7cab03cf9cc": {
+  "hours": 2,
+  "minutes": 46
+ },
+ "openimages_c64a66ad7d251918": {
+  "hours": 1,
+  "minutes": 30
+ },
+ "openimages_c67f0a28a1fd48a9": {
+  "hours": 9,
+  "minutes": 12
+ },
+ "openimages_c6f6d097f2611b69": {
+  "hours": 11,
+  "minutes": 33
+ },
+ "openimages_c74a5c228829e8e5": {
+  "hours": 2,
+  "minutes": 35
+ },
+ "openimages_c781e98c94d5183d": {
+  "hours": 10,
+  "minutes": 58
+ },
+ "openimages_c78d98b7f33666de": {
+  "hours": 10,
+  "minutes": 54
+ },
+ "openimages_c7b4beb82d6d2fd0": {
+  "hours": 12,
+  "minutes": 54
+ },
+ "openimages_c7ce08809b35fb8f": {
+  "hours": 1,
+  "minutes": 25
+ },
+ "openimages_c807c0e3d8d89889": {
+  "hours": 3,
+  "minutes": 16
+ },
+ "openimages_c860cc34e422b334": {
+  "hours": 12,
+  "minutes": 4
+ },
+ "openimages_c8a879e766b149aa": {
+  "hours": 12,
+  "minutes": 18
+ },
+ "openimages_c95c7a5a8a81883c": {
+  "hours": 1,
+  "minutes": 50
+ },
+ "openimages_c99c892a62d8bcca": {
+  "hours": 3,
+  "minutes": 25
+ },
+ "openimages_c9c8f10ae9fc3fcc": {
+  "hours": 8,
+  "minutes": 31
+ },
+ "openimages_c9e1b982be004b26": {
+  "hours": 4,
+  "minutes": 38
+ },
+ "openimages_ca004a60ad21ac41": {
+  "hours": 4,
+  "minutes": 31
+ },
+ "openimages_ca5977c0b7ee1726": {
+  "hours": 9,
+  "minutes": 53
+ },
+ "openimages_ca75eea8dfd23a29": {
+  "hours": 5,
+  "minutes": 11
+ },
+ "openimages_ca97733835107d6b": {
+  "hours": 3,
+  "minutes": 16
+ },
+ "openimages_cabcf170a61b5597": {
+  "hours": 4,
+  "minutes": 20
+ },
+ "openimages_cb71c61e7895fb6f": {
+  "hours": 3,
+  "minutes": 54
+ },
+ "openimages_cc3b0981d7a9f482": {
+  "hours": 2,
+  "minutes": 1
+ },
+ "openimages_cccc856a7ca1d5eb": {
+  "hours": 10,
+  "minutes": 23
+ },
+ "openimages_ccfa2bb25eba2f2f": {
+  "hours": 12,
+  "minutes": 0
+ },
+ "openimages_cd18f7623177b76b": {
+  "hours": 10,
+  "minutes": 52
+ },
+ "openimages_cd8e22ab8894b886": {
+  "hours": 2,
+  "minutes": 47
+ },
+ "openimages_cd9e432f9a5c1a29": {
+  "hours": 2,
+  "minutes": 31
+ },
+ "openimages_cda69e42039e2665": {
+  "hours": 5,
+  "minutes": 9
+ },
+ "openimages_cdf6c69e4b329696": {
+  "hours": 1,
+  "minutes": 32
+ },
+ "openimages_ce15981a70c1ed52": {
+  "hours": 2,
+  "minutes": 53
+ },
+ "openimages_cf1da13bc43aba3e": {
+  "hours": 10,
+  "minutes": 48
+ },
+ "openimages_cfbb55dc40e831e1": {
+  "hours": 2,
+  "minutes": 15
+ },
+ "openimages_d01478941390fadd": {
+  "hours": 9,
+  "minutes": 18
+ },
+ "openimages_d0151b76756896fd": {
+  "hours": 9,
+  "minutes": 57
+ },
+ "openimages_d0484c5a103ad936": {
+  "hours": 10,
+  "minutes": 12
+ },
+ "openimages_d0e565e01071bb75": {
+  "hours": 10,
+  "minutes": 55
+ },
+ "openimages_d0e59b9bccab2992": {
+  "hours": 10,
+  "minutes": 10
+ },
+ "openimages_d11e09885253bb2a": {
+  "hours": 3,
+  "minutes": 16
+ },
+ "openimages_d15d0352ea1794fe": {
+  "hours": 11,
+  "minutes": 22
+ },
+ "openimages_d1ec19bfbc8e2850": {
+  "hours": 11,
+  "minutes": 5
+ },
+ "openimages_d21531bb8df83c95": {
+  "hours": 2,
+  "minutes": 38
+ },
+ "openimages_d26f0d74fcedf564": {
+  "hours": 11,
+  "minutes": 43
+ },
+ "openimages_d31f862e7983a928": {
+  "hours": 12,
+  "minutes": 50
+ },
+ "openimages_d38078f827fed0ed": {
+  "hours": 3,
+  "minutes": 0
+ },
+ "openimages_d3867957e3d429ff": {
+  "hours": 5,
+  "minutes": 56
+ },
+ "openimages_d3a5a75bc209e834": {
+  "hours": 5,
+  "minutes": 39
+ },
+ "openimages_d3e9d55277c52439": {
+  "hours": 4,
+  "minutes": 55
+ },
+ "openimages_d48e250cd41897fd": {
+  "hours": 3,
+  "minutes": 55
+ },
+ "openimages_d4e0ae9b8eceaf73": {
+  "hours": 2,
+  "minutes": 56
+ },
+ "openimages_d515b9f642e713ea": {
+  "hours": 12,
+  "minutes": 18
+ },
+ "openimages_d528bd092e03a8a8": {
+  "hours": 1,
+  "minutes": 16
+ },
+ "openimages_d570d23c9c049e27": {
+  "hours": 6,
+  "minutes": 1
+ },
+ "openimages_d69626d92f8a848a": {
+  "hours": 6,
+  "minutes": 24
+ },
+ "openimages_d6a663b8e1bbba43": {
+  "hours": 6,
+  "minutes": 26
+ },
+ "openimages_d7002a666c4e4f60": {
+  "hours": 6,
+  "minutes": 25
+ },
+ "openimages_d715871091c760a3": {
+  "hours": 4,
+  "minutes": 21
+ },
+ "openimages_d7721a6f44593225": {
+  "hours": 5,
+  "minutes": 44
+ },
+ "openimages_d787390128f9e1a3": {
+  "hours": 11,
+  "minutes": 48
+ },
+ "openimages_d830bfd30018bb9f": {
+  "hours": 10,
+  "minutes": 46
+ },
+ "openimages_d84f4b9c8c4a39b4": {
+  "hours": 12,
+  "minutes": 5
+ },
+ "openimages_d8cd7c3e9f152a65": {
+  "hours": 2,
+  "minutes": 18
+ },
+ "openimages_d8d3af364c89376b": {
+  "hours": 5,
+  "minutes": 29
+ },
+ "openimages_d8f32d8ebef2712e": {
+  "hours": 8,
+  "minutes": 46
+ },
+ "openimages_d9139f3215e0875d": {
+  "hours": 4,
+  "minutes": 28
+ },
+ "openimages_da350805a9999005": {
+  "hours": 5,
+  "minutes": 13
+ },
+ "openimages_db3168fca6e018c6": {
+  "hours": 5,
+  "minutes": 5
+ },
+ "openimages_db3bdc8591a6b14c": {
+  "hours": 8,
+  "minutes": 4
+ },
+ "openimages_db94fc68cff8ba13": {
+  "hours": 8,
+  "minutes": 10
+ },
+ "openimages_dba7982c8e8e4c37": {
+  "hours": 10,
+  "minutes": 14
+ },
+ "openimages_dbe8c345c26585f8": {
+  "hours": 8,
+  "minutes": 31
+ },
+ "openimages_dbf22ab84ac32d09": {
+  "hours": 1,
+  "minutes": 5
+ },
+ "openimages_dca3ca91155369e7": {
+  "hours": 12,
+  "minutes": 47
+ },
+ "openimages_dcb3fd82d6130152": {
+  "hours": 10,
+  "minutes": 10
+ },
+ "openimages_dd32ae6c366fc743": {
+  "hours": 12,
+  "minutes": 42
+ },
+ "openimages_dd50dc8362baf8a8": {
+  "hours": 7,
+  "minutes": 6
+ },
+ "openimages_ddb93fdee2ecabad": {
+  "hours": 1,
+  "minutes": 18
+ },
+ "openimages_ddfefd606a55287d": {
+  "hours": 3,
+  "minutes": 27
+ },
+ "openimages_de47e668fa1032e8": {
+  "hours": 1,
+  "minutes": 17
+ },
+ "openimages_de4d46cd2bef95e0": {
+  "hours": 5,
+  "minutes": 50
+ },
+ "openimages_de79c082250a90cb": {
+  "hours": 11,
+  "minutes": 53
+ },
+ "openimages_deffd2030b746181": {
+  "hours": 1,
+  "minutes": 49
+ },
+ "openimages_df0af7e2fa4a39ae": {
+  "hours": 5,
+  "minutes": 40
+ },
+ "openimages_df14d8561d9b3523": {
+  "hours": 1,
+  "minutes": 51
+ },
+ "openimages_dfb62add47c01549": {
+  "hours": 6,
+  "minutes": 40
+ },
+ "openimages_e0b3ba02cbdf6509": {
+  "hours": 4,
+  "minutes": 32
+ },
+ "openimages_e0e12dcdc5f44987": {
+  "hours": 8,
+  "minutes": 32
+ },
+ "openimages_e110d15a094baedd": {
+  "hours": 4,
+  "minutes": 0
+ },
+ "openimages_e133e89ca00b0e79": {
+  "hours": 3,
+  "minutes": 21
+ },
+ "openimages_e153cbe601bf65aa": {
+  "hours": 12,
+  "minutes": 50
+ },
+ "openimages_e166a08b912fe0d7": {
+  "hours": 2,
+  "minutes": 46
+ },
+ "openimages_e19225b6a65b971b": {
+  "hours": 2,
+  "minutes": 20
+ },
+ "openimages_e1c7067e2b9af397": {
+  "hours": 10,
+  "minutes": 11
+ },
+ "openimages_e251984fd2d4d4ca": {
+  "hours": 10,
+  "minutes": 59
+ },
+ "openimages_e353d1ecd01bc280": {
+  "hours": 9,
+  "minutes": 30
+ },
+ "openimages_e3e45ccaa41e9a37": {
+  "hours": 6,
+  "minutes": 46
+ },
+ "openimages_e40280a9599d0c6d": {
+  "hours": 2,
+  "minutes": 0
+ },
+ "openimages_e420621258e7eda3": {
+  "hours": 1,
+  "minutes": 22
+ },
+ "openimages_e43754518688c0d5": {
+  "hours": 10,
+  "minutes": 16
+ },
+ "openimages_e52dd2c2b16df761": {
+  "hours": 7,
+  "minutes": 50
+ },
+ "openimages_e5ad5a4eef567cca": {
+  "hours": 10,
+  "minutes": 0
+ },
+ "openimages_e5b4b52987e90319": {
+  "hours": 4,
+  "minutes": 3
+ },
+ "openimages_e5c515a9e2438a57": {
+  "hours": 4,
+  "minutes": 22
+ },
+ "openimages_e5f2af4744bfd40c": {
+  "hours": 8,
+  "minutes": 28
+ },
+ "openimages_e620c093d150a5dd": {
+  "hours": 11,
+  "minutes": 54
+ },
+ "openimages_e6379586b274d6e3": {
+  "hours": 11,
+  "minutes": 6
+ },
+ "openimages_e672f64d225c427d": {
+  "hours": 2,
+  "minutes": 21
+ },
+ "openimages_e68029d81e2e3563": {
+  "hours": 7,
+  "minutes": 10
+ },
+ "openimages_e6af149ae9223a76": {
+  "hours": 1,
+  "minutes": 52
+ },
+ "openimages_e6ec947d061f1dac": {
+  "hours": 12,
+  "minutes": 20
+ },
+ "openimages_e787609208704b06": {
+  "hours": 7,
+  "minutes": 10
+ },
+ "openimages_e7b23888780157e5": {
+  "hours": 7,
+  "minutes": 39
+ },
+ "openimages_e8024b435b6bbab6": {
+  "hours": 3,
+  "minutes": 55
+ },
+ "openimages_e82a6430708a7c28": {
+  "hours": 5,
+  "minutes": 9
+ },
+ "openimages_e88f96ac93d08a0c": {
+  "hours": 3,
+  "minutes": 42
+ },
+ "openimages_e918805482e6f0c6": {
+  "hours": 12,
+  "minutes": 20
+ },
+ "openimages_e9e9c08cc153e6f7": {
+  "hours": 1,
+  "minutes": 11
+ },
+ "openimages_eac93b8cc6e31f00": {
+  "hours": 8,
+  "minutes": 40
+ },
+ "openimages_eacf4d74fad54bac": {
+  "hours": 1,
+  "minutes": 23
+ },
+ "openimages_eb09a9c760d3a082": {
+  "hours": 2,
+  "minutes": 27
+ },
+ "openimages_eb10dedf3cf7631a": {
+  "hours": 11,
+  "minutes": 41
+ },
+ "openimages_ec20df9b97bfefe7": {
+  "hours": 12,
+  "minutes": 47
+ },
+ "openimages_ec3164b01c06b71f": {
+  "hours": 5,
+  "minutes": 40
+ },
+ "openimages_ec3cf27e4a9ddf58": {
+  "hours": 3,
+  "minutes": 4
+ },
+ "openimages_ecaddd363413a0c9": {
+  "hours": 2,
+  "minutes": 17
+ },
+ "openimages_eccf1cff3ef2499c": {
+  "hours": 10,
+  "minutes": 36
+ },
+ "openimages_ed3e99741ece8307": {
+  "hours": 3,
+  "minutes": 2
+ },
+ "openimages_ed3f81099404456f": {
+  "hours": 4,
+  "minutes": 30
+ },
+ "openimages_edc064d6af6d3710": {
+  "hours": 5,
+  "minutes": 2
+ },
+ "openimages_edf3de43ae2b5ee1": {
+  "hours": 5,
+  "minutes": 22
+ },
+ "openimages_ee5fae20587a04df": {
+  "hours": 12,
+  "minutes": 39
+ },
+ "openimages_eeaae0d17d141ee3": {
+  "hours": 8,
+  "minutes": 26
+ },
+ "openimages_eec7c1e73dc406db": {
+  "hours": 3,
+  "minutes": 27
+ },
+ "openimages_eecf366fb6807161": {
+  "hours": 12,
+  "minutes": 31
+ },
+ "openimages_eed4d1e43d061fcf": {
+  "hours": 2,
+  "minutes": 54
+ },
+ "openimages_eee535defaab7a88": {
+  "hours": 1,
+  "minutes": 17
+ },
+ "openimages_ef020f01a912fd87": {
+  "hours": 4,
+  "minutes": 59
+ },
+ "openimages_ef100b6a992671e6": {
+  "hours": 5,
+  "minutes": 13
+ },
+ "openimages_ef33d564a8edb3ef": {
+  "hours": 12,
+  "minutes": 31
+ },
+ "openimages_ef798a21fd8f8807": {
+  "hours": 10,
+  "minutes": 1
+ },
+ "openimages_efc8dc1f1bc8ef36": {
+  "hours": 6,
+  "minutes": 53
+ },
+ "openimages_eff92879ea356ae8": {
+  "hours": 4,
+  "minutes": 25
+ },
+ "openimages_f01dd630d4ee7b5b": {
+  "hours": 9,
+  "minutes": 55
+ },
+ "openimages_f037069ae50b1801": {
+  "hours": 12,
+  "minutes": 1
+ },
+ "openimages_f06628b6576f1168": {
+  "hours": 6,
+  "minutes": 23
+ },
+ "openimages_f14dc0dbe9515756": {
+  "hours": 3,
+  "minutes": 7
+ },
+ "openimages_f186c1773ac155ff": {
+  "hours": 12,
+  "minutes": 1
+ },
+ "openimages_f2f3c82675f0f524": {
+  "hours": 8,
+  "minutes": 10
+ },
+ "openimages_f3667a5e57ce2b99": {
+  "hours": 11,
+  "minutes": 36
+ },
+ "openimages_f448c8b837b9f1ec": {
+  "hours": 5,
+  "minutes": 40
+ },
+ "openimages_f48b46a9ed6dbcdf": {
+  "hours": 10,
+  "minutes": 7
+ },
+ "openimages_f4e4c2706382736d": {
+  "hours": 6,
+  "minutes": 23
+ },
+ "openimages_f506919ae76f06a7": {
+  "hours": 9,
+  "minutes": 10
+ },
+ "openimages_f52edf2579f7c5a3": {
+  "hours": 3,
+  "minutes": 13
+ },
+ "openimages_f572ddc57d01daae": {
+  "hours": 11,
+  "minutes": 20
+ },
+ "openimages_f596e3cdd919b7b5": {
+  "hours": 1,
+  "minutes": 58
+ },
+ "openimages_f5c0a1bde5724222": {
+  "hours": 2,
+  "minutes": 29
+ },
+ "openimages_f65554145832a20f": {
+  "hours": 6,
+  "minutes": 10
+ },
+ "openimages_f673ff7e477a0972": {
+  "hours": 3,
+  "minutes": 33
+ },
+ "openimages_f68afb2bd3ab6a9f": {
+  "hours": 12,
+  "minutes": 13
+ },
+ "openimages_f68fb2dfa191416e": {
+  "hours": 11,
+  "minutes": 47
+ },
+ "openimages_f6b77ebcefc6c802": {
+  "hours": 11,
+  "minutes": 24
+ },
+ "openimages_f6c0f9282064585a": {
+  "hours": 8,
+  "minutes": 8
+ },
+ "openimages_f75f50289dafc5fd": {
+  "hours": 8,
+  "minutes": 24
+ },
+ "openimages_f77cf2f0a095f7b3": {
+  "hours": 6,
+  "minutes": 41
+ },
+ "openimages_f7e67a46382556e4": {
+  "hours": 12,
+  "minutes": 54
+ },
+ "openimages_f7f93aab8890102d": {
+  "hours": 10,
+  "minutes": 10
+ },
+ "openimages_f7f9596b499c59b4": {
+  "hours": 7,
+  "minutes": 5
+ },
+ "openimages_f7fde17e12d76f3f": {
+  "hours": 3,
+  "minutes": 16
+ },
+ "openimages_f83850113279c4e0": {
+  "hours": 1,
+  "minutes": 55
+ },
+ "openimages_f844b1c925c8846f": {
+  "hours": 6,
+  "minutes": 43
+ },
+ "openimages_f89c815f0c3c4747": {
+  "hours": 12,
+  "minutes": 59
+ },
+ "openimages_f8b2122176af46c3": {
+  "hours": 10,
+  "minutes": 10
+ },
+ "openimages_f8cf4b884a4399db": {
+  "hours": 6,
+  "minutes": 5
+ },
+ "openimages_f8e804759515944a": {
+  "hours": 6,
+  "minutes": 36
+ },
+ "openimages_f8fb42e0fcab3175": {
+  "hours": 12,
+  "minutes": 1
+ },
+ "openimages_f96c45ff852aab66": {
+  "hours": 10,
+  "minutes": 8
+ },
+ "openimages_fa0bcf23449448ce": {
+  "hours": 3,
+  "minutes": 59
+ },
+ "openimages_fa2be7a9c82e158c": {
+  "hours": 3,
+  "minutes": 54
+ },
+ "openimages_fa58803ba9cb6bec": {
+  "hours": 1,
+  "minutes": 0
+ },
+ "openimages_fa5b44f101824c82": {
+  "hours": 4,
+  "minutes": 45
+ },
+ "openimages_fa6ffd65e67ffe20": {
+  "hours": 7,
+  "minutes": 16
+ },
+ "openimages_facc26ea125695b1": {
+  "hours": 11,
+  "minutes": 42
+ },
+ "openimages_fb28ef6289cdec4d": {
+  "hours": 12,
+  "minutes": 46
+ },
+ "openimages_fb4a28a2e42713ae": {
+  "hours": 7,
+  "minutes": 4
+ },
+ "openimages_fb7b69fbfe48a020": {
+  "hours": 2,
+  "minutes": 23
+ },
+ "openimages_fbc288b0dc5cf883": {
+  "hours": 9,
+  "minutes": 54
+ },
+ "openimages_fc6f04db568acf6f": {
+  "hours": 11,
+  "minutes": 46
+ },
+ "openimages_fc7370bd8db45668": {
+  "hours": 6,
+  "minutes": 20
+ },
+ "openimages_fcf3915edfc4017f": {
+  "hours": 9,
+  "minutes": 51
+ },
+ "openimages_fd3622fbfc7dc77e": {
+  "hours": 3,
+  "minutes": 49
+ },
+ "openimages_fd3b54bdb6ccd198": {
+  "hours": 9,
+  "minutes": 46
+ },
+ "openimages_fe96f14d5ca8d3a6": {
+  "hours": 6,
+  "minutes": 0
+ },
+ "openimages_feafad46154f8f06": {
+  "hours": 3,
+  "minutes": 7
+ },
+ "openimages_ff393167e444f526": {
+  "hours": 1,
+  "minutes": 38
+ },
+ "openimages_ff495229e0faa009": {
+  "hours": 7,
+  "minutes": 27
+ },
+ "openimages_ff8700aea4449c7e": {
+  "hours": 12,
+  "minutes": 25
+ },
+ "openimages_ffe3269ca4d049e3": {
+  "hours": 2,
+  "minutes": 10
+ }
+}

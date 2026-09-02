@@ -1,0 +1,11 @@
+data/
+runs/
+*.pt
+*.safetensors
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+.ty_cache/
+.DS_Store
