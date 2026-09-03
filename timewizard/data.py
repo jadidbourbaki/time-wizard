@@ -13,8 +13,8 @@ Message = dict[str, object]
 
 
 def conversation(time: Time) -> list[Message]:
-    """Messages with an image placeholder, so they stay JSON-serialisable.
-    `with_image` fills the placeholder."""
+    """The image is a placeholder here. These messages travel as JSON through
+    the dataset. `with_image` puts the image back."""
     return [
         {"role": "system", "content": [{"type": "text", "text": SYSTEM}]},
         {"role": "user", "content": [{"type": "image"}, {"type": "text", "text": PROMPT}]},

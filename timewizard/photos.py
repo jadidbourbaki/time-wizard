@@ -1,14 +1,8 @@
 """Real clock photos from It's About Time (Yang and Zisserman, 2022).
 
-`pull` fetches the finished crops from a Hugging Face dataset in about two
-minutes. Use it to set up a machine.
-
-`build` recreates them from scratch, which takes about twenty minutes. It
-reads the labels and detector boxes from the CSVs in the itsabouttime repo
-at the pinned commit. It fetches each image from COCO or OpenImages. It
-crops around the detector box with the paper's 20 percent margin. It pads
-the crop to a square. It drops near duplicates by perceptual hash. It then
-writes the splits. `push` uploads that result.
+`pull` fetches the finished crops from a Hugging Face dataset. Use it to
+set up a machine. `build` recreates them from COCO and OpenImages, which
+takes about twenty minutes. `push` uploads what `build` produced.
 
 `benchmark/` holds the frozen splits as image ids plus labels. It stays the
 record of which photograph belongs where. The pixels live in `data/` under
@@ -113,7 +107,7 @@ def load_labels() -> list[Photo]:
     reraise=True,
 )
 def fetch(url: str) -> bytes | None:
-    """Bytes at `url`, or None when that bucket does not hold the image."""
+    """Bytes at `url`. None when that bucket does not hold the image."""
     try:
         with urllib.request.urlopen(url, timeout=60) as response:
             return response.read()
@@ -124,7 +118,7 @@ def fetch(url: str) -> bytes | None:
 
 
 def crop(photo: Photo) -> Photo | None:
-    """Write the padded square crop for `photo`, or None when no bucket has it."""
+    """Write the padded square crop for `photo`. None when no bucket has it."""
     if photo.path.exists():
         return photo
     for url in photo.urls():
@@ -175,7 +169,7 @@ def split(photos: list[Photo], seed: int, test_n: int, dev_n: int) -> dict[Split
 
 
 def load_split(name: Split) -> dict[str, Time]:
-    """Frozen split as key to label. Crops are at CROPS / f"{key}.png"."""
+    """Frozen split as key to label. Each crop sits at CROPS / f"{key}.png"."""
     return SPLIT_FILE.validate_json((BENCHMARK / f"photos_{name}.json").read_bytes())
 
 

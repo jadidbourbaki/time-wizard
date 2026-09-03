@@ -1,13 +1,13 @@
 """Score a model on a frozen photo split.
 
-Each clock is asked once: the image and the prompt from `timewizard.reading`.
-Backends are the local LoRA model and any pydantic-ai model id, so frontier
-baselines land on the same photos as ours.
+Each clock is asked once. `--adapter` scores our fine-tuned model.
+`--model` scores any model pydantic-ai can reach, which puts frontier
+baselines on the same photographs.
 
-Replies are appended to a JSON lines file as they arrive. A rerun answers
-only the clocks missing from that file, so an interrupted run resumes and no
-API spend is repeated. A clock the model cannot answer records a bracketed
-reason, counts as unparsed, and never aborts the run.
+The runner appends each reply to a JSON lines file as it arrives. A rerun
+asks only about the missing clocks. An interrupted run therefore resumes
+without repeating API spend. A clock the model cannot answer records a
+bracketed reason and counts as unparsed.
 """
 
 from __future__ import annotations
@@ -36,10 +36,9 @@ from timewizard.photos import CROPS, REPO, Split, load_split
 from timewizard.reading import PROMPT, SYSTEM, Score, parse_time, score
 
 API_MAX_TOKENS = 32000
-"""Reasoning at max effort can run to thousands of tokens for one clock."""
+"""Reasoning at max effort runs to thousands of tokens for one clock."""
 API_TIMEOUT = 600.0
-"""A dead socket, such as one left by a sleeping laptop, stalls a run forever
-without this."""
+"""A sleeping laptop leaves dead sockets. Without a timeout they never fail."""
 Effort = Literal["low", "medium", "high", "xhigh", "max"]
 Answer = Callable[[Image.Image], str]
 
@@ -60,7 +59,7 @@ class Report(BaseModel):
 
 class BenchConfig(BaseModel):
     split: Split = "dev"
-    """test is graded once per final model, at the end."""
+    """Grade test once per final model, at the end."""
     adapter: Path | None = None
     """LoRA adapter directory for the local model."""
     model: str | None = None
@@ -106,7 +105,7 @@ def local_answer(adapter: Path, base: str = BASE_MODEL) -> Answer:
 
 
 def api_answer(model: str, effort: Effort, usage: dict[str, int]) -> Answer:
-    """Any pydantic-ai model. Token counts accumulate on `usage`."""
+    """Token counts accumulate on `usage`."""
     settings: Any
     if model.startswith("anthropic:"):
         settings = AnthropicModelSettings(anthropic_effort=effort, max_tokens=API_MAX_TOKENS, timeout=API_TIMEOUT)

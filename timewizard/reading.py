@@ -26,7 +26,6 @@ class Time(BaseModel):
 class Score(BaseModel):
     n: int
     within_tolerance: float
-    """Fraction within MINUTE_TOLERANCE minutes. The headline number."""
     exact: float
     hour_correct: float
     mean_error_minutes: float | None
@@ -34,8 +33,8 @@ class Score(BaseModel):
 
 
 def parse_time(reply: str) -> Time | None:
-    """The first JSON object in a model reply, or None when there is none or it
-    does not describe a valid time."""
+    """The first JSON object in a model reply. None when the reply holds no
+    object, or the object holds no valid time."""
     match = _JSON.search(reply)
     if match is None:
         return None

@@ -251,6 +251,14 @@ you write yourself. TRL trains. pydantic-ai talks to API models.
 imagehash deduplicates. tyro parses arguments. tenacity retries. tqdm
 reports progress. Write your own implementation only when nothing fits.
 
+## Long-running commands
+
+Run anything that can outlast a few seconds in the background. That covers
+`sky launch`, `sky down`, `sky status`, a training run, a scoring run, an
+upload, and an image download. Watch its output file with a monitor rather
+than polling. A foreground command that needs a timeout is a command that
+belonged in the background.
+
 ## Working with the user
 
 - Local, reversible actions need no preamble. Hard-to-reverse actions

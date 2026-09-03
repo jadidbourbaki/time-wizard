@@ -63,10 +63,10 @@ def photo_dataset(split: Split, workers: int) -> Dataset:
 
 
 def assistant_mask(input_ids: torch.Tensor, header: list[int], end_id: int) -> torch.Tensor:
-    """True on the tokens of every assistant turn, from the first token after the
-    role header through the turn's end token. TRL's assistant_only_loss rejects
-    vision datasets, and the tokenizer's own mask is misaligned once the
-    processor expands the image placeholder."""
+    """True on the tokens of every assistant turn, from the first token after
+    the role header through the turn's end token. TRL's assistant_only_loss
+    rejects vision datasets. The tokenizer's own mask lands on the wrong
+    tokens once the processor expands the image placeholder."""
     mask = torch.zeros_like(input_ids, dtype=torch.bool)
     width = len(header)
     for row, out in zip(input_ids.tolist(), mask, strict=True):
