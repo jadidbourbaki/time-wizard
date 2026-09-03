@@ -27,12 +27,29 @@ photograph train split and keeps the epoch with the lowest dev loss. The
 dev score guides tuning. The test split is scored once, after tuning
 stops.
 
-| Run | Split | Within 1 min | Exact | Hour correct | Mean error | Unreadable |
-|---|---|---|---|---|---|---|
-| run 1, lr 2e-5, 3 epochs, best epoch 2 | dev | 25.0% | 9.0% | 44.0% | 76 min | 0 |
+| Run | Split | Best dev loss | Within 1 min | Exact | Hour correct | Mean error | Unreadable |
+|---|---|---|---|---|---|---|---|
+| run 1, lr 2e-5, 3 epochs, best epoch 2 | dev | 0.346 | 25.0% | 9.0% | 44.0% | 76 min | 0 |
+| lr 5e-5, 3 epochs | dev | 0.545 | 1.5% | | 12.5% | 151 min | |
+| lr 1e-5, 3 epochs | dev | 0.489 | 5.5% | | 17.5% | 137 min | |
+| lr 1e-5, 5 epochs | dev | 0.415 | not scored | | | | |
+| lr 5e-5, 5 epochs | dev | 0.290 at epoch 2, then cancelled | | | | | |
 | final | test | | | | | |
 
-Run 1 trained in 94 seconds on one H100. Dev loss fell from 0.418 after
-epoch one to 0.346 after epoch two and stayed flat at epoch three. The
-model produced valid JSON on every photograph. Its errors are hours off
-rather than minutes off, which points at confusing the two hands.
+Every run trains in 90 to 160 seconds on one H100. Run 1 produced valid
+JSON on every photograph. Its errors are hours off rather than minutes
+off, which points at confusing the two hands.
+
+The learning rate sweep on 2026-09-03 was cut short to stop paying for
+the machine. Two findings survive it. Dev loss tracks the score: 0.55
+gave 1.5 percent, 0.49 gave 5.5 percent, 0.35 gave 25 percent. And the
+three epoch runs are unstable in the rate, since both neighbours of 2e-5
+did far worse, while 5e-5 over five epochs reached the lowest dev loss
+seen before it was cancelled. The next session should finish the five
+epoch runs at 5e-5 and 2e-5 and try a second seed at 2e-5 to measure
+run to run variance.
+
+Four in five COCO clocks are under 224 pixels across in the source
+photograph. At that size a minute of arc is under a pixel, which caps
+every model on this benchmark. The OpenImages clocks are larger and
+would gain from a higher resolution rebuild of the crops.
