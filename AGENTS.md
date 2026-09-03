@@ -87,11 +87,23 @@ maintainer's stated preference and must be honored.
 - **No negation-contrast framing.** State what the code or the text
   does. "The reader outputs the floor of the minute" is right. "The
   reader does not round, it floors" is wrong.
+- **No clause joins.** A comma followed by "and", "so", "but", or
+  "which" glues two sentences together. Write two sentences. "The
+  runner writes each reply as it arrives, so a crash costs nothing" is
+  wrong. "The runner writes each reply as it arrives. A crash therefore
+  costs nothing" is right.
+- **Active voice.** Name the actor and give it the verb. "The runner
+  writes the score" is right. "The score is written" is wrong.
+- **One idea per sentence.** A sentence that lists four actions of a
+  pipeline belongs in a numbered list. Each step gets its own line.
 
 ### Soft rules
 
-- Write short, direct sentences. If a sentence has more than one
-  comma, consider whether it should be two sentences.
+- Write short, direct sentences. A sentence with more than one comma is
+  usually two sentences.
+- Define every term the reader may not hold. Name the thing a perceptual
+  hash gives you. Say what an ablation removes. A term left undefined is
+  jargon.
 - Lead with the noun, not the qualifier. "The renderer draws the
   bezel first" beats "Before anything else, the renderer draws the
   bezel."
