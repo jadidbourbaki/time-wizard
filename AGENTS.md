@@ -36,7 +36,8 @@ justfile       task runner
 Training runs on a Nebius GPU through SkyPilot, defined by
 `sky/train.yaml`. Change a training flag through `--env TRAIN_ARGS`
 rather than by editing the file, so the committed task stays the
-reproducible one.
+reproducible one. README.md is the only prose document. Put new
+instructions in it rather than adding a README beside the code.
 
 ## Test data hygiene
 
@@ -123,7 +124,9 @@ The rules under "Writing prose" apply, plus:
 
 - **Explain every code block.** Never drop a command or snippet
   without saying what it does and what every meaningful flag means.
-  Show output too, and say what its columns or fields mean.
+  Show output too, and say what its columns or fields mean. Put that
+  explanation in prose around the block. Never append a comment to a
+  command inside one, which cannot be copied and read at once.
 - **Headings name content.** "Dataset generation" is good. "Now we
   generate the data" narrates the act instead of naming the subject.
 - **Do not over-chunk.** A heading breaks the reader's flow. Add one

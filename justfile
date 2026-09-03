@@ -28,7 +28,7 @@ check:
     uv run ty check timewizard tests
     uv run pytest -q
 
-# Provision a Nebius GPU and run the fine-tune. See sky/README.md.
+# Provision a Nebius GPU and run the fine-tune. See README.md.
 sky-train *args:
     uv run --with "skypilot[nebius]" sky launch -c time-wizard sky/train.yaml {{args}}
 

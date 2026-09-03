@@ -79,14 +79,42 @@ dev split each epoch. The second trains on rendered clocks only. Both
 write `config.json`, checkpoints, and the LoRA adapter under the output
 directory. `just train --help` lists every option.
 
-Training needs a CUDA GPU. `sky/train.yaml` provisions one on Nebius,
-syncs the repo, rebuilds the crops from their seed, fine-tunes, and
-scores the result. See `sky/README.md` for credentials, then:
+### Nebius
+
+Training needs a CUDA GPU. `sky/train.yaml` describes the whole run, so
+[SkyPilot](https://docs.skypilot.ai) provisions one L40S, installs uv,
+syncs the working directory, rebuilds the crops from their seed,
+fine-tunes, and scores the adapter on the dev split. Training data is
+never uploaded, so the transfer is the repo alone.
+
+SkyPilot reads Nebius credentials from two files written by the Nebius
+CLI:
+
+```
+uv tool install --with pip "skypilot[nebius]"
+mkdir -p ~/.nebius
+nebius iam get-access-token > ~/.nebius/NEBIUS_IAM_TOKEN.txt
+nebius --format json iam whoami | jq -r '.user_profile.tenants[0].tenant_id' > ~/.nebius/NEBIUS_TENANT_ID.txt
+sky check nebius
+```
+
+The last command prints `Nebius: enabled` when it works. The IAM token
+expires, so rewrite the first file before a launch that fails to
+authenticate.
 
 ```
 just sky-train
 just sky-fetch
 just sky-down
+```
+
+`sky-train` provisions the GPU and runs the job, `sky-fetch` copies
+`runs/` back, and `sky-down` releases the GPU. The cluster bills while it
+is up, so take the adapter and stop it. To change training flags without
+editing the committed task:
+
+```
+sky launch -c time-wizard sky/train.yaml --env TRAIN_ARGS="--out runs/rendered --photos false --rendered 100000"
 ```
 
 ## Evaluation
