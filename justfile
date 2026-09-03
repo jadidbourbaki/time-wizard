@@ -15,7 +15,7 @@ photos *args:
 train *args:
     uv run python -m timewizard.train {{args}}
 
-# Score a model on a split. Example: just bench --adapter runs/tw-photos/adapter --split dev
+# Score a model on a split. Example: just bench --checkpoint jadidbourbaki/time-wizard --split dev
 bench *args:
     uv run python -m timewizard.bench {{args}}
 

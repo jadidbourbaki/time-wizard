@@ -4,6 +4,9 @@ resources:
   infra: nebius
   instance_type: gpu-l40s-d_1gpu-16vcpu-96gb
   disk_size: 256
+  autostop:
+    idle_minutes: 15
+    down: true
 
 workdir: .
 
@@ -20,4 +23,4 @@ run: |
   nvidia-smi
   uv run python -m timewizard.photos pull
   uv run python -m timewizard.train $TRAIN_ARGS
-  uv run python -m timewizard.bench --adapter runs/nebius/adapter --split dev
+  uv run python -m timewizard.bench --checkpoint runs/nebius/model --split dev

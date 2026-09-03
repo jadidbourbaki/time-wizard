@@ -1,8 +1,8 @@
 """Score a model on a frozen photo split.
 
-Each clock is asked once. `--adapter` scores our fine-tuned model.
-`--model` scores any model pydantic-ai can reach, which puts frontier
-baselines on the same photographs.
+Each clock is asked once. `--checkpoint` scores our fine-tuned model from
+a directory or a Hugging Face repo. `--model` scores any model pydantic-ai
+can reach, which puts frontier baselines on the same photographs.
 
 The runner appends each reply to a JSON lines file as it arrives. A rerun
 asks only about the missing clocks. An interrupted run therefore resumes
@@ -20,7 +20,6 @@ from typing import Any, Literal
 
 import torch
 import tyro
-from peft import PeftModel
 from PIL import Image
 from pydantic import BaseModel, Field
 from pydantic_ai import Agent, BinaryContent
@@ -31,7 +30,6 @@ from tenacity import retry, retry_if_exception_type, stop_after_attempt, wait_ex
 from tqdm import tqdm
 from transformers import AutoModelForImageTextToText, AutoProcessor
 
-from timewizard import BASE_MODEL
 from timewizard.photos import CROPS, REPO, Split, load_split
 from timewizard.reading import PROMPT, SYSTEM, Score, parse_time, score
 
@@ -60,8 +58,8 @@ class Report(BaseModel):
 class BenchConfig(BaseModel):
     split: Split = "dev"
     """Grade test once per final model, at the end."""
-    adapter: Path | None = None
-    """LoRA adapter directory for our fine-tuned model."""
+    checkpoint: str | None = None
+    """Our fine-tuned model: a local directory or a Hugging Face repo id."""
     model: str | None = None
     """pydantic-ai model id, e.g. anthropic:claude-fable-5-1 or bedrock-mantle:openai.gpt-5.6-sol."""
     effort: Effort = "max"
@@ -81,11 +79,9 @@ def png_bytes(image: Image.Image) -> bytes:
     return buf.getvalue()
 
 
-def local_answer(adapter: Path, base: str = BASE_MODEL) -> Answer:
-    processor = AutoProcessor.from_pretrained(adapter, max_image_tokens=256)
-    model = PeftModel.from_pretrained(
-        AutoModelForImageTextToText.from_pretrained(base, dtype=torch.bfloat16), str(adapter)
-    )
+def local_answer(checkpoint: str) -> Answer:
+    processor = AutoProcessor.from_pretrained(checkpoint, max_image_tokens=256)
+    model: Any = AutoModelForImageTextToText.from_pretrained(checkpoint, dtype=torch.bfloat16)
     device = "cuda" if torch.cuda.is_available() else "cpu"
     model.eval().to(device)
 
@@ -161,12 +157,12 @@ def collect(keys: list[str], answer: Answer, path: Path, parallel: int, image_si
 
 def main(cfg: BenchConfig) -> None:
     usage = {"input_tokens": 0, "output_tokens": 0}
-    if cfg.adapter is not None:
-        name, answer, parallel = str(cfg.adapter), local_answer(cfg.adapter), 1
+    if cfg.checkpoint is not None:
+        name, answer, parallel = cfg.checkpoint, local_answer(cfg.checkpoint), 1
     elif cfg.model is not None:
         name, answer, parallel = cfg.model, api_answer(cfg.model, cfg.effort, usage), cfg.parallel
     else:
-        raise SystemExit("pass --adapter or --model")
+        raise SystemExit("pass --checkpoint or --model")
 
     labels = load_split(cfg.split)
     keys = sorted(labels)[: cfg.limit or None]

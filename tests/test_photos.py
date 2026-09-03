@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from timewizard.photos import Photo, Source, split
+from timewizard.photos import Photo, Source, load_split, split
 from timewizard.reading import Time
 
 
@@ -31,3 +31,10 @@ def test_photo_urls_cover_every_bucket_of_its_source() -> None:
         "http://images.cocodataset.org/train2017/x.jpg",
         "http://images.cocodataset.org/val2017/x.jpg",
     ]
+
+
+def test_frozen_splits_are_disjoint_and_sized() -> None:
+    splits = {name: load_split(name) for name in ("test", "dev", "train")}
+    assert {k: len(v) for k, v in splits.items()} == {"test": 200, "dev": 200, "train": 2796}
+    keys = [k for part in splits.values() for k in part]
+    assert len(keys) == len(set(keys))

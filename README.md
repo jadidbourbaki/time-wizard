@@ -100,22 +100,30 @@ tests need no GPU. They reach no network.
 ## Training
 
 ```
-just train --out runs/tw-photos --epochs 3
+just train --out runs/tw-photos
 ```
 
-This fine-tunes on the 2796 photograph crops. It measures loss on the dev
-split after every epoch. It writes `config.json`, the checkpoints, and the
-trained weights under the output directory. `just train --help` lists
-every option.
+This fine-tunes every weight of the model on the 2796 photograph crops
+for three epochs. It measures loss on the dev split after every epoch and
+keeps the epoch with the lowest loss. It writes `config.json`, the
+checkpoints, and the final model under the output directory. It then
+uploads the final model to the private Hugging Face repo
+`jadidbourbaki/time-wizard`, so a scoring run anywhere can load it by
+name. `just train --help` lists every option.
+
+Every weight trains rather than a low rank adapter. The model has 450M
+parameters, which fits one L40S with room to spare. Reading the angle of
+a minute hand asks the vision encoder to change, and an adapter on the
+attention layers changes it less.
 
 ### Nebius
 
 Training needs a CUDA GPU. `sky/train.yaml` describes the whole run.
 [SkyPilot](https://docs.skypilot.ai) reads that file and provisions one
 L40S. It installs uv on the machine. It copies the working directory
-across. It rebuilds the crops from the seed. It fine-tunes the model. It
-scores the result on the dev split. The crops never travel over the
-network. The upload stays the size of this repository.
+across. It pulls the crops from the Hub. It fine-tunes the model. It
+scores the result on the dev split. The upload from this machine stays
+the size of this repository.
 
 Install SkyPilot once as a tool. A throwaway environment will not do,
 because SkyPilot runs a local API server that must outlive the command
@@ -152,9 +160,10 @@ has capacity in eu-north1. Run `sky gpus list L40S --infra nebius` to see
 the platforms and their prices before changing this.
 
 `sky-train` provisions the GPU and runs the job. `sky-fetch` copies
-`runs/` back to this machine. `sky-down` releases the GPU. Nebius bills
-for every hour the machine stays up. Fetch the trained weights, then shut
-it down.
+`runs/` back to this machine. `sky-down` releases the GPU. The task also
+shuts the machine down on its own after fifteen idle minutes, so a
+forgotten cluster costs at most a quarter of an hour. The model itself is
+already on the Hub by then.
 
 One command changes the training flags without touching the committed
 file:
@@ -166,12 +175,13 @@ sky launch -c time-wizard sky/train.yaml --env TRAIN_ARGS="--out runs/five-epoch
 ## Evaluation
 
 ```
-just bench --adapter runs/tw-photos/adapter --split dev
+just bench --checkpoint jadidbourbaki/time-wizard --split dev
 just bench --model anthropic:claude-fable-5-1 --split dev --limit 20
 AWS_REGION=us-east-1 just bench --model bedrock-mantle:openai.gpt-5.6-sol --split dev
 ```
 
-`--adapter` scores our fine-tuned model. `--model` scores any model that
+`--checkpoint` scores our fine-tuned model from a local directory or a
+Hugging Face repo. `--model` scores any model that
 pydantic-ai can reach, at maximum reasoning effort by default. `--limit`
 scores the first few photographs of a split. Use it as a cheap check
 before a full run. Claude reads `ANTHROPIC_API_KEY`. Bedrock reads
@@ -187,4 +197,5 @@ A photograph the model cannot answer records a bracketed reason. The
 score counts that photograph as unreadable. One such photograph never
 stops the run.
 
-Grade the test split once per final model.
+Grade the test split once per final model. `RESULTS.md` records every
+score.

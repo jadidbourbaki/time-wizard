@@ -1,7 +1,8 @@
-"""LoRA fine-tune LFM2.5-VL-450M on the photo train split.
+"""Fine-tune LFM2.5-VL-450M on the photo train split.
 
-Follows Liquid's TRL recipe. Loss covers assistant tokens only. Requires a
-CUDA GPU.
+Every weight trains, vision encoder included. A 450M model fits an L40S
+with room to spare, and reading hand angles asks the encoder to change.
+Loss covers assistant tokens only. Requires a CUDA GPU.
 """
 
 from __future__ import annotations
@@ -14,7 +15,6 @@ from typing import Any
 import torch
 import tyro
 from datasets import Dataset, Features, Image, Value
-from peft import LoraConfig
 from PIL import Image as PILImage
 from pydantic import BaseModel, Field
 from transformers import AutoModelForImageTextToText, AutoProcessor
@@ -25,8 +25,8 @@ from timewizard.data import conversation, with_image
 from timewizard.photos import CROPS, Split, load_split
 from timewizard.reading import Time
 
-LORA_TARGETS = ["q_proj", "k_proj", "v_proj", "out_proj", "fc1", "fc2", "linear", "gate_proj", "up_proj", "down_proj"]
 FEATURES = Features({"messages": Value("string"), "image": Image()})
+IMAGE_TOKENS = 256
 
 Row = dict[str, Any]
 Collator = Callable[[list[Row]], dict[str, torch.Tensor]]
@@ -34,14 +34,14 @@ Collator = Callable[[list[Row]], dict[str, torch.Tensor]]
 
 class TrainConfig(BaseModel):
     out: Path
-    """Output directory for checkpoints, the adapter, and config.json."""
+    """Directory for config.json, checkpoints, and the final model."""
+    hub: str | None = "jadidbourbaki/time-wizard"
+    """Private Hugging Face repo that receives the final model. None skips the upload."""
     epochs: float = Field(3.0, gt=0)
     seed: int = 0
-    image_size: int = Field(448, ge=64)
-    batch_size: int = Field(8, ge=1)
-    grad_accum: int = Field(4, ge=1)
-    lr: float = Field(2e-4, gt=0)
-    lora_rank: int = Field(16, ge=1)
+    batch_size: int = Field(16, ge=1)
+    grad_accum: int = Field(2, ge=1)
+    lr: float = Field(2e-5, gt=0)
     workers: int = Field(8, ge=1)
     model: str = BASE_MODEL
 
@@ -99,11 +99,8 @@ def main(cfg: TrainConfig) -> None:
     cfg.out.mkdir(parents=True, exist_ok=True)
     (cfg.out / "config.json").write_text(cfg.model_dump_json(indent=2))
 
-    processor = AutoProcessor.from_pretrained(cfg.model, max_image_tokens=256)
-    model = AutoModelForImageTextToText.from_pretrained(cfg.model, dtype=torch.bfloat16)
-    peft = LoraConfig(
-        r=cfg.lora_rank, lora_alpha=2 * cfg.lora_rank, lora_dropout=0.05, bias="none", target_modules=LORA_TARGETS
-    )
+    processor = AutoProcessor.from_pretrained(cfg.model, max_image_tokens=IMAGE_TOKENS)
+    model: Any = AutoModelForImageTextToText.from_pretrained(cfg.model, dtype=torch.bfloat16)
     args = SFTConfig(
         output_dir=str(cfg.out),
         num_train_epochs=cfg.epochs,
@@ -114,11 +111,13 @@ def main(cfg: TrainConfig) -> None:
         lr_scheduler_type="cosine",
         warmup_steps=0.03,
         bf16=True,
-        gradient_checkpointing=True,
-        gradient_checkpointing_kwargs={"use_reentrant": False},
         logging_steps=20,
         eval_strategy="epoch",
         save_strategy="epoch",
+        save_total_limit=1,
+        load_best_model_at_end=True,
+        metric_for_best_model="eval_loss",
+        greater_is_better=False,
         dataloader_num_workers=cfg.workers,
         max_length=None,
         remove_unused_columns=False,
@@ -133,11 +132,13 @@ def main(cfg: TrainConfig) -> None:
         train_dataset=photo_dataset("train", cfg.workers),
         eval_dataset=photo_dataset("dev", cfg.workers),
         processing_class=processor,
-        peft_config=peft,
     )
     trainer.train()
-    trainer.save_model(str(cfg.out / "adapter"))
-    processor.save_pretrained(str(cfg.out / "adapter"))
+    trainer.save_model(str(cfg.out / "model"))
+    processor.save_pretrained(str(cfg.out / "model"))
+    if cfg.hub:
+        model.push_to_hub(cfg.hub, private=True)
+        processor.push_to_hub(cfg.hub, private=True)
 
 
 if __name__ == "__main__":

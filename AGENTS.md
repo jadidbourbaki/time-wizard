@@ -23,8 +23,9 @@ and the bench runner.
 timewizard/    reading, photos, data, train, bench
 benchmark/     frozen test, dev, and train splits as ids and labels
 sky/           SkyPilot task for the Nebius GPU run
+RESULTS.md     every score, frontier and ours
 tests/         pytest suite
-runs/          adapters, logs, and bench output, gitignored
+runs/          checkpoints, logs, and bench output, gitignored
 data/          downloaded crops, gitignored
 justfile       task runner
 ```
@@ -32,8 +33,9 @@ justfile       task runner
 Training runs on a Nebius GPU through SkyPilot, defined by
 `sky/train.yaml`. Change a training flag through `--env TRAIN_ARGS`
 rather than by editing the file, so the committed task stays the
-reproducible one. README.md is the only prose document. Put new
-instructions in it rather than adding a README beside the code.
+reproducible one. README.md holds every instruction and RESULTS.md
+every score. Put new prose in one of those two rather than adding a file
+beside the code.
 
 ## Test data hygiene
 

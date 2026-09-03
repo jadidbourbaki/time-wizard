@@ -22,7 +22,6 @@ train = [
     "torch==2.14.0",
     "transformers==5.16.1",
     "trl==1.12.0",
-    "peft==0.20.0",
     "accelerate==1.14.0",
     "torchvision==0.29.0",
 ]
