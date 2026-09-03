@@ -30,7 +30,7 @@ check:
 
 # Provision a Nebius GPU and run the fine-tune. See README.md.
 sky-train *args:
-    sky launch -c time-wizard sky/train.yaml {{args}}
+    sky launch -c time-wizard sky/train.yaml --secret HF_TOKEN="$(cat ~/.cache/huggingface/token)" {{args}}
 
 # Copy runs/ back from the Nebius box.
 sky-fetch:

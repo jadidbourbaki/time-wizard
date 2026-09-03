@@ -159,7 +159,10 @@ offers the L40S on two host platforms. Only the AMD one, `gpu-l40s-d`,
 has capacity in eu-north1. Run `sky gpus list L40S --infra nebius` to see
 the platforms and their prices before changing this.
 
-`sky-train` provisions the GPU and runs the job. `sky-fetch` copies
+`sky-train` provisions the GPU and runs the job. It reads your Hugging
+Face token from `~/.cache/huggingface/token`, where `hf auth login` put
+it, and passes it to the machine as a secret. The machine needs it to
+pull the private crops and to upload the finished model. `sky-fetch` copies
 `runs/` back to this machine. `sky-down` releases the GPU. The task also
 shuts the machine down on its own after fifteen idle minutes, so a
 forgotten cluster costs at most a quarter of an hour. The model itself is
