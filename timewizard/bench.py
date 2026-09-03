@@ -38,7 +38,7 @@ from timewizard.reading import PROMPT, SYSTEM, Score, parse_time, score
 API_MAX_TOKENS = 32000
 """Reasoning at max effort runs to thousands of tokens for one clock."""
 API_TIMEOUT = 600.0
-"""A sleeping laptop leaves dead sockets. Without a timeout they never fail."""
+"""Seconds one request may take. tenacity retries it after that."""
 Effort = Literal["low", "medium", "high", "xhigh", "max"]
 Answer = Callable[[Image.Image], str]
 
@@ -61,7 +61,7 @@ class BenchConfig(BaseModel):
     split: Split = "dev"
     """Grade test once per final model, at the end."""
     adapter: Path | None = None
-    """LoRA adapter directory for the local model."""
+    """LoRA adapter directory for our fine-tuned model."""
     model: str | None = None
     """pydantic-ai model id, e.g. anthropic:claude-fable-5-1 or bedrock-mantle:openai.gpt-5.6-sol."""
     effort: Effort = "max"

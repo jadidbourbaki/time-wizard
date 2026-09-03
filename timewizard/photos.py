@@ -186,7 +186,7 @@ def build(cfg: BuildConfig) -> None:
 
 
 def push(cfg: HubConfig) -> None:
-    """Upload the crops so other machines skip the build."""
+    """Upload the crops that `pull` fetches."""
     for name in SPLITS:
         labels = load_split(name)
         keys = sorted(labels)

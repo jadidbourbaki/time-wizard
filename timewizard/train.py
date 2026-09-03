@@ -1,8 +1,6 @@
 """LoRA fine-tune LFM2.5-VL-450M on the photo train split.
 
-Follows Liquid's TRL recipe: AutoModelForImageTextToText, a collator that
-runs the processor's chat template over whole conversations, SFTTrainer with
-dataset preparation skipped. Loss covers assistant tokens only. Requires a
+Follows Liquid's TRL recipe. Loss covers assistant tokens only. Requires a
 CUDA GPU.
 """
 
@@ -55,7 +53,6 @@ def photo_rows(keys: list[str], labels: dict[str, Time]) -> Iterator[Row]:
 
 
 def photo_dataset(split: Split, workers: int) -> Dataset:
-    """One conversation per clock in `split`, built across `workers` processes."""
     labels = load_split(split)
     return Dataset.from_generator(
         photo_rows, features=FEATURES, gen_kwargs={"keys": sorted(labels), "labels": labels}, num_proc=workers
@@ -64,9 +61,9 @@ def photo_dataset(split: Split, workers: int) -> Dataset:
 
 def assistant_mask(input_ids: torch.Tensor, header: list[int], end_id: int) -> torch.Tensor:
     """True on the tokens of every assistant turn, from the first token after
-    the role header through the turn's end token. TRL's assistant_only_loss
-    rejects vision datasets. The tokenizer's own mask lands on the wrong
-    tokens once the processor expands the image placeholder."""
+    the role header through the turn's end token. The spans are found here
+    because the processor expands the image placeholder after the tokenizer
+    builds its own mask, which shifts every position."""
     mask = torch.zeros_like(input_ids, dtype=torch.bool)
     width = len(header)
     for row, out in zip(input_ids.tolist(), mask, strict=True):
