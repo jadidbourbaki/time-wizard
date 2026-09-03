@@ -20,7 +20,7 @@ and the bench runner.
 ## Repository layout
 
 ```
-timewizard/    reading, photos, crops, data, train, bench
+timewizard/    reading, photos, data, train, bench
 benchmark/     frozen test, dev, and train splits as ids and labels
 sky/           SkyPilot task for the Nebius GPU run
 tests/         pytest suite
@@ -42,10 +42,11 @@ reads it, and only with `--split test` for a final model. Training reads
 `photos_train.json`. Hyperparameters are chosen on `photos_dev.json`.
 Selection against a test set leaks the test set.
 
-The splits are frozen by `timewizard.photos` from seed 0. Changing the
-seed, the deduplication threshold, or the crop margin creates a new
-benchmark and invalidates every number reported so far. Do that only
-with a version bump and a note in the README.
+`timewizard.photos build` froze the splits from seed 0. Changing the seed,
+the deduplication threshold, or the crop margin creates a new benchmark
+and invalidates every number reported so far. Do that only with a version
+bump and a note in the README. Push the rebuilt crops afterwards, because
+every machine pulls them from the Hugging Face dataset.
 
 ## Quality gate
 

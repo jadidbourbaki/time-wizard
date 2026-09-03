@@ -1,10 +1,18 @@
 """Real clock photos from It's About Time (Yang and Zisserman, 2022).
 
-Labels and detector boxes come from the CSVs in the itsabouttime repo at the
-pinned commit. Images are fetched from COCO and OpenImages, cropped around
-the detector box with the paper's 20 percent margin, padded to a square, and
-deduplicated by perceptual hash. `benchmark/` holds the frozen splits as
-image ids plus labels. Pixels stay under the source licences in `data/`.
+`pull` fetches the finished crops from a Hugging Face dataset in about two
+minutes. Use it to set up a machine.
+
+`build` recreates them from scratch, which takes about twenty minutes. It
+reads the labels and detector boxes from the CSVs in the itsabouttime repo
+at the pinned commit. It fetches each image from COCO or OpenImages. It
+crops around the detector box with the paper's 20 percent margin. It pads
+the crop to a square. It drops near duplicates by perceptual hash. It then
+writes the splits. `push` uploads that result.
+
+`benchmark/` holds the frozen splits as image ids plus labels. It stays the
+record of which photograph belongs where. The pixels live in `data/` under
+the source licences.
 """
 
 from __future__ import annotations
@@ -22,6 +30,8 @@ from typing import Literal
 
 import imagehash
 import tyro
+from datasets import Dataset, load_dataset
+from datasets import Image as ImageColumn
 from PIL import Image, ImageOps
 from pydantic import BaseModel, Field, TypeAdapter
 from tenacity import retry, retry_if_exception_type, stop_after_attempt, wait_exponential
@@ -48,6 +58,8 @@ MARGIN = 0.2
 CROP_SIZE = 448
 DUPLICATE_BITS = 4
 SPLIT_FILE = TypeAdapter(dict[str, Time])
+DATASET = "jadidbourbaki/time-wizard-bench"
+SPLITS: tuple[Split, ...] = ("test", "dev", "train")
 
 
 class Photo(BaseModel):
@@ -68,11 +80,16 @@ class Photo(BaseModel):
         return [url.format(self.file_name) for url in IMAGE_URLS[self.source]]
 
 
-class PhotosConfig(BaseModel):
+class BuildConfig(BaseModel):
     seed: int = 0
     test_n: int = Field(200, ge=1)
     dev_n: int = Field(200, ge=1)
     workers: int = Field(16, ge=1)
+
+
+class HubConfig(BaseModel):
+    dataset: str = DATASET
+    private: bool = True
 
 
 def load_labels() -> list[Photo]:
@@ -162,7 +179,8 @@ def load_split(name: Split) -> dict[str, Time]:
     return SPLIT_FILE.validate_json((BENCHMARK / f"photos_{name}.json").read_bytes())
 
 
-def main(cfg: PhotosConfig) -> None:
+def build(cfg: BuildConfig) -> None:
+    """Recreate the crops and the splits from COCO and OpenImages."""
     labels = load_labels()
     photos = deduplicate(crop_all(labels, cfg.workers))
     splits = split(photos, cfg.seed, cfg.test_n, cfg.dev_n)
@@ -173,5 +191,31 @@ def main(cfg: PhotosConfig) -> None:
     print(json.dumps({"labelled": len(labels), "unique": len(photos), **{k: len(v) for k, v in splits.items()}}))
 
 
+def push(cfg: HubConfig) -> None:
+    """Upload the crops so other machines skip the build."""
+    for name in SPLITS:
+        labels = load_split(name)
+        keys = sorted(labels)
+        rows = {
+            "key": keys,
+            "image": [str(CROPS / f"{k}.png") for k in keys],
+            "hours": [labels[k].hours for k in keys],
+            "minutes": [labels[k].minutes for k in keys],
+        }
+        dataset = Dataset.from_dict(rows).cast_column("image", ImageColumn())
+        dataset.push_to_hub(cfg.dataset, split=name, private=cfg.private)
+        print(f"pushed {len(keys)} crops as {name}")
+
+
+def pull(cfg: HubConfig) -> None:
+    """Download the crops that `build` produced."""
+    CROPS.mkdir(parents=True, exist_ok=True)
+    for name in SPLITS:
+        dataset = load_dataset(cfg.dataset, split=name)
+        for row in tqdm(dataset, total=len(dataset), desc=name):
+            row["image"].save(CROPS / f"{row['key']}.png")
+        print(f"pulled {len(dataset)} crops for {name}")
+
+
 if __name__ == "__main__":
-    main(tyro.cli(PhotosConfig))
+    tyro.extras.subcommand_cli_from_dict({"build": build, "push": push, "pull": pull})

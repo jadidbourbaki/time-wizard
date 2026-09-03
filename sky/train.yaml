@@ -20,6 +20,6 @@ setup: |
 run: |
   export PATH="$HOME/.local/bin:$PATH"
   nvidia-smi
-  uv run python -m timewizard.crops pull
+  uv run python -m timewizard.photos pull
   uv run python -m timewizard.train $TRAIN_ARGS
   uv run python -m timewizard.bench --adapter runs/nebius/adapter --split dev

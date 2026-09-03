@@ -7,13 +7,9 @@ default:
 setup:
     uv sync
 
-# Build the photo benchmark: download, crop, deduplicate, split.
+# Fetch, rebuild, or upload the photo crops: pull, build, push.
 photos *args:
     uv run python -m timewizard.photos {{args}}
-
-# Move crops between this machine and the Hugging Face dataset.
-crops *args:
-    uv run python -m timewizard.crops {{args}}
 
 # Fine-tune. Example: just train --out runs/tw-photos
 train *args:

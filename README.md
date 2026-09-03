@@ -25,7 +25,7 @@ annotators read each clock to the minute. An object detector marked each
 clock with a box. Their repository publishes the labels and the boxes as
 CSV files.
 
-`timewizard.photos` turns those labels into splits:
+`timewizard.photos build` turns those labels into splits:
 
 1. Download each photograph from COCO or OpenImages.
 2. Crop around the detector box, keeping a 20 percent margin on each
@@ -42,17 +42,20 @@ CSV files.
 | dev | 200 | hyperparameter choices and training loss |
 | train | 2796 | fine-tuning |
 
-`benchmark/` holds the three splits as image ids and labels. The pixels
-live in `data/` under the licences of COCO and OpenImages. `just photos`
-rebuilds them from the seed.
+`benchmark/` holds the three splits as image ids and labels. It stays the
+record of which photograph belongs where. The pixels live in `data/` under
+the licences of COCO and OpenImages.
 
-That rebuild takes about twenty minutes. `just crops push` uploads the
-finished crops to a private Hugging Face dataset. `just crops pull`
-fetches them in about two minutes. A GPU box therefore starts training
-straight away. The upload stays private for a licensing reason.
-OpenImages photographs carry CC BY 2.0 and redistribute with attribution.
-COCO photographs come from Flickr under individual licences that COCO does
-not own.
+Those five steps take about twenty minutes, so every machine skips them.
+`just photos push` uploads the finished crops to the private Hugging Face
+dataset `jadidbourbaki/time-wizard-bench`. `just photos pull` fetches them
+in about two minutes. `just photos build` reruns the five steps from the
+source images. Use `build` to regenerate the dataset or to check the
+uploaded copy against the originals.
+
+The dataset stays private for a licensing reason. OpenImages photographs
+carry CC BY 2.0 and redistribute with attribution. COCO photographs come
+from Flickr under individual licences that COCO does not own.
 
 The base model is
 [LFM2.5-VL-450M](https://huggingface.co/LiquidAI/LFM2.5-VL-450M).
@@ -75,13 +78,17 @@ question.
 
 ```
 just setup
-just photos
+just photos pull
 ```
 
 `setup` runs `uv sync`. That installs the pinned runtime, training, and
-baseline dependencies. `photos` downloads the label files and about 3200
-images. It writes the crops and the splits. Running it twice changes
-nothing, because the seed fixes the result.
+baseline dependencies. `photos pull` downloads the 3196 finished crops
+from the Hugging Face dataset in about two minutes. It needs a Hugging
+Face login, because the dataset is private:
+
+```
+uv run hf auth login
+```
 
 ```
 just check
