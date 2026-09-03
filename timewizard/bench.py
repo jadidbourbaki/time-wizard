@@ -37,6 +37,9 @@ from timewizard.reading import PROMPT, SYSTEM, Score, parse_time, score
 
 API_MAX_TOKENS = 32000
 """Reasoning at max effort can run to thousands of tokens for one clock."""
+API_TIMEOUT = 600.0
+"""A dead socket, such as one left by a sleeping laptop, stalls a run forever
+without this."""
 Effort = Literal["low", "medium", "high", "xhigh", "max"]
 Answer = Callable[[Image.Image], str]
 
@@ -106,9 +109,11 @@ def api_answer(model: str, effort: Effort, usage: dict[str, int]) -> Answer:
     """Any pydantic-ai model. Token counts accumulate on `usage`."""
     settings: Any
     if model.startswith("anthropic:"):
-        settings = AnthropicModelSettings(anthropic_effort=effort, max_tokens=API_MAX_TOKENS)
+        settings = AnthropicModelSettings(anthropic_effort=effort, max_tokens=API_MAX_TOKENS, timeout=API_TIMEOUT)
     elif model.startswith("bedrock-mantle:"):
-        settings = OpenAIResponsesModelSettings(openai_reasoning_effort=effort, max_tokens=API_MAX_TOKENS)
+        settings = OpenAIResponsesModelSettings(
+            openai_reasoning_effort=effort, max_tokens=API_MAX_TOKENS, timeout=API_TIMEOUT
+        )
     else:
         raise SystemExit(f"unsupported model prefix in {model!r}; use anthropic: or bedrock-mantle:")
     agent = Agent(model, instructions=SYSTEM, model_settings=settings)
