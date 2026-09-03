@@ -3,7 +3,8 @@ name: time-wizard-train
 
 resources:
   infra: nebius
-  accelerators: [L40S:1, H100:1, H200:1]
+  # gpu-l40s-a has no capacity in eu-north1. Only the AMD host platform does.
+  instance_type: gpu-l40s-d_1gpu-16vcpu-96gb
   disk_size: 256
 
 workdir: .

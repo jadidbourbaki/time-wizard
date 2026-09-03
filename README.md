@@ -139,8 +139,10 @@ just sky-fetch
 just sky-down
 ```
 
-The task asks for an L40S, an H100, or an H200, whichever Nebius has
-free. A single GPU type often has no capacity in a region.
+The task names one instance type, `gpu-l40s-d_1gpu-16vcpu-96gb`. Nebius
+offers the L40S on two host platforms. Only the AMD one, `gpu-l40s-d`,
+has capacity in eu-north1. Run `sky gpus list L40S --infra nebius` to see
+the platforms and their prices before changing this.
 
 `sky-train` provisions the GPU and runs the job. `sky-fetch` copies
 `runs/` back to this machine. `sky-down` releases the GPU. Nebius bills
