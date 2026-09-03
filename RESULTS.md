@@ -22,10 +22,10 @@ wrong. Output tokens include reasoning.
 
 ## time-wizard
 
-Pending. The first run fine-tunes every weight of LFM2.5-VL-450M on the
-2796 photograph train split for three epochs and keeps the epoch with the
-lowest dev loss. The dev score guides any tuning. The test split is scored
-once, after tuning stops.
+Every run fine-tunes every weight of LFM2.5-VL-450M on the 2796
+photograph train split and keeps the epoch with the lowest dev loss. The
+dev score guides tuning. The test split is scored once, after tuning
+stops.
 
 | Run | Split | Within 1 min | Exact | Hour correct | Mean error | Unreadable |
 |---|---|---|---|---|---|---|
