@@ -3,7 +3,7 @@ name: time-wizard-train
 
 resources:
   infra: nebius
-  accelerators: L40S:1
+  accelerators: [L40S:1, H100:1, H200:1]
   disk_size: 256
 
 workdir: .
@@ -19,6 +19,6 @@ setup: |
 run: |
   export PATH="$HOME/.local/bin:$PATH"
   nvidia-smi
-  uv run python -m timewizard.photos
+  uv run python -m timewizard.crops pull
   uv run python -m timewizard.train $TRAIN_ARGS
   uv run python -m timewizard.bench --adapter runs/nebius/adapter --split dev

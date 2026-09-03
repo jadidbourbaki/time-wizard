@@ -20,7 +20,7 @@ and the bench runner.
 ## Repository layout
 
 ```
-timewizard/    reading, photos, data, train, bench
+timewizard/    reading, photos, crops, data, train, bench
 benchmark/     frozen test, dev, and train splits as ids and labels
 sky/           SkyPilot task for the Nebius GPU run
 tests/         pytest suite

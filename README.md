@@ -46,6 +46,14 @@ CSV files.
 live in `data/` under the licences of COCO and OpenImages. `just photos`
 rebuilds them from the seed.
 
+That rebuild takes about twenty minutes. `just crops push` uploads the
+finished crops to a private Hugging Face dataset. `just crops pull`
+fetches them in about two minutes. A GPU box therefore starts training
+straight away. The upload stays private for a licensing reason.
+OpenImages photographs carry CC BY 2.0 and redistribute with attribution.
+COCO photographs come from Flickr under individual licences that COCO does
+not own.
+
 The base model is
 [LFM2.5-VL-450M](https://huggingface.co/LiquidAI/LFM2.5-VL-450M).
 
@@ -130,6 +138,9 @@ just sky-train
 just sky-fetch
 just sky-down
 ```
+
+The task asks for an L40S, an H100, or an H200, whichever Nebius has
+free. A single GPU type often has no capacity in a region.
 
 `sky-train` provisions the GPU and runs the job. `sky-fetch` copies
 `runs/` back to this machine. `sky-down` releases the GPU. Nebius bills
