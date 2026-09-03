@@ -102,11 +102,19 @@ across. It rebuilds the crops from the seed. It fine-tunes the model. It
 scores the result on the dev split. The crops never travel over the
 network. The upload stays the size of this repository.
 
-SkyPilot reads Nebius credentials from two files. The Nebius CLI writes
-both:
+Install SkyPilot once as a tool. A throwaway environment will not do,
+because SkyPilot runs a local API server that must outlive the command
+that started it.
 
 ```
 uv tool install --with pip "skypilot[nebius]"
+sky api start
+```
+
+SkyPilot then reads Nebius credentials from two files. The Nebius CLI
+writes both:
+
+```
 mkdir -p ~/.nebius
 nebius iam get-access-token > ~/.nebius/NEBIUS_IAM_TOKEN.txt
 nebius --format json iam whoami | jq -r '.user_profile.tenants[0].tenant_id' > ~/.nebius/NEBIUS_TENANT_ID.txt

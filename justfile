@@ -30,12 +30,12 @@ check:
 
 # Provision a Nebius GPU and run the fine-tune. See README.md.
 sky-train *args:
-    uv run --with "skypilot[nebius]" sky launch -c time-wizard sky/train.yaml {{args}}
+    sky launch -c time-wizard sky/train.yaml {{args}}
 
 # Copy runs/ back from the Nebius box.
 sky-fetch:
-    uv run --with "skypilot[nebius]" sky rsync down time-wizard ~/sky_workdir/runs runs
+    sky rsync down time-wizard ~/sky_workdir/runs runs
 
 # Release the Nebius GPU.
 sky-down:
-    uv run --with "skypilot[nebius]" sky down time-wizard
+    sky down time-wizard
