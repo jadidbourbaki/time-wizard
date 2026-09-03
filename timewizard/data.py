@@ -4,11 +4,9 @@ assistant turn with the time as JSON."""
 from __future__ import annotations
 
 import copy
-import random
 
 from PIL import Image
 
-from timewizard.clocks import sample
 from timewizard.reading import PROMPT, SYSTEM, Time
 
 Message = dict[str, object]
@@ -30,9 +28,3 @@ def with_image(messages: list[Message], image: Image.Image) -> list[Message]:
     assert isinstance(content, list)
     content[0] = {"type": "image", "image": image}
     return out
-
-
-def render(index: int, n: int, seed: int, image_size: int) -> tuple[Image.Image, Time]:
-    """Rendered clock `index` of a dataset of `n`, fixed by (n, seed)."""
-    image, time = sample(random.Random(seed * n + index))
-    return image.resize((image_size, image_size), Image.Resampling.LANCZOS), time

@@ -1,10 +1,9 @@
-"""LoRA fine-tune LFM2.5-VL-450M to read clocks.
+"""LoRA fine-tune LFM2.5-VL-450M on the photo train split.
 
 Follows Liquid's TRL recipe: AutoModelForImageTextToText, a collator that
 runs the processor's chat template over whole conversations, SFTTrainer with
-dataset preparation skipped. Loss is computed on assistant tokens only.
-Training data is the photo train split, SynClock renders, or both. Requires
-a CUDA GPU.
+dataset preparation skipped. Loss covers assistant tokens only. Requires a
+CUDA GPU.
 """
 
 from __future__ import annotations
@@ -16,7 +15,7 @@ from typing import Any
 
 import torch
 import tyro
-from datasets import Dataset, Features, Image, Value, concatenate_datasets
+from datasets import Dataset, Features, Image, Value
 from peft import LoraConfig
 from PIL import Image as PILImage
 from pydantic import BaseModel, Field
@@ -24,7 +23,7 @@ from transformers import AutoModelForImageTextToText, AutoProcessor
 from trl import SFTConfig, SFTTrainer
 
 from timewizard import BASE_MODEL
-from timewizard.data import conversation, render, with_image
+from timewizard.data import conversation, with_image
 from timewizard.photos import CROPS, Split, load_split
 from timewizard.reading import Time
 
@@ -38,10 +37,6 @@ Collator = Callable[[list[Row]], dict[str, torch.Tensor]]
 class TrainConfig(BaseModel):
     out: Path
     """Output directory for checkpoints, the adapter, and config.json."""
-    photos: bool = True
-    """Train on the photo train split."""
-    rendered: int = Field(0, ge=0)
-    """Number of SynClock renders to add to training."""
     epochs: float = Field(3.0, gt=0)
     seed: int = 0
     image_size: int = Field(448, ge=64)
@@ -53,44 +48,18 @@ class TrainConfig(BaseModel):
     model: str = BASE_MODEL
 
 
-def rendered_rows(indices: list[int], n: int, seed: int, image_size: int) -> Iterator[Row]:
-    for i in indices:
-        image, time = render(i, n, seed, image_size)
-        yield {"messages": json.dumps(conversation(time)), "image": image}
-
-
 def photo_rows(keys: list[str], labels: dict[str, Time]) -> Iterator[Row]:
     for key in keys:
         with PILImage.open(CROPS / f"{key}.png") as image:
             yield {"messages": json.dumps(conversation(labels[key])), "image": image.convert("RGB")}
 
 
-def rendered_dataset(n: int, seed: int, image_size: int, workers: int) -> Dataset:
-    # `datasets` shards list-valued gen_kwargs across num_proc workers.
-    return Dataset.from_generator(
-        rendered_rows,
-        features=FEATURES,
-        gen_kwargs={"indices": list(range(n)), "n": n, "seed": seed, "image_size": image_size},
-        num_proc=workers,
-    )
-
-
 def photo_dataset(split: Split, workers: int) -> Dataset:
+    """One conversation per clock in `split`, built across `workers` processes."""
     labels = load_split(split)
     return Dataset.from_generator(
         photo_rows, features=FEATURES, gen_kwargs={"keys": sorted(labels), "labels": labels}, num_proc=workers
     )
-
-
-def training_sets(cfg: TrainConfig) -> tuple[Dataset, Dataset]:
-    parts = []
-    if cfg.photos:
-        parts.append(photo_dataset("train", cfg.workers))
-    if cfg.rendered:
-        parts.append(rendered_dataset(cfg.rendered, cfg.seed, cfg.image_size, cfg.workers))
-    if not parts:
-        raise SystemExit("nothing to train on: set --photos or --rendered")
-    return concatenate_datasets(parts).shuffle(seed=cfg.seed), photo_dataset("dev", cfg.workers)
 
 
 def assistant_mask(input_ids: torch.Tensor, header: list[int], end_id: int) -> torch.Tensor:
@@ -160,13 +129,12 @@ def main(cfg: TrainConfig) -> None:
         report_to="none",
         seed=cfg.seed,
     )
-    train_set, dev_set = training_sets(cfg)
     trainer = SFTTrainer(
         model=model,
         args=args,
         data_collator=make_collator(processor),
-        train_dataset=train_set,
-        eval_dataset=dev_set,
+        train_dataset=photo_dataset("train", cfg.workers),
+        eval_dataset=photo_dataset("dev", cfg.workers),
         processing_class=processor,
         peft_config=peft,
     )

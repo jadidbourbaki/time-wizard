@@ -48,10 +48,6 @@ rebuilds them from the seed.
 
 The base model is
 [LFM2.5-VL-450M](https://huggingface.co/LiquidAI/LFM2.5-VL-450M).
-SynClock draws synthetic clocks. Our
-[fork](https://github.com/jadidbourbaki/itsabouttime) installs it. Those
-drawings feed one ablation, a training run that swaps every real
-photograph for a synthetic one.
 
 ## Scope of the comparison
 
@@ -63,9 +59,9 @@ COCO and OpenImages have been public for years. The label files have been
 public since 2022. Frontier models may have read all of it during
 pretraining. Any such contamination helps them.
 
-Three ablations remain to run. Train on COCO and test on OpenImages, then
-reverse the two. Train on synthetic drawings alone. Give the frontier
-models a few labelled crops before the question.
+Two ablations remain to run. Train on COCO and test on OpenImages, then
+reverse the two. Give the frontier models a few labelled crops before the
+question.
 
 ## Setup
 
@@ -90,14 +86,12 @@ tests need no GPU. They reach no network.
 
 ```
 just train --out runs/tw-photos --epochs 3
-just train --out runs/tw-rendered --photos false --rendered 100000
 ```
 
-The first command fine-tunes on the 2796 photograph crops. It measures
-loss on the dev split after every epoch. The second command trains on
-synthetic drawings alone. Each command writes `config.json`, the
-checkpoints, and the trained weights under the output directory. `just
-train --help` lists every option.
+This fine-tunes on the 2796 photograph crops. It measures loss on the dev
+split after every epoch. It writes `config.json`, the checkpoints, and the
+trained weights under the output directory. `just train --help` lists
+every option.
 
 ### Nebius
 
@@ -138,7 +132,7 @@ One command changes the training flags without touching the committed
 file:
 
 ```
-sky launch -c time-wizard sky/train.yaml --env TRAIN_ARGS="--out runs/rendered --photos false --rendered 100000"
+sky launch -c time-wizard sky/train.yaml --env TRAIN_ARGS="--out runs/five-epochs --epochs 5"
 ```
 
 ## Evaluation

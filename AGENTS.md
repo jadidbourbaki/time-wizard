@@ -11,20 +11,16 @@ Time (Yang and Zisserman, 2022), scored within one minute. The goal is
 a 450M parameter model that beats frontier models on those 200 photos.
 
 The repo is Python only and deliberately small. Photos and labels come
-from the itsabouttime CSVs and the COCO and OpenImages images. Rendered
-clocks come from SynClock, installed as the `synclock` git dependency
-from our fork github.com/jadidbourbaki/itsabouttime and pinned in
-`uv.lock`. Training uses TRL's SFTTrainer. Frontier baselines run through
-pydantic-ai. The `timewizard` package holds only the glue: the task
-definition and metric, the photo pipeline, the render sampler, the
-conversation builder, the training entry point, and the bench runner.
-Extend the renderer by committing to the fork and bumping the pinned
-commit with `uv add`, never by copying SynClock into the package.
+from the itsabouttime CSVs and the COCO and OpenImages images. Training
+uses TRL's SFTTrainer. Frontier baselines run through pydantic-ai. The
+`timewizard` package holds only the glue: the task definition and metric,
+the photo pipeline, the conversation builder, the training entry point,
+and the bench runner.
 
 ## Repository layout
 
 ```
-timewizard/    reading, photos, clocks, data, train, bench
+timewizard/    reading, photos, data, train, bench
 benchmark/     frozen test, dev, and train splits as ids and labels
 sky/           SkyPilot task for the Nebius GPU run
 tests/         pytest suite
@@ -163,10 +159,10 @@ Conventional commits, one sentence each, no body unless absolutely
 necessary.
 
 ```
-feat: add the synthetic-only training ablation
+feat: resume a scoring run from its replies file
 fix: wrap the circular error at twelve hours
 docs: describe the dev split
-chore: bump the synclock fork
+chore: pin tenacity
 ```
 
 Rules:
@@ -250,10 +246,9 @@ import.
 ### Don't reinvent the wheel
 
 Prefer the standard library or a well-maintained dependency over code
-you write yourself. SynClock renders. TRL trains. pydantic-ai talks to
-API models. imagehash deduplicates. tyro parses arguments. Write your
-own implementation only when nothing fits, and prefer a commit to the
-fork over a rewrite.
+you write yourself. TRL trains. pydantic-ai talks to API models.
+imagehash deduplicates. tyro parses arguments. tenacity retries. tqdm
+reports progress. Write your own implementation only when nothing fits.
 
 ## Working with the user
 
