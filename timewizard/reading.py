@@ -9,7 +9,6 @@ from pydantic import BaseModel, ConfigDict, Field
 SYSTEM = "Reply with ONLY the requested JSON, no preface and no code block."
 PROMPT = 'What time does this analog clock show? Reply as JSON: {"hours": H, "minutes": M} with H from 1 to 12.'
 MINUTE_TOLERANCE = 1
-"""Matches the top-1 metric of It's About Time, so published numbers compare."""
 
 _JSON = re.compile(r"\{.*\}", re.S)
 
