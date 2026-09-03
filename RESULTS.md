@@ -27,7 +27,12 @@ Pending. The first run fine-tunes every weight of LFM2.5-VL-450M on the
 lowest dev loss. The dev score guides any tuning. The test split is scored
 once, after tuning stops.
 
-| Model | Split | Within 1 min | Exact | Hour correct | Mean error | Unreadable |
+| Run | Split | Within 1 min | Exact | Hour correct | Mean error | Unreadable |
 |---|---|---|---|---|---|---|
-| time-wizard, run 1 | dev | | | | | |
-| time-wizard, final | test | | | | | |
+| run 1, lr 2e-5, 3 epochs, best epoch 2 | dev | 25.0% | 9.0% | 44.0% | 76 min | 0 |
+| final | test | | | | | |
+
+Run 1 trained in 94 seconds on one H100. Dev loss fell from 0.418 after
+epoch one to 0.346 after epoch two and stayed flat at epoch three. The
+model produced valid JSON on every photograph. Its errors are hours off
+rather than minutes off, which points at confusing the two hands.
