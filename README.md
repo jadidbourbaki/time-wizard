@@ -159,6 +159,11 @@ offers the L40S on two host platforms. Only the AMD one, `gpu-l40s-d`,
 has capacity in eu-north1. Run `sky gpus list L40S --infra nebius` to see
 the platforms and their prices before changing this.
 
+The task sets `TORCH_DISABLE_NATIVE_JIT=1`. torch 2.14 otherwise routes
+some LFM2 operations through Triton kernels, and Triton compiles a stub
+against Python's C headers, which the machine's system Python lacks. The
+flag keeps torch on its ordinary kernels.
+
 `sky-train` provisions the GPU and runs the job. It reads your Hugging
 Face token from `~/.cache/huggingface/token`, where `hf auth login` put
 it, and passes it to the machine as a secret. The machine needs it to

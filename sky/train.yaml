@@ -12,6 +12,7 @@ workdir: .
 
 envs:
   TRAIN_ARGS: --out runs/nebius --epochs 3
+  TORCH_DISABLE_NATIVE_JIT: "1"
 
 secrets:
   HF_TOKEN: null
