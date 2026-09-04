@@ -36,7 +36,7 @@ class TrainConfig(BaseModel):
     out: Path
     """Directory for config.json, checkpoints, and the final model."""
     hub: str | None = "jadidbourbaki/time-wizard"
-    """Private Hugging Face repo that receives the final model. None skips the upload."""
+    """Hugging Face repo that receives the final model. None skips the upload."""
     epochs: float = Field(5.0, gt=0)
     seed: int = 0
     batch_size: int = Field(16, ge=1)
@@ -137,8 +137,8 @@ def main(cfg: TrainConfig) -> None:
     trainer.save_model(str(cfg.out / "model"))
     processor.save_pretrained(str(cfg.out / "model"))
     if cfg.hub:
-        model.push_to_hub(cfg.hub, private=True)
-        processor.push_to_hub(cfg.hub, private=True)
+        model.push_to_hub(cfg.hub)
+        processor.push_to_hub(cfg.hub)
 
 
 if __name__ == "__main__":

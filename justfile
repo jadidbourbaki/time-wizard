@@ -19,9 +19,13 @@ read *args:
 train *args:
     uv run python -m timewizard.train {{args}}
 
-# Upload model/README.md as the model card on the Hub.
+# Draw the model card figures from the score files in runs/bench.
+figures *args:
+    uv run python -m timewizard.figures {{args}}
+
+# Upload model/ as the model card on the Hub.
 model-card:
-    uv run hf upload jadidbourbaki/time-wizard model/README.md README.md
+    uv run hf upload jadidbourbaki/time-wizard model . --include "README.md" --include "*.png"
 
 # Score a model on a split. Example: just bench --checkpoint jadidbourbaki/time-wizard --split dev
 bench *args:
@@ -43,7 +47,7 @@ sky-train *args:
 
 # Copy runs/ back from the Nebius box.
 sky-fetch:
-    sky rsync down time-wizard ~/sky_workdir/runs runs
+    rsync -az time-wizard:sky_workdir/runs/ runs/
 
 # Release the Nebius GPU.
 sky-down:

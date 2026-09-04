@@ -54,12 +54,12 @@ configs:
 
 # time-wizard-bench
 
-time-wizard-bench holds 3196 photographs of analog clocks. Each photograph
-is cropped to one clock and labelled with the hour and minute that clock
-shows. The photographs come from COCO and OpenImages. The labels come from
+time-wizard-bench holds 3196 photographs of analog clocks. We cropped
+each photograph to one clock. Each crop carries the hour and minute that
+clock shows. The photographs come from COCO and OpenImages. The labels come from
 the paper "It's About Time: Analog Clock Reading in the Wild" by Charig
 Yang, Weidi Xie, and Andrew Zisserman. The dataset adds fixed test, dev,
-and train splits so that any two models can be compared on identical
+and train splits so that anyone can compare two models on identical
 photographs.
 
 The code that built the dataset, trains on it, and scores against it
@@ -127,8 +127,8 @@ dataset in five steps:
 
 ## Scoring
 
-Show the model one crop and ask for the time. The system prompt and the
-question are fixed:
+Show the model one crop and ask for the time. We fix the system prompt
+and the question:
 
 ```
 Reply with ONLY the requested JSON, no preface and no code block.
@@ -171,23 +171,25 @@ on the same scale as numbers on this test split.
 
 ## Results
 
-The three frontier models below answered the 200 test crops on
-2026-09-03.
+GPT-5.6 Sol, Claude Fable 5.1, and Claude Opus 5 answered the 200 test
+crops through their APIs. Opus 5 ran on 2026-09-03. GPT-5.6 Sol and
+Fable 5.1 ran on 2026-09-04.
 
-| Model | Within 1 min | Exact | Hour correct | Mean error | Unreadable |
-|---|---|---|---|---|---|
-| GPT-5.6 Sol | 60.5% | 32.0% | 68.5% | 59 min | 1 |
-| Claude Fable 5.1 | 24.0% | 9.5% | 40.0% | 119 min | 0 |
-| Claude Opus 5 | 15.5% | 6.0% | 31.0% | 141 min | 0 |
+| Model | Effort | Within 1 min | Exact | Hour | Mean error | Unreadable |
+|---|---|---|---|---|---|---|
+| GPT-5.6 Sol | max | 61.5% | 31.0% | 68.5% | 65 min | 0 |
+| Claude Fable 5.1 | max | 21.5% | 11.5% | 42.5% | 107 min | 2 |
+| Claude Opus 5 | max | 15.5% | 6.0% | 31.0% | 141 min | 0 |
 
 Each column reads as follows.
 
 - **Within 1 min**, the headline metric, is the share of clocks where the
   prediction lands within one minute of the label on the 12 hour dial. The
-  distance wraps at twelve, so 12:59 against 1:00 is one minute off.
+  distance wraps at twelve. A reading of 12:59 against 1:00 is one minute
+  off.
 - **Exact** is the share of clocks where the prediction matches the label
   to the minute.
-- **Hour correct** is the share of clocks where the predicted hour matches
+- **Hour** is the share of clocks where the predicted hour matches
   the labelled hour, whatever the minute.
 - **Mean error** is the wrapped distance in minutes between prediction and
   label, averaged over the readable replies. The largest possible distance
@@ -199,14 +201,21 @@ Each column reads as follows.
 Every model saw the same crops, sent as 448 pixel PNG images, with the
 system prompt and question above. Each model ran at its highest reasoning
 setting. The reply budget was 32000 tokens per clock, covering reasoning
-and answer. A request could take up to 600 seconds and was retried up to
-five times. Eight requests ran at once.
+and answer. We allowed each request 600 seconds and retried a failed
+request up to five times. Eight requests ran at once.
 
-| Model | API id | Provider | Reasoning setting |
-|---|---|---|---|
-| GPT-5.6 Sol | openai.gpt-5.6-sol | Amazon Bedrock, us-east-1 | reasoning effort max |
-| Claude Fable 5.1 | claude-fable-5-1 | Anthropic API | effort max |
-| Claude Opus 5 | claude-opus-5 | Anthropic API | effort max |
+| Model | API id | Provider | Input tokens | Output tokens | Cost |
+|---|---|---|---|---|---|
+| GPT-5.6 Sol | openai.gpt-5.6-sol | Amazon Bedrock, us-east-1 | 79,200 | 686,146 | $14.04 |
+| Claude Fable 5.1 | claude-fable-5-1 | Anthropic API | 65,934 | 971,794 | $49.25 |
+| Claude Opus 5 | claude-opus-5 | Anthropic API | 66,200 | 365,711 | $9.47 |
+
+Cost multiplies the token counts by the list price on the day of the run:
+$4 and $20 per million input and output tokens for GPT-5.6 Sol on
+Bedrock, $10 and $50 for Fable 5.1, and $5 and $25 for Opus 5. Fable 5.1
+used its whole budget on two clocks without answering. The runner records
+no tokens for a failed request. The two failed requests add about 64,000
+output tokens and $3.20 that the table leaves out.
 
 The GitHub repository holds every reply in `runs/bench/` and the score
 files beside them.
@@ -222,8 +231,8 @@ No model can read those clocks to the minute.
 The labels record hours and minutes only. There is no second hand label,
 no AM or PM, and no flag for a clock that shows an impossible time. The
 authors read the clocks by eye. Some labels therefore carry a minute or
-two of error. Every model is scored against the same labels, so
-comparisons between models hold.
+two of error. We score every model against the same labels. Comparisons
+between models therefore hold.
 
 The photographs have been public on the internet for years. A model
 trained on web data may have seen them along with nearby text. A model

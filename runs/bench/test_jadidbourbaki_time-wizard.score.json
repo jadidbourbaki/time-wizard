@@ -1,0 +1,15 @@
+{
+ "split": "test",
+ "model": "jadidbourbaki/time-wizard",
+ "effort": null,
+ "score": {
+  "n": 200,
+  "within_tolerance": 0.59,
+  "exact": 0.31,
+  "hour_correct": 0.745,
+  "mean_error_minutes": 44.42,
+  "unparsed": 0
+ },
+ "input_tokens": 0,
+ "output_tokens": 0
+}

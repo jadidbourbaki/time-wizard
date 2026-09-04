@@ -4,12 +4,12 @@
  "effort": "max",
  "score": {
   "n": 200,
-  "within_tolerance": 0.605,
-  "exact": 0.32,
+  "within_tolerance": 0.615,
+  "exact": 0.31,
   "hour_correct": 0.685,
-  "mean_error_minutes": 58.90954773869347,
-  "unparsed": 1
+  "mean_error_minutes": 65.275,
+  "unparsed": 0
  },
- "input_tokens": 11484,
- "output_tokens": 88297
+ "input_tokens": 79200,
+ "output_tokens": 686146
 }
