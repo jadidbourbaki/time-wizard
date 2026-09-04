@@ -1,6 +1,6 @@
 """Fine-tune LFM2.5-VL-450M on the photo train split.
 
-Every weight trains, vision encoder included. A 450M model fits an L40S
+Every weight trains, vision encoder included. A 450M model fits one GPU
 with room to spare, and reading hand angles asks the encoder to change.
 Loss covers assistant tokens only. Requires a CUDA GPU.
 """
@@ -37,11 +37,11 @@ class TrainConfig(BaseModel):
     """Directory for config.json, checkpoints, and the final model."""
     hub: str | None = "jadidbourbaki/time-wizard"
     """Private Hugging Face repo that receives the final model. None skips the upload."""
-    epochs: float = Field(3.0, gt=0)
+    epochs: float = Field(5.0, gt=0)
     seed: int = 0
     batch_size: int = Field(16, ge=1)
     grad_accum: int = Field(2, ge=1)
-    lr: float = Field(2e-5, gt=0)
+    lr: float = Field(5e-5, gt=0)
     workers: int = Field(8, ge=1)
     model: str = BASE_MODEL
 

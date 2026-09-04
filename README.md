@@ -2,7 +2,10 @@
 
 A 450M parameter vision-language model reads analog clocks in
 photographs. This repository fine-tunes that model. It then scores the
-model against frontier models on the same 200 held-out photographs.
+model against frontier models on the same 200 held-out photographs. The
+fine-tuned model reads 59.0 percent of them within one minute. GPT-5.6
+Sol reads 60.5 percent, Claude Fable 5.1 reads 24.0, and Claude Opus 5
+reads 15.5. RESULTS.md has the full tables.
 
 ## Task and metric
 
@@ -104,15 +107,16 @@ just train --out runs/tw-photos
 ```
 
 This fine-tunes every weight of the model on the 2796 photograph crops
-for three epochs. It measures loss on the dev split after every epoch and
-keeps the epoch with the lowest loss. It writes `config.json`, the
+for five epochs at a learning rate of 5e-5, the setting that won the
+sweep in RESULTS.md. It measures loss on the dev split after every epoch
+and keeps the epoch with the lowest loss. It writes `config.json`, the
 checkpoints, and the final model under the output directory. It then
 uploads the final model to the private Hugging Face repo
 `jadidbourbaki/time-wizard`, so a scoring run anywhere can load it by
 name. `just train --help` lists every option.
 
 Every weight trains rather than a low rank adapter. The model has 450M
-parameters, which fits one L40S with room to spare. Reading the angle of
+parameters, which fits one GPU with room to spare. Reading the angle of
 a minute hand asks the vision encoder to change, and an adapter on the
 attention layers changes it less.
 
@@ -120,7 +124,7 @@ attention layers changes it less.
 
 Training needs a CUDA GPU. `sky/train.yaml` describes the whole run.
 [SkyPilot](https://docs.skypilot.ai) reads that file and provisions one
-L40S. It installs uv on the machine. It copies the working directory
+H100. It installs uv on the machine. It copies the working directory
 across. It pulls the crops from the Hub. It fine-tunes the model. It
 scores the result on the dev split. The upload from this machine stays
 the size of this repository.
@@ -154,10 +158,12 @@ just sky-fetch
 just sky-down
 ```
 
-The task names one instance type, `gpu-l40s-d_1gpu-16vcpu-96gb`. Nebius
-offers the L40S on two host platforms. Only the AMD one, `gpu-l40s-d`,
-has capacity in eu-north1. Run `sky gpus list L40S --infra nebius` to see
-the platforms and their prices before changing this.
+The task names one instance type, `gpu-h100-sxm_1gpu-16vcpu-200gb`, at
+$3.85 an hour. Nebius created L40S machines for us on both host
+platforms and could not start any of them, while the H100 started first
+time. A full training run takes under three minutes, so the dearer GPU
+costs cents more per run. Run `sky gpus list --infra nebius` to see the
+options before changing this.
 
 The task sets `TORCH_DISABLE_NATIVE_JIT=1`. torch 2.14 otherwise routes
 some LFM2 operations through Triton kernels, and Triton compiles a stub

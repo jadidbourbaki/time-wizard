@@ -2,7 +2,7 @@ name: time-wizard-train
 
 resources:
   infra: nebius
-  instance_type: gpu-l40s-d_1gpu-16vcpu-96gb
+  instance_type: gpu-h100-sxm_1gpu-16vcpu-200gb
   disk_size: 256
   autostop:
     idle_minutes: 15
@@ -11,7 +11,7 @@ resources:
 workdir: .
 
 envs:
-  TRAIN_ARGS: --out runs/nebius --epochs 3
+  TRAIN_ARGS: --out runs/nebius
   TORCH_DISABLE_NATIVE_JIT: "1"
 
 secrets:
