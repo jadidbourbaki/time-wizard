@@ -11,9 +11,17 @@ setup:
 photos *args:
     uv run python -m timewizard.photos {{args}}
 
+# Read one clock photograph with the fine-tuned model. Example: just read clock.jpg
+read *args:
+    uv run python -m timewizard.reader {{args}}
+
 # Fine-tune. Example: just train --out runs/tw-photos
 train *args:
     uv run python -m timewizard.train {{args}}
+
+# Upload model/README.md as the model card on the Hub.
+model-card:
+    uv run hf upload jadidbourbaki/time-wizard model/README.md README.md
 
 # Score a model on a split. Example: just bench --checkpoint jadidbourbaki/time-wizard --split dev
 bench *args:

@@ -50,7 +50,7 @@ record of which photograph belongs where. The pixels live in `data/` under
 the licences of COCO and OpenImages.
 
 Those five steps take about twenty minutes, so every machine skips them.
-`just photos push` uploads the finished crops to the private Hugging Face
+`just photos push` uploads the finished crops to the Hugging Face
 dataset `jadidbourbaki/time-wizard-bench`. `just photos pull` fetches them
 in about two minutes. `just photos build` reruns the five steps from the
 source images. Use `build` to regenerate the dataset or to check the
@@ -58,9 +58,9 @@ uploaded copy against the originals. `benchmark/README.md` is the dataset
 card shown on the Hub. `just photos card` uploads it on its own after an
 edit, and `push` uploads it after the crops.
 
-The dataset stays private for a licensing reason. OpenImages photographs
-carry CC BY 2.0 and redistribute with attribution. COCO photographs come
-from Flickr under individual licences that COCO does not own.
+The dataset is public. OpenImages photographs carry CC BY 2.0. COCO
+photographs come from Flickr under the licence each photographer chose.
+The dataset card states both and names the source image of every crop.
 
 The base model is
 [LFM2.5-VL-450M](https://huggingface.co/LiquidAI/LFM2.5-VL-450M).
@@ -88,12 +88,26 @@ just photos pull
 
 `setup` runs `uv sync`. That installs the pinned runtime, training, and
 baseline dependencies. `photos pull` downloads the 3196 finished crops
-from the Hugging Face dataset in about two minutes. It needs a Hugging
-Face login, because the dataset is private:
+from the Hugging Face dataset in about two minutes. Uploading the crops,
+the card, or the model needs a Hugging Face login:
 
 ```
 uv run hf auth login
 ```
+
+## Reading a clock
+
+```
+just read clock.jpg
+```
+
+`read` loads the fine-tuned model from the Hub and prints the time it
+reads as JSON, such as `{"hours":3,"minutes":28}`. Crop the photograph to
+the clock first. The reader pads the crop to a square and resizes it to
+448 pixels, the shape the model trained on. `--checkpoint` points it at a
+local directory or another Hub repo. In Python, `timewizard.reader.Reader`
+loads the model once and its `read` method returns a `Time` or None for
+each image.
 
 ```
 just check
@@ -115,7 +129,8 @@ and keeps the epoch with the lowest loss. It writes `config.json`, the
 checkpoints, and the final model under the output directory. It then
 uploads the final model to the private Hugging Face repo
 `jadidbourbaki/time-wizard`, so a scoring run anywhere can load it by
-name. `just train --help` lists every option.
+name. `just train --help` lists every option. `model/README.md` is the
+model card shown on the Hub. `just model-card` uploads it after an edit.
 
 Every weight trains rather than a low rank adapter. The model has 450M
 parameters, which fits one GPU with room to spare. Reading the angle of
@@ -175,7 +190,7 @@ flag keeps torch on its ordinary kernels.
 `sky-train` provisions the GPU and runs the job. It reads your Hugging
 Face token from `~/.cache/huggingface/token`, where `hf auth login` put
 it, and passes it to the machine as a secret. The machine needs it to
-pull the private crops and to upload the finished model. `sky-fetch` copies
+upload the finished model. `sky-fetch` copies
 `runs/` back to this machine. `sky-down` releases the GPU. The task also
 shuts the machine down on its own after fifteen idle minutes, so a
 forgotten cluster costs at most a quarter of an hour. The model itself is

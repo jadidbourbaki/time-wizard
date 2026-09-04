@@ -15,17 +15,18 @@ from the itsabouttime CSVs and the COCO and OpenImages images. Training
 uses TRL's SFTTrainer. Frontier baselines run through pydantic-ai. The
 `timewizard` package holds only the glue: the task definition and metric,
 the photo pipeline, the conversation builder, the training entry point,
-and the bench runner.
+the reader, and the bench runner.
 
 ## Repository layout
 
 ```
-timewizard/    reading, photos, data, train, bench
+timewizard/    reading, photos, data, train, reader, bench
 benchmark/     frozen splits as ids and labels, plus the dataset card
+model/         the model card
 sky/           SkyPilot task for the Nebius GPU run
 RESULTS.md     every score, frontier and ours
 tests/         pytest suite
-runs/          checkpoints, logs, and bench output, gitignored
+runs/          checkpoints and logs, gitignored except runs/bench/ replies
 data/          downloaded crops, gitignored
 justfile       task runner
 ```
@@ -35,8 +36,10 @@ Training runs on a Nebius GPU through SkyPilot, defined by
 rather than by editing the file, so the committed task stays the
 reproducible one. README.md holds every instruction and RESULTS.md
 every score. `benchmark/README.md` is the dataset card that
-`timewizard.photos card` uploads to the Hugging Face dataset. Put new
-prose in one of those three rather than adding a file beside the code.
+`timewizard.photos card` uploads to the Hugging Face dataset.
+`model/README.md` is the model card that `just model-card` uploads to the
+model repo. Put new prose in one of those four rather than adding a file
+beside the code.
 
 ## Test data hygiene
 
