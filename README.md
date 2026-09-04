@@ -145,8 +145,8 @@ sky check nebius
 ```
 
 The last command prints `Nebius: enabled` on success. The access token
-expires after a few hours. Write the first file again when a launch fails
-to authenticate.
+expires after a few hours, so `just sky-train` rewrites that file before
+every launch.
 
 ```
 just sky-train

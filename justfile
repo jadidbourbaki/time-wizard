@@ -30,6 +30,7 @@ check:
 
 # Provision a Nebius GPU and run the fine-tune. See README.md.
 sky-train *args:
+    nebius iam get-access-token > ~/.nebius/NEBIUS_IAM_TOKEN.txt
     sky launch -c time-wizard sky/train.yaml --secret HF_TOKEN="$(cat ~/.cache/huggingface/token)" {{args}}
 
 # Copy runs/ back from the Nebius box.
