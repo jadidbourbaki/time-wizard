@@ -66,6 +66,17 @@ The code that built the dataset, trains on it, and scores against it
 lives at
 [github.com/jadidbourbaki/time-wizard](https://github.com/jadidbourbaki/time-wizard).
 
+## Examples
+
+Three crops from the test split with their labels.
+
+| ![A gilded tower clock reading 3:28](examples/coco_000000058397.png) | ![A red rimmed station clock reading 1:20](examples/openimages_db298211fd461ee6.png) | ![A blurred church tower clock reading 1:00](examples/coco_000000566236.png) |
+|---|---|---|
+| 3:28 | 1:20 | 1:00 |
+
+The first two crops are typical of the sharper photographs. The third
+shows the low resolution of many COCO clocks.
+
 ## Fields
 
 | Field | Type | Meaning |
@@ -116,29 +127,89 @@ dataset in five steps:
 
 ## Scoring
 
-Ask the model for the hour and the minute it reads on the clock. A
-prediction counts as correct when it lands within one minute of the label
-on the 12 hour dial. The distance wraps at twelve o'clock. A prediction of
-12:59 against a label of 1:00 is therefore one minute of error.
+Show the model one crop and ask for the time. The system prompt and the
+question are fixed:
 
-The It's About Time paper computes its top-1 accuracy the same way. The
-paper's numbers on the full COCO and OpenImages sets sit on the same
-scale as numbers on this test split.
+```
+Reply with ONLY the requested JSON, no preface and no code block.
+```
 
-## Results on the test split
+```
+What time does this analog clock show? Reply as JSON: {"hours": H, "minutes": M} with H from 1 to 12.
+```
 
-| Model | Parameters | Within 1 min | Hour correct | Mean error |
-|---|---|---|---|---|
-| time-wizard | 450M | 59.0% | 74.5% | 44 min |
-| GPT-5.6 Sol | undisclosed | 60.5% | 68.5% | 59 min |
-| Claude Fable 5.1 | undisclosed | 24.0% | 40.0% | 119 min |
-| Claude Opus 5 | undisclosed | 15.5% | 31.0% | 141 min |
+Take the first JSON object in the reply as the prediction. A reply with no
+JSON object counts as wrong. A prediction counts as correct when it lands
+within one minute of the label on the 12 hour dial. The distance wraps at
+twelve o'clock. A prediction of 12:59 against a label of 1:00 is therefore
+one minute of error.
 
-Every model saw the same 200 crops and the same question. The frontier
-models ran at their highest reasoning setting. time-wizard is
-LFM2.5-VL-450M after supervised fine-tuning on the train split. The
-GitHub repository holds the exact prompt, the scoring code, and every
-model's replies.
+The `timewizard.reading` module in the GitHub repository holds the two
+strings, the parser, and the metric. The snippet below scores any
+function that maps a crop and the two prompts to a reply string:
+
+```python
+from datasets import load_dataset
+from timewizard.reading import PROMPT, SYSTEM, Time, parse_time, score
+
+rows = load_dataset("jadidbourbaki/time-wizard-bench", split="test")
+predictions = [parse_time(my_model(row["image"], SYSTEM, PROMPT)) for row in rows]
+truths = [Time(hours=row["hours"], minutes=row["minutes"]) for row in rows]
+print(score(predictions, truths))
+```
+
+`parse_time` returns the parsed time or None. `score` returns the share
+within one minute, the share exactly right, the share with the correct
+hour, the mean circular error in minutes over the readable replies, and
+the count of unreadable replies. The command `just bench --model <id>
+--split test` in the repository runs the same procedure against any model
+that pydantic-ai can reach.
+
+The It's About Time paper computes its top-1 accuracy with the same one
+minute rule. The paper's numbers on the full COCO and OpenImages sets sit
+on the same scale as numbers on this test split.
+
+## Results
+
+The three frontier models below answered the 200 test crops on
+2026-09-03.
+
+| Model | Within 1 min | Exact | Hour correct | Mean error | Unreadable |
+|---|---|---|---|---|---|
+| GPT-5.6 Sol | 60.5% | 32.0% | 68.5% | 59 min | 1 |
+| Claude Fable 5.1 | 24.0% | 9.5% | 40.0% | 119 min | 0 |
+| Claude Opus 5 | 15.5% | 6.0% | 31.0% | 141 min | 0 |
+
+Each column reads as follows.
+
+- **Within 1 min**, the headline metric, is the share of clocks where the
+  prediction lands within one minute of the label on the 12 hour dial. The
+  distance wraps at twelve, so 12:59 against 1:00 is one minute off.
+- **Exact** is the share of clocks where the prediction matches the label
+  to the minute.
+- **Hour correct** is the share of clocks where the predicted hour matches
+  the labelled hour, whatever the minute.
+- **Mean error** is the wrapped distance in minutes between prediction and
+  label, averaged over the readable replies. The largest possible distance
+  is 360 minutes.
+- **Unreadable** is the count of replies with no valid time in them, such
+  as a refusal or malformed JSON. An unreadable reply counts as wrong in
+  the three shares above and is left out of the mean error.
+
+Every model saw the same crops, sent as 448 pixel PNG images, with the
+system prompt and question above. Each model ran at its highest reasoning
+setting. The reply budget was 32000 tokens per clock, covering reasoning
+and answer. A request could take up to 600 seconds and was retried up to
+five times. Eight requests ran at once.
+
+| Model | API id | Provider | Reasoning setting |
+|---|---|---|---|
+| GPT-5.6 Sol | openai.gpt-5.6-sol | Amazon Bedrock, us-east-1 | reasoning effort max |
+| Claude Fable 5.1 | claude-fable-5-1 | Anthropic API | effort max |
+| Claude Opus 5 | claude-opus-5 | Anthropic API | effort max |
+
+The GitHub repository holds every reply in `runs/bench/` and the score
+files beside them.
 
 ## Limitations
 

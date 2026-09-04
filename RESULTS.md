@@ -10,15 +10,18 @@ minute of the label on the 12 hour dial.
 Scored on 2026-09-03 through `timewizard.bench` at maximum reasoning
 effort. Replies and scores sit in `runs/bench/`.
 
-| Model | Within 1 min | Exact | Hour correct | Mean error | Unreadable | Output tokens |
-|---|---|---|---|---|---|---|
-| GPT-5.6 Sol, Bedrock | 60.5% | 32.0% | 68.5% | 59 min | 1 | 88k |
-| Claude Fable 5.1 | 24.0% | 9.5% | 40.0% | 119 min | 0 | 124k |
-| Claude Opus 5 | 15.5% | 6.0% | 31.0% | 141 min | 0 | 366k |
+| Model | Within 1 min | Exact | Hour correct | Mean error | Unreadable | Input tokens | Output tokens |
+|---|---|---|---|---|---|---|---|
+| GPT-5.6 Sol, Bedrock | 60.5% | 32.0% | 68.5% | 59 min | 1 | partial | partial |
+| Claude Fable 5.1 | 24.0% | 9.5% | 40.0% | 119 min | 0 | partial | partial |
+| Claude Opus 5 | 15.5% | 6.0% | 31.0% | 141 min | 0 | 66k | 366k |
 
 Mean error is the circular distance in minutes averaged over the readable
 replies. Unreadable counts replies with no valid time and scores them as
-wrong. Output tokens include reasoning.
+wrong. Output tokens include reasoning. The GPT-5.6 Sol and Fable 5.1 runs
+were interrupted and resumed. The runner at that time summed tokens in
+memory only, so their totals cover the resumed portion alone. The runner
+now records tokens per reply, so a resumed run keeps its full count.
 
 ## time-wizard
 

@@ -1,0 +1,15 @@
+{
+ "split": "test",
+ "model": "anthropic:claude-opus-5",
+ "effort": "max",
+ "score": {
+  "n": 200,
+  "within_tolerance": 0.155,
+  "exact": 0.06,
+  "hour_correct": 0.31,
+  "mean_error_minutes": 141.1,
+  "unparsed": 0
+ },
+ "input_tokens": 66200,
+ "output_tokens": 365711
+}

@@ -84,7 +84,6 @@ class BuildConfig(BaseModel):
 
 class HubConfig(BaseModel):
     dataset: str = DATASET
-    private: bool = True
 
 
 def load_labels() -> list[Photo]:
@@ -187,12 +186,12 @@ def build(cfg: BuildConfig) -> None:
 
 
 def card(cfg: HubConfig) -> None:
-    """Upload `benchmark/README.md` as the dataset card."""
-    HfApi().upload_file(
-        path_or_fileobj=BENCHMARK / "README.md",
-        path_in_repo="README.md",
+    """Upload `benchmark/README.md` and its example crops as the dataset card."""
+    HfApi().upload_folder(
+        folder_path=BENCHMARK,
         repo_id=cfg.dataset,
         repo_type="dataset",
+        allow_patterns=["README.md", "examples/*.png"],
     )
     print(f"uploaded the dataset card to {cfg.dataset}")
 
@@ -209,7 +208,7 @@ def push(cfg: HubConfig) -> None:
             "minutes": [labels[k].minutes for k in keys],
         }
         dataset = Dataset.from_dict(rows).cast_column("image", ImageColumn())
-        dataset.push_to_hub(cfg.dataset, split=name, private=cfg.private)
+        dataset.push_to_hub(cfg.dataset, split=name)
         print(f"pushed {len(keys)} crops as {name}")
     card(cfg)
 

@@ -1,5 +1,6 @@
 data/
-runs/
+runs/*
+!runs/bench/
 *.pt
 *.safetensors
 __pycache__/

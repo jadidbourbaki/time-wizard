@@ -1,0 +1,15 @@
+{
+ "split": "test",
+ "model": "anthropic:claude-fable-5-1",
+ "effort": "max",
+ "score": {
+  "n": 200,
+  "within_tolerance": 0.24,
+  "exact": 0.095,
+  "hour_correct": 0.4,
+  "mean_error_minutes": 118.48,
+  "unparsed": 0
+ },
+ "input_tokens": 5661,
+ "output_tokens": 124078
+}
