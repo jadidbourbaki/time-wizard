@@ -20,9 +20,9 @@ the reader, and the bench runner.
 ## Repository layout
 
 ```
-timewizard/    reading, photos, data, train, reader, bench
+timewizard/    reading, photos, data, train, reader, bench, figures
 benchmark/     frozen splits as ids and labels, plus the dataset card
-model/         the model card
+model/         the model card and its figures
 sky/           SkyPilot task for the Nebius GPU run
 RESULTS.md     every score, frontier and ours
 tests/         pytest suite
