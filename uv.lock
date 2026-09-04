@@ -1399,6 +1399,7 @@ name = "timewizard"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
+    { name = "huggingface-hub" },
     { name = "imagehash" },
     { name = "numpy" },
     { name = "pillow" },
@@ -1427,6 +1428,7 @@ train = [
 
 [package.metadata]
 requires-dist = [
+    { name = "huggingface-hub", specifier = "==1.29.0" },
     { name = "imagehash", specifier = "==4.3.2" },
     { name = "numpy", specifier = "==2.5.2" },
     { name = "pillow", specifier = "==12.3.0" },

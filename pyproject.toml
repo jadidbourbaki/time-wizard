@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "LFM2.5-VL-450M fine-tuned to read analog clocks in photographs"
 requires-python = ">=3.12,<3.13"
 dependencies = [
+  "huggingface-hub==1.29.0",
   "imagehash==4.3.2",
   "numpy==2.5.2",
   "pillow==12.3.0",

@@ -21,7 +21,7 @@ and the bench runner.
 
 ```
 timewizard/    reading, photos, data, train, bench
-benchmark/     frozen test, dev, and train splits as ids and labels
+benchmark/     frozen splits as ids and labels, plus the dataset card
 sky/           SkyPilot task for the Nebius GPU run
 RESULTS.md     every score, frontier and ours
 tests/         pytest suite
@@ -34,8 +34,9 @@ Training runs on a Nebius GPU through SkyPilot, defined by
 `sky/train.yaml`. Change a training flag through `--env TRAIN_ARGS`
 rather than by editing the file, so the committed task stays the
 reproducible one. README.md holds every instruction and RESULTS.md
-every score. Put new prose in one of those two rather than adding a file
-beside the code.
+every score. `benchmark/README.md` is the dataset card that
+`timewizard.photos card` uploads to the Hugging Face dataset. Put new
+prose in one of those three rather than adding a file beside the code.
 
 ## Test data hygiene
 

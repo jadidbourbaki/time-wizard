@@ -7,7 +7,7 @@ default:
 setup:
     uv sync
 
-# Fetch, rebuild, or upload the photo crops: pull, build, push.
+# Fetch, rebuild, or upload the photo crops and card: pull, build, push, card.
 photos *args:
     uv run python -m timewizard.photos {{args}}
 

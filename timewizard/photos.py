@@ -26,6 +26,7 @@ import imagehash
 import tyro
 from datasets import Dataset, load_dataset
 from datasets import Image as ImageColumn
+from huggingface_hub import HfApi
 from PIL import Image, ImageOps
 from pydantic import BaseModel, Field, TypeAdapter
 from tenacity import retry, retry_if_exception_type, stop_after_attempt, wait_exponential
@@ -185,8 +186,19 @@ def build(cfg: BuildConfig) -> None:
     print(json.dumps({"labelled": len(labels), "unique": len(photos), **{k: len(v) for k, v in splits.items()}}))
 
 
+def card(cfg: HubConfig) -> None:
+    """Upload `benchmark/README.md` as the dataset card."""
+    HfApi().upload_file(
+        path_or_fileobj=BENCHMARK / "README.md",
+        path_in_repo="README.md",
+        repo_id=cfg.dataset,
+        repo_type="dataset",
+    )
+    print(f"uploaded the dataset card to {cfg.dataset}")
+
+
 def push(cfg: HubConfig) -> None:
-    """Upload the crops that `pull` fetches."""
+    """Upload the crops that `pull` fetches, then the dataset card."""
     for name in SPLITS:
         labels = load_split(name)
         keys = sorted(labels)
@@ -199,6 +211,7 @@ def push(cfg: HubConfig) -> None:
         dataset = Dataset.from_dict(rows).cast_column("image", ImageColumn())
         dataset.push_to_hub(cfg.dataset, split=name, private=cfg.private)
         print(f"pushed {len(keys)} crops as {name}")
+    card(cfg)
 
 
 def pull(cfg: HubConfig) -> None:
@@ -212,4 +225,4 @@ def pull(cfg: HubConfig) -> None:
 
 
 if __name__ == "__main__":
-    tyro.extras.subcommand_cli_from_dict({"build": build, "push": push, "pull": pull})
+    tyro.extras.subcommand_cli_from_dict({"build": build, "push": push, "pull": pull, "card": card})

@@ -54,7 +54,9 @@ Those five steps take about twenty minutes, so every machine skips them.
 dataset `jadidbourbaki/time-wizard-bench`. `just photos pull` fetches them
 in about two minutes. `just photos build` reruns the five steps from the
 source images. Use `build` to regenerate the dataset or to check the
-uploaded copy against the originals.
+uploaded copy against the originals. `benchmark/README.md` is the dataset
+card shown on the Hub. `just photos card` uploads it on its own after an
+edit, and `push` uploads it after the crops.
 
 The dataset stays private for a licensing reason. OpenImages photographs
 carry CC BY 2.0 and redistribute with attribution. COCO photographs come
