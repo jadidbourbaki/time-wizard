@@ -16,11 +16,13 @@ def test_collect_appends_replies_and_skips_finished_clocks(tmp_path: Path) -> No
     path.write_text(json.dumps({"key": "a", "reply": '{"hours": 3, "minutes": 30}'}) + "\n")
     asked: list[str] = []
 
-    def answer(image: Image.Image) -> str:
+    def answer(image: Image.Image) -> bench.Answer:
         asked.append("b")
-        return '{"hours": 9, "minutes": 15}'
+        return bench.Answer(reply='{"hours": 9, "minutes": 15}', input_tokens=300, output_tokens=12)
 
     replies = bench.collect(["a", "b"], answer, path, parallel=1, image_size=8)
     assert asked == ["b"]
     assert set(replies) == {"a", "b"}
+    assert replies["a"].output_tokens == 0
+    assert replies["b"].output_tokens == 12
     assert len(path.read_text().splitlines()) == 2

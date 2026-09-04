@@ -18,7 +18,6 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from typing import Any, Literal
 
-import torch
 import tyro
 from PIL import Image
 from pydantic import BaseModel, Field
@@ -28,9 +27,9 @@ from pydantic_ai.models.anthropic import AnthropicModelSettings
 from pydantic_ai.models.openai import OpenAIResponsesModelSettings
 from tenacity import retry, retry_if_exception_type, stop_after_attempt, wait_exponential
 from tqdm import tqdm
-from transformers import AutoModelForImageTextToText, AutoProcessor
 
 from timewizard.photos import CROPS, REPO, Split, load_split
+from timewizard.reader import Reader
 from timewizard.reading import PROMPT, SYSTEM, Score, parse_time, score
 
 API_MAX_TOKENS = 32000
@@ -38,12 +37,19 @@ API_MAX_TOKENS = 32000
 API_TIMEOUT = 600.0
 """Seconds one request may take. tenacity retries it after that."""
 Effort = Literal["low", "medium", "high", "xhigh", "max"]
-Answer = Callable[[Image.Image], str]
 
 
-class Reply(BaseModel):
-    key: str
+class Answer(BaseModel):
     reply: str
+    input_tokens: int = 0
+    output_tokens: int = 0
+
+
+class Reply(Answer):
+    key: str
+
+
+Ask = Callable[[Image.Image], Answer]
 
 
 class Report(BaseModel):
@@ -79,29 +85,12 @@ def png_bytes(image: Image.Image) -> bytes:
     return buf.getvalue()
 
 
-def local_answer(checkpoint: str) -> Answer:
-    processor = AutoProcessor.from_pretrained(checkpoint, max_image_tokens=256)
-    model: Any = AutoModelForImageTextToText.from_pretrained(checkpoint, dtype=torch.bfloat16)
-    device = "cuda" if torch.cuda.is_available() else "cpu"
-    model.eval().to(device)
-
-    def answer(image: Image.Image) -> str:
-        messages = [
-            {"role": "system", "content": [{"type": "text", "text": SYSTEM}]},
-            {"role": "user", "content": [{"type": "image", "image": image}, {"type": "text", "text": PROMPT}]},
-        ]
-        inputs = processor.apply_chat_template(
-            messages, add_generation_prompt=True, tokenize=True, return_dict=True, return_tensors="pt"
-        ).to(device)
-        with torch.no_grad():
-            out = model.generate(**inputs, max_new_tokens=32, do_sample=False)
-        return processor.batch_decode(out[:, inputs["input_ids"].shape[1] :], skip_special_tokens=True)[0].strip()
-
-    return answer
+def local_answer(checkpoint: str) -> Ask:
+    reader = Reader(checkpoint)
+    return lambda image: Answer(reply=reader.reply(image))
 
 
-def api_answer(model: str, effort: Effort, usage: dict[str, int]) -> Answer:
-    """Token counts accumulate on `usage`."""
+def api_answer(model: str, effort: Effort) -> Ask:
     settings: Any
     if model.startswith("anthropic:"):
         settings = AnthropicModelSettings(anthropic_effort=effort, max_tokens=API_MAX_TOKENS, timeout=API_TIMEOUT)
@@ -119,48 +108,49 @@ def api_answer(model: str, effort: Effort, usage: dict[str, int]) -> Answer:
         stop=stop_after_attempt(5),
         reraise=True,
     )
-    def ask(image: Image.Image) -> str:
+    def ask(image: Image.Image) -> Answer:
         result = agent.run_sync([PROMPT, BinaryContent(data=png_bytes(image), media_type="image/png")])
-        usage["input_tokens"] += result.usage.input_tokens
-        usage["output_tokens"] += result.usage.output_tokens
-        return str(result.output).strip()
+        return Answer(
+            reply=str(result.output).strip(),
+            input_tokens=result.usage.input_tokens,
+            output_tokens=result.usage.output_tokens,
+        )
 
-    def answer(image: Image.Image) -> str:
+    def answer(image: Image.Image) -> Answer:
         try:
             return ask(image)
         except (ModelAPIError, UnexpectedModelBehavior) as err:
-            return f"[no answer: {err}]"
+            return Answer(reply=f"[no answer: {err}]")
 
     return answer
 
 
-def collect(keys: list[str], answer: Answer, path: Path, parallel: int, image_size: int) -> dict[str, str]:
+def collect(keys: list[str], answer: Ask, path: Path, parallel: int, image_size: int) -> dict[str, Reply]:
     """Answer every key missing from `path`, appending each reply as it arrives."""
-    done: dict[str, str] = {}
+    done: dict[str, Reply] = {}
     if path.exists():
-        done = {r.key: r.reply for r in map(Reply.model_validate_json, path.read_text().splitlines())}
+        done = {r.key: r for r in map(Reply.model_validate_json, path.read_text().splitlines())}
     todo = [k for k in keys if k not in done]
 
     def run(key: str) -> Reply:
         with Image.open(CROPS / f"{key}.png") as image:
             square = image.convert("RGB").resize((image_size, image_size), Image.Resampling.LANCZOS)
-        return Reply(key=key, reply=answer(square))
+        return Reply(key=key, **answer(square).model_dump())
 
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("a") as f, ThreadPoolExecutor(parallel) as pool:
         for reply in tqdm(pool.map(run, todo), total=len(todo), desc=path.stem):
             f.write(reply.model_dump_json() + "\n")
             f.flush()
-            done[reply.key] = reply.reply
+            done[reply.key] = reply
     return done
 
 
 def main(cfg: BenchConfig) -> None:
-    usage = {"input_tokens": 0, "output_tokens": 0}
     if cfg.checkpoint is not None:
         name, answer, parallel = cfg.checkpoint, local_answer(cfg.checkpoint), 1
     elif cfg.model is not None:
-        name, answer, parallel = cfg.model, api_answer(cfg.model, cfg.effort, usage), cfg.parallel
+        name, answer, parallel = cfg.model, api_answer(cfg.model, cfg.effort), cfg.parallel
     else:
         raise SystemExit("pass --checkpoint or --model")
 
@@ -172,8 +162,9 @@ def main(cfg: BenchConfig) -> None:
         split=cfg.split,
         model=name,
         effort=cfg.effort if cfg.model else None,
-        score=score([parse_time(replies[k]) for k in keys], [labels[k] for k in keys]),
-        **usage,
+        score=score([parse_time(replies[k].reply) for k in keys], [labels[k] for k in keys]),
+        input_tokens=sum(r.input_tokens for r in replies.values()),
+        output_tokens=sum(r.output_tokens for r in replies.values()),
     )
     path.with_suffix(".score.json").write_text(report.model_dump_json(indent=1))
     print(report.model_dump_json(indent=2))
